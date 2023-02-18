@@ -25,5 +25,6 @@ int main(int argc, char const *argv[]) {
         hash[target - nums[i]] = i;
     }
     cout << ans[0] << ans[1] << endl;
+
     return 0;
 }
