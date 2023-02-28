@@ -9,23 +9,27 @@ using namespace std;
 typedef vector<set<int>> Dataset;
 typedef set<int> Itemset;
 typedef map<Itemset, int> ItemsetCount;
-void prune(ItemsetCount &itemset_count, Dataset &data, double min_support) {
-    for (auto it = itemset_count.begin(); it != itemset_count.end();) {
-        int count = 0;
-        for (Itemset itemset : data) {
-            if (includes(itemset.begin(), itemset.end(), it->first.begin(), it->first.end())) {
-                count++;
-            }
+
+void printDataset(Dataset data) {
+    for (int i = 0; i < data.size(); ++i) {
+        Itemset transactions = data[i];
+        for (auto &t : transactions) {
+            cout << t << " ";
         }
-        if (count < data.size() * min_support) {
-            it = itemset_count.erase(it);
-        } else {
-            it++;
-        }
+        cout << endl;
+    }
+}
+void removeFromDataBase(Itemset delete_set, Dataset &data) {
+    for (int i = 0; i < data.size(); ++i) {
+        Itemset transactions = data[i];
+        Itemset result;
+        set_difference(transactions.begin(), transactions.end(),
+                       delete_set.begin(), delete_set.end(), inserter(result, result.begin()));
+        data[i] = result;
     }
 }
 
-ItemsetCount generateCandidate(ItemsetCount itemset_count, Dataset &data, double min_sup) {
+ItemsetCount generateCandidate(ItemsetCount itemset_count, Dataset &data, double min_freq) {
     // generate Ck+1 from Lk
     ItemsetCount candidate_count;
     for (auto it1 = itemset_count.begin(); it1 != itemset_count.end(); ++it1) {
@@ -40,7 +44,11 @@ ItemsetCount generateCandidate(ItemsetCount itemset_count, Dataset &data, double
                     candidate_count[candidate_itemset]++;
                 }
             }
-            prune(candidate_count, data, min_sup);
+            if (candidate_count[candidate_itemset] < min_freq) {
+                // removeFromDataBase(candidate_itemset, data);
+                candidate_count.erase(candidate_itemset);
+            }
+            // prune(candidate_count, data, min_sup);
         }
     }
     return candidate_count;
@@ -48,13 +56,14 @@ ItemsetCount generateCandidate(ItemsetCount itemset_count, Dataset &data, double
 int main(int argc, char const *argv[]) {
     /* code */
     Dataset dataset;
-
-    ifstream infile("input.txt");
+    ItemsetCount itemset_count;
+    ifstream infile("simple.txt");
     string line;
-    int total_lines = 0;
-    double min_sup = 0.2;
+    int total_transactions = 0;
+    int set_num = 1;
+    double min_sup = 0.5;
     while (getline(infile, line)) {
-        cout << line << endl;
+        // cout << line << endl;
         int item;
         Itemset itemset;
         stringstream ss(line);
@@ -64,12 +73,13 @@ int main(int argc, char const *argv[]) {
             itemset.insert(item);
         }
         dataset.push_back(itemset);
-        total_lines++;
+        total_transactions++;
     }
+    double min_freq = total_transactions * min_sup;
     // Ck: Candidate itemset of size k
     // Lk : frequent itemset of size k
     //  find frequent item set with L1
-    ItemsetCount itemset_count;
+
     for (Itemset itemset : dataset) {
         // cout << itemset.size() << endl;
         for (auto it = itemset.begin(); it != itemset.end(); ++it) {
@@ -82,19 +92,34 @@ int main(int argc, char const *argv[]) {
             }
         }
     }
-    // prune the itemset less than minimum support
-    prune(itemset_count, dataset, min_sup);
 
+    // prune the itemset less than minimum support
+    for (auto it = itemset_count.begin(); it != itemset_count.end();) {
+        // cout << "frequent:" << it->second << endl;
+        if (it->second < min_freq) {
+            // remove it from database
+            // removeFromDataBase(it->first, dataset);
+            auto erase_it = it++;
+            itemset_count.erase(erase_it);
+        } else {
+            ++it;
+        }
+    }
+    ItemsetCount total_itemset_count = itemset_count;
     while (!itemset_count.empty()) {
         /* code */
         // find Lk frequent itemset
-        for (auto it = itemset_count.begin(); it != itemset_count.end(); ++it) {
+        // cout << "current database" << endl;
+        // printDataset(dataset);
+        cout << "----------Frequent Item Set " << set_num++ << "----------" << endl;
+        for (auto it = total_itemset_count.begin(); it != total_itemset_count.end(); ++it) {
             Itemset item = it->first;
             for (auto i : item)
-                cout << i;
+                cout << "{" << i << "}";
             cout << ":" << it->second << endl;
         }
-        itemset_count = generateCandidate(itemset_count, dataset, min_sup);
+        itemset_count = generateCandidate(itemset_count, dataset, min_freq);
+        total_itemset_count.insert(itemset_count.begin(), itemset_count.end());
     }
 
     return 0;
