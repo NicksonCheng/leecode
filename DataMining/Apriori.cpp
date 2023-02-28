@@ -28,7 +28,37 @@ void removeFromDataBase(Itemset delete_set, Dataset &data) {
         data[i] = result;
     }
 }
+void findMiniConfidence(ItemsetCount total_itemset_count, Dataset data, double min_conf = 0.66) {
+    for (auto it1 = total_itemset_count.begin(); it1 != total_itemset_count.end(); ++it1) {
+        for (auto it2 = total_itemset_count.begin(); it2 != total_itemset_count.end(); ++it2) {
+            if (it1 == it2) continue;
+            Itemset f1 = it1->first;
+            Itemset f2 = it2->first;
+            Itemset candidate(f1);
+            candidate.insert(f2.begin(), f2.end());
+            // this candidate is in frequent items and is larger than min_conf
+            auto cand_it = total_itemset_count.find(candidate);
+            // cout << "successful" << endl;
+            if (cand_it != total_itemset_count.end()) {
+                // f1 is subset of f2 is not legal(must large than min_conf)
+                if (includes(f1.begin(), f1.end(), f2.begin(), f2.end())) {
+                    continue;
+                }
+                if ((double)cand_it->second / it1->second > min_conf) {
+                    // output this association rule
+                    cout << "{";
+                    for (auto &i : f1)
+                        cout << i << ",";
 
+                    cout << "} -> {";
+                    for (auto &i : f2)
+                        cout << i << ",";
+                    cout << "} (" << cand_it->second << "/" << it1->second << ")" << endl;
+                }
+            }
+        }
+    }
+}
 ItemsetCount generateCandidate(ItemsetCount itemset_count, Dataset &data, double min_freq) {
     // generate Ck+1 from Lk
     ItemsetCount candidate_count;
@@ -57,11 +87,12 @@ int main(int argc, char const *argv[]) {
     /* code */
     Dataset dataset;
     ItemsetCount itemset_count;
-    ifstream infile("simple.txt");
+    ifstream infile("input.txt");
     string line;
     int total_transactions = 0;
     int set_num = 1;
-    double min_sup = 0.5;
+    double min_sup = 0.05;
+    double min_conf = 0.66;
     while (getline(infile, line)) {
         // cout << line << endl;
         int item;
@@ -112,7 +143,7 @@ int main(int argc, char const *argv[]) {
         // cout << "current database" << endl;
         // printDataset(dataset);
         cout << "----------Frequent Item Set " << set_num++ << "----------" << endl;
-        for (auto it = total_itemset_count.begin(); it != total_itemset_count.end(); ++it) {
+        for (auto it = itemset_count.begin(); it != itemset_count.end(); ++it) {
             Itemset item = it->first;
             for (auto i : item)
                 cout << "{" << i << "}";
@@ -121,6 +152,7 @@ int main(int argc, char const *argv[]) {
         itemset_count = generateCandidate(itemset_count, dataset, min_freq);
         total_itemset_count.insert(itemset_count.begin(), itemset_count.end());
     }
-
+    cout << "----------Minimum Confidence----------" << endl;
+    findMiniConfidence(total_itemset_count, dataset, min_conf);
     return 0;
 }
