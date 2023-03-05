@@ -6,9 +6,13 @@
 #include <vector>
 using namespace std;
 typedef set<int> Itemset;
-typedef vector<set<int>> SequenceSet;
+typedef vector<set<int>> Sequnce;
 typedef vector<vector<set<int>>> Dataset;
-typedef map<int, SequenceSet> SeqeunceCount;
+typedef map<int, Sequnce> SeqeunceCount;
+int access_set(Itemset items, int idx) {
+    auto it = items.begin();
+    // return advance(it, idx);
+}
 void findFreqItems() {
 }
 void printSequence(Dataset data) {
@@ -29,6 +33,7 @@ void printSequence(Dataset data) {
 
 int main(int argc, char const *argv[]) {
     Dataset dataset;
+    SeqeunceCount seq_count;
     ifstream infile;
     ofstream outfile;
     infile.open("seqdata.txt");
@@ -36,7 +41,7 @@ int main(int argc, char const *argv[]) {
     string line;
     while (getline(infile, line)) {
         /* code */
-        SequenceSet sequnece;
+        Sequnce sequnece;
         Itemset itemset;
         int seq_id = 0;
         int item_id = 0;
@@ -62,6 +67,16 @@ int main(int argc, char const *argv[]) {
     }
     printSequence(dataset);
     // find 1 frequent items
+    for (int i = 0; i < dataset.size(); ++i) {
+        for (int j = 0; j < dataset[i].size(); ++i) {
+            Itemset items = dataset[i][j];
+            if (items.size() < 2) {
+                // int item = items.;
+                // if (seq_count.find(item]) == seq_count.end())
+                //     seq_count[items]
+            }
+        }
+    }
 
     infile.close();
     outfile.close();
