@@ -1,5 +1,6 @@
 #include <fstream>
 #include <iostream>
+#include <iterator>
 #include <map>
 #include <set>
 #include <sstream>
@@ -8,10 +9,11 @@ using namespace std;
 typedef set<int> Itemset;
 typedef vector<set<int>> Sequnce;
 typedef vector<vector<set<int>>> Dataset;
-typedef map<int, Sequnce> SeqeunceCount;
+typedef map<Sequnce, int> SeqeunceCount;
 int access_set(Itemset items, int idx) {
     auto it = items.begin();
-    // return advance(it, idx);
+    advance(it, idx);
+    return *it;
 }
 void findFreqItems() {
 }
@@ -51,6 +53,8 @@ int main(int argc, char const *argv[]) {
         ss >> seq_id;
         ss >> curr_id >> item;
         itemset.insert(item);
+
+        // craete database
         while (ss >> item_id >> item) {
             /* code */
             if (item_id != curr_id) {
@@ -59,25 +63,61 @@ int main(int argc, char const *argv[]) {
 
                 curr_id = item_id;
             }
+            // new item id item
             itemset.insert(item);
         }
-        if (sequnece.empty())
-            sequnece.push_back(itemset);
+        // in loop end, there still have item in itemset
+        // only one itemsets
+        sequnece.push_back(itemset);
         dataset.push_back(sequnece);
     }
-    printSequence(dataset);
-    // find 1 frequent items
+    // printSequence(dataset);
+    //   find 1 frequent items
     for (int i = 0; i < dataset.size(); ++i) {
-        for (int j = 0; j < dataset[i].size(); ++i) {
+        if ((i + 1) == 8252) {
+            for (int j = 0; j < dataset[i].size(); ++j) {
+                Itemset items = dataset[i][j];
+                cout << "(";
+                for (auto &it : items)
+                    cout << it << " ";
+                cout << ")";
+            }
+            cout << endl;
+        }
+        int c = 0;
+        for (int j = 0; j < dataset[i].size(); ++j) {
             Itemset items = dataset[i][j];
-            if (items.size() < 2) {
-                // int item = items.;
-                // if (seq_count.find(item]) == seq_count.end())
-                //     seq_count[items]
+            // seperate the items and use the value to create 1-element itemset
+
+            for (auto &item : items) {
+                if (item == 9) {
+                    ++c;
+                }
+                Itemset new_item = {item};
+                Sequnce seq;
+                seq.push_back(new_item);
+                if (seq_count.find(seq) == seq_count.end()) {
+                    seq_count[seq] = 1;
+                } else
+                    seq_count[seq]++;
             }
         }
+        if (c > 0) cout << i + 1 << " " << c << endl;
     }
-
+    cout << seq_count.size() << endl;
+    Itemset tmp = {9};
+    Sequnce tmp2;
+    tmp2.push_back(tmp);
+    cout << seq_count[tmp2] << endl;
+    // for (auto it = seq_count.begin(); it != seq_count.end(); ++it) {
+    //     Sequnce seq = it->first;
+    //     for (auto it2 = seq.begin(); it2 != seq.end(); ++it2) {
+    //         Itemset item = *it2;
+    //         for (auto &it3 : item)
+    //             cout << it3 << " ";
+    //     }
+    //     cout << ":" << it->second << endl;
+    // }
     infile.close();
     outfile.close();
     return 0;
