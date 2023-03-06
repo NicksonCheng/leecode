@@ -15,7 +15,14 @@ int access_set(Itemset items, int idx) {
     advance(it, idx);
     return *it;
 }
+
 void findFreqItems() {
+}
+void pruning(SeqeunceCount &seq_count, int k) {
+    for (auto it = seq_count.begin(); it != seq_count.end(); ++it) {
+        Sequnce seq = it->first;
+        // if(seq.size())
+    }
 }
 void printSequence(Dataset data) {
     for (int i = 0; i < data.size(); ++i) {
@@ -32,7 +39,13 @@ void printSequence(Dataset data) {
         cout << endl;
     }
 }
-
+SeqeunceCount generateCandidate(SeqeunceCount seq_count, Dataset &data, int min_freq) {
+    SeqeunceCount candidate_seq_count;
+    for (auto it = seq_count.begin(); it != seq_count.end(); ++it) {
+        Sequnce seq = it->first;
+    }
+    return candidate_seq_count;
+}
 int main(int argc, char const *argv[]) {
     Dataset dataset;
     SeqeunceCount seq_count;
@@ -41,6 +54,8 @@ int main(int argc, char const *argv[]) {
     infile.open("seqdata.txt");
     outfile.open("output.txt");
     string line;
+    int min_sup = 0.01;
+
     while (getline(infile, line)) {
         /* code */
         Sequnce sequnece;
@@ -49,6 +64,7 @@ int main(int argc, char const *argv[]) {
         int item_id = 0;
         int item = 0;
         int curr_id = 0;
+
         stringstream ss(line);
         ss >> seq_id;
         ss >> curr_id >> item;
@@ -74,25 +90,10 @@ int main(int argc, char const *argv[]) {
     // printSequence(dataset);
     //   find 1 frequent items
     for (int i = 0; i < dataset.size(); ++i) {
-        if ((i + 1) == 8252) {
-            for (int j = 0; j < dataset[i].size(); ++j) {
-                Itemset items = dataset[i][j];
-                cout << "(";
-                for (auto &it : items)
-                    cout << it << " ";
-                cout << ")";
-            }
-            cout << endl;
-        }
-        int c = 0;
         for (int j = 0; j < dataset[i].size(); ++j) {
             Itemset items = dataset[i][j];
             // seperate the items and use the value to create 1-element itemset
-
             for (auto &item : items) {
-                if (item == 9) {
-                    ++c;
-                }
                 Itemset new_item = {item};
                 Sequnce seq;
                 seq.push_back(new_item);
@@ -102,13 +103,9 @@ int main(int argc, char const *argv[]) {
                     seq_count[seq]++;
             }
         }
-        if (c > 0) cout << i + 1 << " " << c << endl;
     }
     cout << seq_count.size() << endl;
-    Itemset tmp = {9};
-    Sequnce tmp2;
-    tmp2.push_back(tmp);
-    cout << seq_count[tmp2] << endl;
+    generateCandidate(seq_count, dataset, min_sup * dataset.size());
     // for (auto it = seq_count.begin(); it != seq_count.end(); ++it) {
     //     Sequnce seq = it->first;
     //     for (auto it2 = seq.begin(); it2 != seq.end(); ++it2) {
