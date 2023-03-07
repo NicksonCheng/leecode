@@ -22,7 +22,7 @@ void pruning(SeqeunceCount &seq_count, int k) {
         // if(seq.size())
     }
 }
-void printSequence(Dataset data) {
+void printDataset(Dataset data) {
     for (int i = 0; i < data.size(); ++i) {
         cout << "id:" << i + 1 << " ";
         for (int j = 0; j < data[i].size(); ++j) {
@@ -37,6 +37,19 @@ void printSequence(Dataset data) {
         cout << endl;
     }
 }
+void printCandidate(Sequence seq, string type) {
+    cout << type;
+    for (int j = 0; j < seq.size(); ++j) {
+        cout << "(";
+        Itemset itemset = seq[j];
+        for (auto it = itemset.begin(); it != itemset.end(); ++it) {
+            cout << *it;
+            if (next(it) != itemset.end()) cout << " ";
+        }
+        cout << ")";
+    }
+    cout << endl;
+}
 void printSupport(SeqeunceCount seq_count) {
     for (auto it = seq_count.begin(); it != seq_count.end(); ++it) {
         Sequence seq = it->first;
@@ -48,6 +61,7 @@ void printSupport(SeqeunceCount seq_count) {
         cout << ":" << it->second << endl;
     }
 }
+
 int countFrequence(Sequence candidate_seq, Dataset data) {
     int count = 0;
     for (int i = 0; i < data.size(); ++i) {
@@ -57,19 +71,23 @@ int countFrequence(Sequence candidate_seq, Dataset data) {
     }
     return count;
 }
-SeqeunceCount generateCandidate(SeqeunceCount seq_count, Dataset data, set<int> all_items, int min_freq) {
+SeqeunceCount generateCandidate(SeqeunceCount sequence_count, Dataset data, set<int> all_items, int min_freq) {
     SeqeunceCount candidate_seq_count;
-    for (auto it = seq_count.begin(); it != seq_count.end(); ++it) {
+    for (auto it = sequence_count.begin(); it != sequence_count.end(); ++it) {
         Sequence candidate_seq(it->first.begin(), it->first.end());
-
+        cout << candidate_seq.size() << endl;
         for (auto &it2 : all_items) {
             // expand the sequence set
             // generate sequence set <(1)> -> <(1)(2)> <(1)(3)> ....
             Itemset itemset = {it2};
             candidate_seq.push_back(itemset);
+
+            printCandidate(candidate_seq, "sequence set candidate:");
             int c = countFrequence(candidate_seq, data);
+
             if (c >= min_freq)
                 candidate_seq_count[candidate_seq] = c;
+            candidate_seq.pop_back();
         }
         candidate_seq = it->first;
         Itemset last_itemset = candidate_seq.back();
@@ -79,9 +97,11 @@ SeqeunceCount generateCandidate(SeqeunceCount seq_count, Dataset data, set<int> 
             // generate itemset  <(1)> -> <(1,2)> <(1,3)> ....
             last_itemset.insert(it2);
             candidate_seq.push_back(last_itemset);
+            printCandidate(candidate_seq, "item set candidate:");
             int c = countFrequence(candidate_seq, data);
             if (c >= min_freq)
                 candidate_seq_count[candidate_seq] = c;
+            candidate_seq.pop_back();
         }
     }
     return candidate_seq_count;
@@ -95,8 +115,7 @@ int main(int argc, char const *argv[]) {
     infile.open("seqdata.txt");
     outfile.open("output.txt");
     string line;
-    double min_sup = 0.01;
-
+    double min_sup = 0.02;
     while (getline(infile, line)) {
         /* code */
         Sequence sequnece;
@@ -129,8 +148,9 @@ int main(int argc, char const *argv[]) {
         sequnece.push_back(itemset);
         dataset.push_back(sequnece);
     }
-    // printSequence(dataset);
-    //   find 1 frequent items
+    int min_freq = (int)(min_sup * dataset.size());
+    // printDataset(dataset);
+    /* find 1 frequent items */
     for (int i = 0; i < dataset.size(); ++i) {
         for (int j = 0; j < dataset[i].size(); ++j) {
             Itemset items = dataset[i][j];
@@ -146,14 +166,18 @@ int main(int argc, char const *argv[]) {
             }
         }
     }
-    cout << seq_count.size() << " " << all_items.size() << endl;
-
+    cout << "min_freq=" << min_freq << endl;
+    for (auto it = all_items.begin(); it != all_items.end(); ++it) {
+        Sequence one_seq = {{*it}};
+        if (seq_count[one_seq] < min_freq)
+            seq_count.erase(one_seq);
+    }
+    cout << "frequent item:" << seq_count.size() << endl;
     while (!seq_count.empty()) {
         /* code */
-        SeqeunceCount seq_count = generateCandidate(seq_count, dataset, all_items, (int)min_sup * dataset.size());
-        cout << seq_count.size() << endl;
+        SeqeunceCount seq_count = generateCandidate(seq_count, dataset, all_items, min_freq);
+        cout << "frequent item:" << seq_count.size() << endl;
         printSupport(seq_count);
-        break;
     }
 
     infile.close();
