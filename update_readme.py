@@ -20,13 +20,13 @@ def get_folder_contents(root_dir):
 
 def generate_bar_chart(folder_contents, output_path):
     """Generate and save bar chart of question counts with dynamic colors"""
-    folders = list(folder_contents.keys())
-    counts = [len(files) for files in folder_contents.values()]
 
     # Create figure
     plt.figure(figsize=(10, 6))
-
+    folders = list(folder_contents.keys())
     # Generate dynamic colors using a colormap
+    folders = list(folder_contents.keys())
+    counts = [len(files) for files in folder_contents.values()]
     num_folders = len(folders)
     colors = plt.cm.viridis(
         [i / float(num_folders - 1) for i in range(num_folders)]
@@ -59,7 +59,7 @@ def generate_bar_chart(folder_contents, output_path):
     plt.close()
 
 
-def update_readme(folder_contents, chart_path):
+def update_readme(counts, folder_contents, chart_path):
     """Update README.md with folder contents and chart"""
     readme_content = "# LeetCode Problems\n\n"
 
@@ -67,7 +67,6 @@ def update_readme(folder_contents, chart_path):
     for folder, files in folder_contents.items():
         readme_content += f"## {folder}\n"
         for file in files:
-            print(file)
             if file.endswith(".c"):
                 readme_content += f"- [x] {file.replace('.c', '')}\n"
             elif file.endswith(".cpp"):
@@ -76,6 +75,7 @@ def update_readme(folder_contents, chart_path):
 
     # Add chart section
     readme_content += "## Statistical Chart\n"
+    readme_content += f"current total questions: {counts}\n"
     readme_content += (
         f'<img src="{chart_path}" alt="questions bar chart" width="500">\n'
     )
@@ -92,11 +92,15 @@ def main():
     # Get folder contents
     folder_contents = get_folder_contents(root_dir)
 
+    folders = list(folder_contents.keys())
+    counts = 0
+    for files in folder_contents.values():
+        counts += len(files)
     # Generate chart
     generate_bar_chart(folder_contents, chart_path)
 
     # Update README
-    update_readme(folder_contents, chart_path)
+    update_readme(counts, folder_contents, chart_path)
 
 
 if __name__ == "__main__":

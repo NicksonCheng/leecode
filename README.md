@@ -47,4 +47,5 @@
 - [x] addTwoNums
 
 ## Statistical Chart
+current total questions: 28
 <img src="chart.png" alt="questions bar chart" width="500">
