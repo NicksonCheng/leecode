@@ -5,7 +5,7 @@ struct ListNode {
 	struct ListNode *next;
 };
 struct ListNode *createListNode(int *arr, int length) {
-	struct ListNode *head = malloc(sizeof(struct ListNode));
+	struct ListNode *head = (struct ListNode *)malloc(sizeof(struct ListNode));
 	struct ListNode *curr = head;
 	for (int i = 0; i < length; ++i) {
 		curr->val = arr[i];
