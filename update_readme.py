@@ -75,7 +75,7 @@ def update_readme(counts, folder_contents, chart_path):
 
     # Add chart section
     readme_content += "## Statistical Chart\n"
-    readme_content += f"current total questions: {counts}\n"
+    readme_content += f"current total questions: {counts}\n\n"
     readme_content += (
         f'<img src="{chart_path}" alt="questions bar chart" width="500">\n'
     )
