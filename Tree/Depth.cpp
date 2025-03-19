@@ -31,21 +31,18 @@ class Solution {
 		}
 		return root;
 	}
-	TreeNode *invertTree(TreeNode *root) {
+	int maxDepth(TreeNode *root) {
 		if (root == nullptr)
-			return root;
-		TreeNode *tmp = root->left;
-		root->left = root->right;
-		root->right = tmp;
-		invertTree(root->left);
-		invertTree(root->right);
-		return root;
+			return 0;
+
+		return 1 + max(maxDepth(root->left), maxDepth(root->right));
 	}
 };
 int main() {
 	Solution sol;
-	vector<int> arr = {4, 2, 7, 1, 3, 6, 9};
+	vector<int> arr = {1, 2, 3, 4};
 	TreeNode *root = sol.createBinaryTree(arr);
-	root = sol.invertTree(root);
+	cout << sol.maxDepth(root) << endl;
+	;
 	return 0;
 }

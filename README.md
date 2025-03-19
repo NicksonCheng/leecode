@@ -6,10 +6,14 @@
 - [x] FruitIntoBaskets
 
 ## Tree
+- [x] balance
+- [x] maxDiameter
 - [x] invertBT
+- [x] remove
 - [x] SubTreeOfAnotherTree
 - [x] SameTree
 - [x] BinaryTree
+- [x] Depth
 
 ## BinarySearch
 - [x] EatBanans
@@ -47,6 +51,6 @@
 - [x] addTwoNums
 
 ## Statistical Chart
-current total questions: 28
+current total questions: 32
 
 <img src="chart.png" alt="questions bar chart" width="500">
