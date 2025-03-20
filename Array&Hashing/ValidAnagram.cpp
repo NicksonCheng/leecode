@@ -4,29 +4,16 @@ using namespace std;
 class Solution {
   public:
 	bool isAnagram(string s, string t) {
-		if (s.length() > t.length())
+		if (s.length() != t.length())
 			return false;
-		unordered_map<char, int> visit_map;
-		for (int i = 0; i < s.length(); ++i) {
-			char c = s[i];
-			if (visit_map.find(c) == visit_map.end())
-				visit_map[c] = 1;
-			else
-				++visit_map[c];
-		}
-		for (int i = 0; i < t.length(); ++i) {
+		unordered_map<char, int> map1;
+		unordered_map<char, int> map2;
 
-			char c = t[i];
-			if (visit_map.find(c) == visit_map.end())
-				return false;
-			else
-				--visit_map[c];
+		for (int i = 0; i < s.length(); ++i) {
+			++map1[s[i]];
+			++map2[t[i]];
 		}
-		for (const auto &is_visit : visit_map) {
-			if (is_visit.second > 0)
-				return false;
-		}
-		return true;
+		return map1 == map2;
 	}
 };
 
