@@ -13,6 +13,7 @@
 - [x] SubTreeOfAnotherTree
 - [x] SameTree
 - [x] BinaryTree
+- [x] levelOrder
 - [x] Depth
 
 ## BinarySearch
@@ -28,8 +29,10 @@
 ## Array&Hashing
 - [x] ValidAnagram
 - [x] 2sum
+- [x] TopKFreq
 - [x] hashtable
 - [x] DuplicateArray
+- [x] anagramGroup
 
 ## Sorting
 - [x] basic_sort
@@ -51,6 +54,6 @@
 - [x] addTwoNums
 
 ## Statistical Chart
-current total questions: 32
+current total questions: 35
 
 <img src="chart.png" alt="questions bar chart" width="500">
