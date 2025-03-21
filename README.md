@@ -16,10 +16,22 @@
 - [x] levelOrder
 - [x] Depth
 
+## Math&Geo
+- [x] multiStr
+- [x] plusOne
+
+## TwoPointer
+- [x] twoSum2
+- [x] validParlindrome
+
 ## BinarySearch
+- [x] findMinRotatArr
 - [x] EatBanans
 - [x] Search2D
 - [x] BinarySearch
+
+## Recursive
+- [x] Subsets
 
 ## SlidingWindow
 - [x] LRCR
@@ -33,6 +45,14 @@
 - [x] hashtable
 - [x] DuplicateArray
 - [x] anagramGroup
+
+## Heap&PriorQueue
+- [x] KclosePoint
+- [x] KthLargestElement 
+- [x] customCmp
+- [x] smashStone
+- [x] heapsort
+- [x] KthLargestElementInArray
 
 ## Sorting
 - [x] basic_sort
@@ -54,6 +74,6 @@
 - [x] addTwoNums
 
 ## Statistical Chart
-current total questions: 35
+current total questions: 47
 
 <img src="chart.png" alt="questions bar chart" width="500">
