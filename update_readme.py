@@ -35,8 +35,7 @@ def generate_bar_chart(folder_contents, output_path):
     )
 
     # Create bars with dynamic colors
-    bars = plt.bar(folders, counts, color=colors)
-
+    bars = plt.bar(folders, counts, color=colors, width=0.3)
     # Customize chart
     plt.title("LeetCode Questions by Category")
     plt.xlabel("Categories")
