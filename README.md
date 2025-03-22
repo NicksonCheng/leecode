@@ -32,6 +32,7 @@
 
 ## Recursive
 - [x] Subsets
+- [x] combinationSum
 
 ## SlidingWindow
 - [x] LRCR
@@ -73,7 +74,11 @@
 - [x] circle
 - [x] addTwoNums
 
+## DynamicProgramming
+- [x] climbStair
+- [x] minCostClimb
+
 ## Statistical Chart
-current total questions: 47
+current total questions: 50
 
 <img src="chart.png" alt="questions bar chart" width="500">
