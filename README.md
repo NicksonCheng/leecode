@@ -76,4 +76,4 @@
 ## Statistical Chart
 current total questions: 47
 
-<img src="chart.png" alt="questions bar chart" width="500">
+<img src="chart.png" alt="questions bar chart">
