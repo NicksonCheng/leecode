@@ -1,10 +1,5 @@
 # LeetCode Problems
 
-## WeekContest
-- [x] ChoseKWithMaxSum
-- [x] Unique3Digit
-- [x] FruitIntoBaskets
-
 ## Tree
 - [x] balance
 - [x] maxDiameter
@@ -29,6 +24,9 @@
 - [x] EatBanans
 - [x] Search2D
 - [x] BinarySearch
+
+## Graph
+- [x] isoLand
 
 ## Recursive
 - [x] Subsets
@@ -74,11 +72,19 @@
 - [x] circle
 - [x] addTwoNums
 
+## BitWise
+- [x] reversebit
+- [x] getSum
+- [x] SingleNum
+- [x] #OneBits
+- [x] CountingBits
+- [x] MissingNumber
+
 ## DynamicProgramming
 - [x] climbStair
 - [x] minCostClimb
 
 ## Statistical Chart
-current total questions: 50
+current total questions: 54
 
 <img src="chart.png" alt="questions bar chart" width="500">

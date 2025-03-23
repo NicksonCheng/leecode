@@ -7,6 +7,8 @@ def get_folder_contents(root_dir):
     """Get dictionary of folders and their files"""
     folder_contents = {}
     for folder in os.listdir(root_dir):
+        if folder == "WeekContest":
+            continue
         folder_path = os.path.join(root_dir, folder)
         if os.path.isdir(folder_path) and not folder.startswith("."):
             files = [
