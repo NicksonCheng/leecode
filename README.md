@@ -26,7 +26,9 @@
 - [x] BinarySearch
 
 ## Graph
+- [x] cloneGraph
 - [x] isoLand
+- [x] maxLand
 
 ## Recursive
 - [x] Subsets
@@ -81,10 +83,12 @@
 - [x] MissingNumber
 
 ## DynamicProgramming
+- [x] houseRobber
+- [x] houseRobber2
 - [x] climbStair
 - [x] minCostClimb
 
 ## Statistical Chart
-current total questions: 54
+current total questions: 58
 
 <img src="chart.png" alt="questions bar chart" width="500">
