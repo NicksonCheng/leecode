@@ -16,8 +16,13 @@
 - [x] plusOne
 
 ## TwoPointer
+- [x] waterContainer
 - [x] twoSum2
 - [x] validParlindrome
+
+## Interval
+- [x] meetingTime
+- [x] insertInterval
 
 ## BinarySearch
 - [x] findMinRotatArr
@@ -43,9 +48,11 @@
 - [x] ValidAnagram
 - [x] 2sum
 - [x] TopKFreq
+- [x] EdString
 - [x] hashtable
 - [x] DuplicateArray
 - [x] anagramGroup
+- [x] ProductsArrayExceptSelf
 
 ## Heap&PriorQueue
 - [x] KclosePoint
@@ -55,12 +62,19 @@
 - [x] heapsort
 - [x] KthLargestElementInArray
 
+## Greedy
+- [x] jumpGame
+- [x] jumpGame2
+- [x] maxSubarray
+
 ## Sorting
 - [x] basic_sort
+- [x] customSort
 
 ## Stack&Queue
 - [x] ValidParentheses
 - [x] ReversePolishNotation
+- [x] generateParentheses
 - [x] MinStack
 
 ## Binary
@@ -71,6 +85,7 @@
 - [x] merge
 - [x] reorder
 - [x] reverse
+- [x] removeFromEnd
 - [x] circle
 - [x] addTwoNums
 
@@ -88,7 +103,9 @@
 - [x] climbStair
 - [x] minCostClimb
 
-## Statistical Chart
-current total questions: 58
+## Statistics
+Current total questions: 69
 
 <img src="chart.png" alt="questions bar chart" width="500">
+
+<img src="daily_chart.png" alt="daily questions line chart" width="600">
