@@ -98,13 +98,14 @@
 - [x] MissingNumber
 
 ## DynamicProgramming
+- [x] coinChange
 - [x] houseRobber
 - [x] houseRobber2
 - [x] climbStair
 - [x] minCostClimb
 
 ## Statistics
-Current total questions: 69
+Current total questions: 70
 
 <img src="chart.png" alt="questions bar chart" width="500">
 
