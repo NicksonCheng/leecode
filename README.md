@@ -14,6 +14,7 @@
 - 📝 Depth
 
 ## Math&Geo
+- 📝 matrixZero
 - 📝 multiStr
 - 📝 plusOne
 
@@ -109,7 +110,7 @@
 - 📝 minCostClimb
 
 ## Statistics
-Current total questions: 74
+Current total questions: 75
 
 <img src="chart.png" alt="questions bar chart" width="500">
 
