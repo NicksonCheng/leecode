@@ -6,25 +6,43 @@ import git
 from collections import defaultdict
 
 
+def get_status(file_path):
+    """Get the status from the first line comment."""
+    try:
+        with open(file_path, "r") as f:
+            first_line = f.readline().strip()
+            if first_line == "// proficient":
+                return "✅"
+            elif first_line == "// hint":
+                return "📝"
+            elif first_line == "// solution":
+                return "❌"
+    except Exception:
+        pass
+    return "📝"  # Default to hint if no valid comment
+
+
 def get_folder_contents(root_dir):
-    """Get dictionary of folders and their files"""
+    """Get dictionary of folders and their files with status."""
     folder_contents = {}
     for folder in os.listdir(root_dir):
         if folder == "WeekContest":
             continue
         folder_path = os.path.join(root_dir, folder)
         if os.path.isdir(folder_path) and not folder.startswith("."):
-            files = [
-                f
-                for f in os.listdir(folder_path)
-                if (f.endswith(".c") or f.endswith(".cpp"))
-            ]
+            files = []
+            for f in os.listdir(folder_path):
+                if f.endswith(".c") or f.endswith(".cpp"):
+                    file_path = os.path.join(folder_path, f)
+                    status = get_status(file_path)
+                    problem_name = f.replace(".cpp", "")
+                    problem_name = problem_name.replace(".c", "")
+                    files.append((problem_name, status))
             folder_contents[folder] = files
     return folder_contents
 
 
 def generate_bar_chart(folder_contents, output_path):
-    """Generate and save bar chart of question counts with dynamic colors"""
     plt.figure(figsize=(10, 6))
     folders = list(folder_contents.keys())
     counts = [len(files) for files in folder_contents.values()]
@@ -57,7 +75,6 @@ def generate_bar_chart(folder_contents, output_path):
 
 
 def get_daily_commits(root_dir):
-    """Get daily commit counts for .c and .cpp files"""
     repo = git.Repo(root_dir)
     daily_counts = defaultdict(int)
 
@@ -72,29 +89,20 @@ def get_daily_commits(root_dir):
 
 
 def generate_line_chart(daily_counts, output_path):
-    """Generate and save line chart of daily question counts with Y-axis in steps of 5"""
     plt.figure(figsize=(12, 6))
-
-    # Sort dates and get corresponding counts
     dates = sorted(daily_counts.keys())
     counts = [daily_counts[date] for date in dates]
 
-    # Plot line chart
     plt.plot(dates, counts, "b-o", linewidth=2, markersize=8)
-
-    # Customize chart
     plt.title("Daily LeetCode Questions")
     plt.xlabel("Date (MM-DD)")
     plt.ylabel("Number of Questions")
     plt.grid(True, linestyle="--", alpha=0.7)
     plt.xticks(rotation=45)
-
-    # Set Y-axis to show steps of 5 (0, 5, 10, 15, ...)
     max_count = max(counts) if counts else 0
-    y_ticks = range(0, max_count + 5, 5)  # Start at 0, step by 5, up to max_count + 5
+    y_ticks = range(0, max_count + 5, 5)
     plt.yticks(y_ticks)
 
-    # Add value labels
     for i, count in enumerate(counts):
         plt.text(i, count, str(count), ha="center", va="bottom")
 
@@ -104,16 +112,12 @@ def generate_line_chart(daily_counts, output_path):
 
 
 def update_readme(counts, folder_contents, bar_chart_path, line_chart_path):
-    """Update README.md with folder contents and charts"""
     readme_content = "# LeetCode Problems\n\n"
 
     for folder, files in folder_contents.items():
         readme_content += f"## {folder}\n"
-        for file in files:
-            if file.endswith(".c"):
-                readme_content += f"- [x] {file.replace('.c', '')}\n"
-            elif file.endswith(".cpp"):
-                readme_content += f"- [x] {file.replace('.cpp', '')}\n"
+        for problem_name, status in files:
+            readme_content += f"- {status} {problem_name}\n"
         readme_content += "\n"
 
     readme_content += "## Statistics\n"

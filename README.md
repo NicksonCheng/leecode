@@ -1,111 +1,115 @@
 # LeetCode Problems
 
 ## Tree
-- [x] balance
-- [x] maxDiameter
-- [x] invertBT
-- [x] remove
-- [x] SubTreeOfAnotherTree
-- [x] SameTree
-- [x] BinaryTree
-- [x] levelOrder
-- [x] Depth
+- 📝 PrefixTree
+- 📝 balance
+- 📝 maxDiameter
+- 📝 invertBT
+- 📝 remove
+- 📝 SubTreeOfAnotherTree
+- 📝 SameTree
+- 📝 BinaryTree
+- 📝 validBT
+- 📝 levelOrder
+- 📝 Depth
 
 ## Math&Geo
-- [x] multiStr
-- [x] plusOne
+- 📝 multiStr
+- 📝 plusOne
 
 ## TwoPointer
-- [x] waterContainer
-- [x] twoSum2
-- [x] validParlindrome
+- 📝 waterContainer
+- 📝 twoSum2
+- 📝 validParlindrome
 
 ## Interval
-- [x] meetingTime
-- [x] insertInterval
+- 📝 meetingTime
+- 📝 insertInterval
 
 ## BinarySearch
-- [x] findMinRotatArr
-- [x] EatBanans
-- [x] Search2D
-- [x] BinarySearch
+- 📝 findMinRotatArr
+- 📝 EatBanans
+- 📝 Search2D
+- 📝 BinarySearch
 
 ## Graph
-- [x] cloneGraph
-- [x] isoLand
-- [x] maxLand
+- 📝 cloneGraph
+- 📝 isoLand
+- 📝 maxLand
 
 ## Recursive
-- [x] Subsets
-- [x] combinationSum
+- 📝 Subsets
+- 📝 combinationSum
 
 ## SlidingWindow
-- [x] LRCR
-- [x] LGS
-- [x] BuySellStock
+- 📝 LRCR
+- 📝 LGS
+- 📝 BuySellStock
 
 ## Array&Hashing
-- [x] ValidAnagram
-- [x] 2sum
-- [x] TopKFreq
-- [x] EdString
-- [x] hashtable
-- [x] DuplicateArray
-- [x] anagramGroup
-- [x] ProductsArrayExceptSelf
+- 📝 ValidAnagram
+- 📝 2sum
+- 📝 TopKFreq
+- 📝 EdString
+- 📝 hashtable
+- 📝 DuplicateArray
+- 📝 anagramGroup
+- 📝 ProductsArrayExceptSelf
 
 ## Heap&PriorQueue
-- [x] KclosePoint
-- [x] KthLargestElement 
-- [x] customCmp
-- [x] smashStone
-- [x] heapsort
-- [x] KthLargestElementInArray
+- 📝 KclosePoint
+- 📝 KthLargestElement 
+- 📝 customCmp
+- 📝 smashStone
+- 📝 heapsort
+- 📝 KthLargestElementInArray
 
 ## Greedy
-- [x] jumpGame
-- [x] jumpGame2
-- [x] maxSubarray
+- 📝 jumpGame
+- 📝 jumpGame2
+- 📝 maxSubarray
 
 ## Sorting
-- [x] basic_sort
-- [x] customSort
+- 📝 basic_sort
+- 📝 customSort
 
 ## Stack&Queue
-- [x] ValidParentheses
-- [x] ReversePolishNotation
-- [x] generateParentheses
-- [x] MinStack
+- 📝 ValidParentheses
+- 📝 ReversePolishNotation
+- 📝 generateParentheses
+- 📝 MinStack
 
 ## Binary
-- [x] reversebit
+- 📝 reversebit
 
 ## LinkList
-- [x] basic
-- [x] merge
-- [x] reorder
-- [x] reverse
-- [x] removeFromEnd
-- [x] circle
-- [x] addTwoNums
+- 📝 basic
+- 📝 merge
+- 📝 reorder
+- 📝 reverse
+- 📝 removeFromEnd
+- 📝 circle
+- 📝 addTwoNums
 
 ## BitWise
-- [x] reversebit
-- [x] getSum
-- [x] SingleNum
-- [x] #OneBits
-- [x] CountingBits
-- [x] MissingNumber
+- 📝 reversebit
+- 📝 getSum
+- 📝 SingleNum
+- 📝 #OneBits
+- 📝 CountingBits
+- 📝 MissingNumber
 
 ## DynamicProgramming
-- [x] coinChange
-- [x] houseRobber
-- [x] houseRobber2
-- [x] climbStair
-- [x] minCostClimb
+- 📝 coinChange
+- 📝 LCS
+- 📝 houseRobber
+- 📝 houseRobber2
+- 📝 climbStair
+- ✅ uniquePath
+- 📝 minCostClimb
 
 ## Statistics
-Current total questions: 70
+Current total questions: 74
 
 <img src="chart.png" alt="questions bar chart" width="500">
 
