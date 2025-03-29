@@ -31,6 +31,7 @@
 - 📝 findMinRotatArr
 - 📝 EatBanans
 - 📝 Search2D
+- 📝 RotateSortArrSearch
 - 📝 BinarySearch
 
 ## Graph
@@ -40,6 +41,7 @@
 
 ## Recursive
 - 📝 Subsets
+- 📝 combinationSum2
 - 📝 combinationSum
 
 ## SlidingWindow
@@ -110,7 +112,7 @@
 - 📝 minCostClimb
 
 ## Statistics
-Current total questions: 75
+Current total questions: 77
 
 <img src="chart.png" alt="questions bar chart" width="500">
 
