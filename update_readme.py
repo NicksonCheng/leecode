@@ -81,8 +81,14 @@ def get_daily_commits(root_dir):
     for commit in repo.iter_commits():
         date = datetime.fromtimestamp(commit.committed_date).strftime("%m-%d")
         files = commit.stats.files
-        for file_path in files.keys():
-            if file_path.endswith((".c", ".cpp")):
+
+        for file_path, stats in files.items():
+            # Exclude commits with deleted files and files in "WeekContest" folder
+            if (
+                file_path.endswith((".c", ".cpp"))
+                and not file_path.startswith("WeekContest/")
+                and stats.get("deletions", 0) == 0
+            ):
                 daily_counts[date] += 1
 
     return daily_counts
