@@ -83,11 +83,14 @@ def get_daily_commits(root_dir):
         files = commit.stats.files
 
         for file_path, stats in files.items():
-            # Exclude commits with deleted files and files in "WeekContest" folder
+            # Conditions: new file (additions > 0 and deletions == 0),
+            # valid extension (.c or .cpp), not in WeekContest folder
             if (
                 file_path.endswith((".c", ".cpp"))
                 and not file_path.startswith("WeekContest/")
                 and stats.get("deletions", 0) == 0
+                and stats.get("insertions", 0) > 0
+                and stats.get("lines", 0) == stats.get("insertions", 0)
             ):
                 daily_counts[date] += 1
 
