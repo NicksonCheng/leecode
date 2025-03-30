@@ -12,6 +12,7 @@
 - 📝 validBT
 - 📝 levelOrder
 - 📝 Depth
+- 📝 94.inorderTraversal
 
 ## Math&Geo
 - 📝 matrixZero
@@ -37,6 +38,7 @@
 ## Graph
 - 📝 cloneGraph
 - 📝 isoLand
+- 📝 islandTreasure
 - 📝 maxLand
 
 ## Recursive
@@ -50,6 +52,8 @@
 - 📝 BuySellStock
 
 ## Array&Hashing
+- 📝 concateArr
+- 📝 longCommonStr
 - 📝 ValidAnagram
 - 📝 2sum
 - 📝 TopKFreq
@@ -112,7 +116,7 @@
 - 📝 minCostClimb
 
 ## Statistics
-Current total questions: 77
+Current total questions: 81
 
 <img src="chart.png" alt="questions bar chart" width="500">
 
