@@ -1,65 +1,44 @@
-/*
-    從treasure出發BFS
-*/
+#include <algorithm>
 #include <iostream>
 #include <queue>
-#include <vector>
 using namespace std;
+
+/*
+    1. 從寶藏出發跑BFS
+    2. 因為每個寶藏都會同步跑一次BFS,所以被visit(不再是INT_MAX)
+   就不會push進queue
+*/
 class Solution {
   public:
 	void islandsAndTreasure(vector<vector<int>> &grid) {
-		queue<pair<int, int>> treasures;
-		int m = grid.size();
-		int n = grid[0].size();
+		int rows = grid.size();
+		int cols = grid[0].size();
+		queue<pair<int, int>> treasure;
+
 		for (int i = 0; i < grid.size(); ++i) {
 			for (int j = 0; j < grid[i].size(); ++j) {
-				if (grid[i][j] == 0) {
-					treasures.push({i, j});
-				}
+				if (grid[i][j] == 0)
+					treasure.push({i, j});
 			}
 		}
-		visit.resize(m, vector<bool>(n, false));
-		while (!treasures.empty()) {
-			for (auto &row : visit) {
-				fill(row.begin(), row.end(), false);
+
+		vector<vector<int>> dirs = {{0, 1}, {1, 0}, {0, -1}, {-1, 0}};
+		while (!treasure.empty()) {
+			pair<int, int> t = treasure.front();
+			int row = t.first;
+			int col = t.second;
+			for (int i = 0; i < 4; ++i) {
+				int next_row = row + dirs[i][0];
+				int next_col = col + dirs[i][1];
+				// border or has been visit
+				if (next_row < 0 || next_col < 0 || next_row >= rows ||
+				    next_col >= cols || grid[next_row][next_col] <= 0 ||
+				    grid[next_row][next_col] != INT_MAX)
+					continue;
+				grid[next_row][next_col] = grid[row][col] + 1;
+				treasure.push({next_row, next_col});
 			}
-			pair<int, int> t = treasures.front();
-			bfs(grid, t.first, t.second, 0);
-			treasures.pop();
+			treasure.pop();
 		}
-	}
-
-  private:
-	vector<vector<bool>> visit;
-	void bfs(vector<vector<int>> &grid, int i, int j, int step) {
-		if (i < 0 || j < 0 || i >= grid.size() || j >= grid[i].size()) {
-			return;
-		}
-		if (grid[i][j] == -1)
-			return;
-
-		if (grid[i][j] > 0) {
-			grid[i][j] = min(grid[i][j], step);
-		}
-		if (visit[i][j])
-			return;
-		visit[i][j] = true;
-		bfs(grid, i + 1, j, step + 1);
-		bfs(grid, i - 1, j, step + 1);
-		bfs(grid, i, j + 1, step + 1);
-		bfs(grid, i, j - 1, step + 1);
 	}
 };
-int main() {
-	vector<vector<int>> map = {{2147483647, 2147483647, 2147483647},
-	                           {2147483647, -1, 2147483647},
-	                           {0, 2147483647, 2147483647}};
-	Solution sol;
-	sol.islandsAndTreasure(map);
-	for (int i = 0; i < map.size(); ++i) {
-		for (int j = 0; j < map[i].size(); ++j) {
-			cout << map[i][j] << " ";
-		}
-		cout << endl;
-	}
-}

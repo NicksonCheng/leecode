@@ -20,6 +20,7 @@
 - 📝 plusOne
 
 ## TwoPointer
+- 📝 validParlindrome2
 - 📝 waterContainer
 - 📝 twoSum2
 - 📝 validParlindrome
@@ -40,10 +41,12 @@
 - 📝 isoLand
 - 📝 islandTreasure
 - 📝 maxLand
+- 📝 rottingFruit
 
 ## Recursive
 - 📝 Subsets
 - 📝 combinationSum2
+- 📝 permutation
 - 📝 combinationSum
 
 ## SlidingWindow
@@ -73,6 +76,7 @@
 
 ## Greedy
 - 📝 jumpGame
+- 📝 gasStation
 - 📝 jumpGame2
 - 📝 maxSubarray
 
@@ -82,6 +86,7 @@
 
 ## Stack&Queue
 - 📝 ValidParentheses
+- ✅ baseBallGame
 - 📝 ReversePolishNotation
 - 📝 generateParentheses
 - 📝 MinStack
@@ -92,6 +97,7 @@
 ## LinkList
 - 📝 basic
 - 📝 merge
+- 📝 138opyWithRandomPointer
 - 📝 reorder
 - 📝 reverse
 - 📝 removeFromEnd
@@ -116,7 +122,7 @@
 - 📝 minCostClimb
 
 ## Statistics
-Current total questions: 81
+Current total questions: 87
 
 <img src="chart.png" alt="questions bar chart" width="500">
 

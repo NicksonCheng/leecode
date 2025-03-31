@@ -1,8 +1,6 @@
 /*
-
-
+    記得跳過那些重複的candidate就好
 */
-
 class Solution {
   public:
 	vector<vector<int>> combinationSum2(vector<int> &candidates, int target) {
