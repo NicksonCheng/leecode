@@ -38,6 +38,8 @@ def get_folder_contents(root_dir):
                     problem_name = f.replace(".cpp", "")
                     problem_name = problem_name.replace(".c", "")
                     files.append((problem_name, status))
+            files.sort(key=lambda x: ["❌", "📝", "✅"].index(x[1]))
+
             folder_contents[folder] = files
     return folder_contents
 

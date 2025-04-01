@@ -6,6 +6,7 @@
 - 📝 maxDiameter
 - 📝 invertBT
 - 📝 remove
+- 📝 sameAncestor
 - 📝 SubTreeOfAnotherTree
 - 📝 SameTree
 - 📝 BinaryTree
@@ -24,6 +25,8 @@
 - 📝 waterContainer
 - 📝 twoSum2
 - 📝 validParlindrome
+- ✅ reverseStr
+- ✅ mergeStr
 
 ## Interval
 - 📝 meetingTime
@@ -37,9 +40,9 @@
 - 📝 BinarySearch
 
 ## Graph
+- ❌ islandTreasure
 - 📝 cloneGraph
 - 📝 isoLand
-- 📝 islandTreasure
 - 📝 maxLand
 - 📝 rottingFruit
 
@@ -55,6 +58,7 @@
 - 📝 BuySellStock
 
 ## Array&Hashing
+- ❌ LongestConsecutiveSeq
 - 📝 concateArr
 - 📝 longCommonStr
 - 📝 ValidAnagram
@@ -86,15 +90,13 @@
 
 ## Stack&Queue
 - 📝 ValidParentheses
-- ✅ baseBallGame
 - 📝 ReversePolishNotation
 - 📝 generateParentheses
 - 📝 MinStack
-
-## Binary
-- 📝 reversebit
+- ✅ baseBallGame
 
 ## LinkList
+- ❌ duplicateNumber
 - 📝 basic
 - 📝 merge
 - 📝 138opyWithRandomPointer
@@ -107,6 +109,7 @@
 ## BitWise
 - 📝 reversebit
 - 📝 getSum
+- 📝 reverseInt
 - 📝 SingleNum
 - 📝 #OneBits
 - 📝 CountingBits
@@ -118,11 +121,11 @@
 - 📝 houseRobber
 - 📝 houseRobber2
 - 📝 climbStair
-- ✅ uniquePath
 - 📝 minCostClimb
+- ✅ uniquePath
 
 ## Statistics
-Current total questions: 87
+Current total questions: 92
 
 <img src="chart.png" alt="questions bar chart" width="500">
 
