@@ -124,11 +124,28 @@ def generate_line_chart(daily_counts, output_path):
 
 def update_readme(counts, folder_contents, bar_chart_path, line_chart_path):
     readme_content = "# LeetCode Problems\n\n"
+    status_counts = {
+        "❌": 0,
+        "📝": 0,
+        "✅": 0,
+    }
+    status_description = {
+        "❌": "can't resolve without solution",
+        "📝": "can't resolve without hint",
+        "✅": "resolve by self",
+    }
+    for folder, files in folder_contents.items():
+        for problem_name, status in files:
+            status_counts[status] += 1
+
+    for status, num in status_counts.items():
+        readme_content += f"{status}  {status_description[status]}: {num}\n"
 
     for folder, files in folder_contents.items():
         readme_content += f"## {folder}\n"
         for problem_name, status in files:
             readme_content += f"- {status} {problem_name}\n"
+            status_counts[status] += 1
         readme_content += "\n"
 
     readme_content += "## Statistics\n"

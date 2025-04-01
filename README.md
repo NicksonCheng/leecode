@@ -1,5 +1,8 @@
 # LeetCode Problems
 
+❌  can't resolve without solution: 3
+📝  can't resolve without hint: 85
+✅  resolve by self: 4
 ## Tree
 - 📝 PrefixTree
 - 📝 balance
