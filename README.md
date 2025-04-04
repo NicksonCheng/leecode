@@ -1,7 +1,7 @@
 # LeetCode Problems
 
 ❌  can't resolve without solution: 3
-📝  can't resolve without hint: 85
+📝  can't resolve without hint: 89
 ✅  resolve by self: 4
 ## Tree
 - 📝 PrefixTree
@@ -38,6 +38,7 @@
 ## BinarySearch
 - 📝 findMinRotatArr
 - 📝 EatBanans
+- 📝 SearchInsertPos
 - 📝 Search2D
 - 📝 RotateSortArrSearch
 - 📝 BinarySearch
@@ -45,6 +46,7 @@
 ## Graph
 - ❌ islandTreasure
 - 📝 cloneGraph
+- 📝 PacificAtlanticWaterFlow
 - 📝 isoLand
 - 📝 maxLand
 - 📝 rottingFruit
@@ -58,6 +60,7 @@
 ## SlidingWindow
 - 📝 LRCR
 - 📝 LGS
+- 📝 containDuplicate2
 - 📝 BuySellStock
 
 ## Array&Hashing
@@ -107,6 +110,7 @@
 - 📝 reverse
 - 📝 removeFromEnd
 - 📝 circle
+- 📝 92.reverse2
 - 📝 addTwoNums
 
 ## BitWise
@@ -128,7 +132,7 @@
 - ✅ uniquePath
 
 ## Statistics
-Current total questions: 92
+Current total questions: 96
 
 <img src="chart.png" alt="questions bar chart" width="500">
 
