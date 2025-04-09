@@ -1,8 +1,8 @@
 # LeetCode Problems
 
 ❌  can't resolve without solution: 3
-📝  can't resolve without hint: 89
-✅  resolve by self: 4
+📝  can't resolve without hint: 94
+✅  resolve by self: 5
 ## Tree
 - 📝 PrefixTree
 - 📝 balance
@@ -17,6 +17,7 @@
 - 📝 levelOrder
 - 📝 Depth
 - 📝 94.inorderTraversal
+- ✅ 199.BinaryTreeRightSideView
 
 ## Math&Geo
 - 📝 matrixZero
@@ -25,6 +26,7 @@
 
 ## TwoPointer
 - 📝 validParlindrome2
+- 📝 mergeSortArray
 - 📝 waterContainer
 - 📝 twoSum2
 - 📝 validParlindrome
@@ -53,6 +55,7 @@
 
 ## Recursive
 - 📝 Subsets
+- 📝 Subset2
 - 📝 combinationSum2
 - 📝 permutation
 - 📝 combinationSum
@@ -68,6 +71,7 @@
 - 📝 concateArr
 - 📝 longCommonStr
 - 📝 ValidAnagram
+- 📝 removeElement
 - 📝 2sum
 - 📝 TopKFreq
 - 📝 EdString
@@ -126,13 +130,15 @@
 - 📝 coinChange
 - 📝 LCS
 - 📝 houseRobber
+- 📝 PartitionEqualSubsetSum
+- 📝 LongestIncreasingPathMatrix
 - 📝 houseRobber2
 - 📝 climbStair
 - 📝 minCostClimb
 - ✅ uniquePath
 
 ## Statistics
-Current total questions: 96
+Current total questions: 102
 
 <img src="chart.png" alt="questions bar chart" width="500">
 
