@@ -5,6 +5,7 @@
 using namespace std;
 
 // Custom comparator for max heap (based on second value of pair)
+/*記住queue的排序方式本來就是尾端先pop就好,所以本來就會跟custom sort相反*/
 struct Compare {
 	bool operator()(const pair<int, int> &a, const pair<int, int> &b) {
 		return a.second <
