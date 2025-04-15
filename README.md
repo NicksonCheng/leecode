@@ -1,8 +1,8 @@
 # LeetCode Problems
 
 ❌  can't resolve without solution: 3
-📝  can't resolve without hint: 94
-✅  resolve by self: 5
+📝  can't resolve without hint: 104
+✅  resolve by self: 8
 ## Tree
 - 📝 PrefixTree
 - 📝 balance
@@ -17,6 +17,7 @@
 - 📝 levelOrder
 - 📝 Depth
 - 📝 94.inorderTraversal
+- ✅ 1448.CountGoodNodesInBinaryTree
 - ✅ 199.BinaryTreeRightSideView
 
 ## Math&Geo
@@ -33,9 +34,13 @@
 - ✅ reverseStr
 - ✅ mergeStr
 
+## LinkList 2
+
 ## Interval
 - 📝 meetingTime
 - 📝 insertInterval
+
+## Stack&Queue 2
 
 ## BinarySearch
 - 📝 findMinRotatArr
@@ -48,6 +53,7 @@
 ## Graph
 - ❌ islandTreasure
 - 📝 cloneGraph
+- 📝 SurroundedRegions
 - 📝 PacificAtlanticWaterFlow
 - 📝 isoLand
 - 📝 maxLand
@@ -70,11 +76,13 @@
 - ❌ LongestConsecutiveSeq
 - 📝 concateArr
 - 📝 longCommonStr
+- 📝 CountGoodTriple
 - 📝 ValidAnagram
 - 📝 removeElement
 - 📝 2sum
 - 📝 TopKFreq
 - 📝 EdString
+- 📝 169.majorityElement
 - 📝 hashtable
 - 📝 DuplicateArray
 - 📝 anagramGroup
@@ -91,18 +99,24 @@
 ## Greedy
 - 📝 jumpGame
 - 📝 gasStation
+- 📝 860.LemonadeChange
 - 📝 jumpGame2
 - 📝 maxSubarray
+- 📝 846.HandofStraights
 
 ## Sorting
 - 📝 basic_sort
 - 📝 customSort
 
 ## Stack&Queue
+- 📝 dailyTemperature
+- 📝 223.implementQueuewithStack
 - 📝 ValidParentheses
 - 📝 ReversePolishNotation
+- 📝 carfleet
 - 📝 generateParentheses
 - 📝 MinStack
+- ✅ 225.implementStackwithQueue
 - ✅ baseBallGame
 
 ## LinkList
@@ -111,6 +125,7 @@
 - 📝 merge
 - 📝 138opyWithRandomPointer
 - 📝 reorder
+- 📝 LRUcache
 - 📝 reverse
 - 📝 removeFromEnd
 - 📝 circle
@@ -120,11 +135,13 @@
 ## BitWise
 - 📝 reversebit
 - 📝 getSum
+- 📝 1922.CountGoodNumbers
 - 📝 reverseInt
 - 📝 SingleNum
 - 📝 #OneBits
 - 📝 CountingBits
 - 📝 MissingNumber
+- ✅ 1863.SumofAllSubsetXORTotals
 
 ## DynamicProgramming
 - 📝 coinChange
@@ -138,7 +155,7 @@
 - ✅ uniquePath
 
 ## Statistics
-Current total questions: 102
+Current total questions: 115
 
 <img src="chart.png" alt="questions bar chart" width="500">
 
