@@ -2,7 +2,7 @@
 
 ❌  can't resolve without solution: 3
 📝  can't resolve without hint: 104
-✅  resolve by self: 8
+✅  resolve by self: 9
 ## Tree
 - 📝 PrefixTree
 - 📝 balance
@@ -87,6 +87,7 @@
 - 📝 DuplicateArray
 - 📝 anagramGroup
 - 📝 ProductsArrayExceptSelf
+- ✅ valideSudoku
 
 ## Heap&PriorQueue
 - 📝 KclosePoint
@@ -155,7 +156,7 @@
 - ✅ uniquePath
 
 ## Statistics
-Current total questions: 115
+Current total questions: 116
 
 <img src="chart.png" alt="questions bar chart" width="500">
 
