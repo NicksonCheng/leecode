@@ -1,7 +1,7 @@
 # LeetCode Problems
 
 ❌  can't resolve without solution: 3
-📝  can't resolve without hint: 108
+📝  can't resolve without hint: 109
 ✅  resolve by self: 9
 ## Tree
 - 📝 PrefixTree
@@ -64,6 +64,7 @@
 - 📝 rottingFruit
 
 ## Recursive
+- 📝 wordSearch
 - 📝 Subsets
 - 📝 Subset2
 - 📝 combinationSum2
@@ -160,7 +161,7 @@
 - ✅ uniquePath
 
 ## Statistics
-Current total questions: 120
+Current total questions: 121
 
 <img src="chart.png" alt="questions bar chart" width="500">
 
