@@ -1,10 +1,11 @@
 # LeetCode Problems
 
 ❌  can't resolve without solution: 3
-📝  can't resolve without hint: 104
+📝  can't resolve without hint: 108
 ✅  resolve by self: 9
 ## Tree
 - 📝 PrefixTree
+- 📝 230.KthSmallestElementBST
 - 📝 balance
 - 📝 maxDiameter
 - 📝 invertBT
@@ -24,11 +25,13 @@
 - 📝 matrixZero
 - 📝 multiStr
 - 📝 plusOne
+- 📝 168.ExcelSheetColumnTitle
 
 ## TwoPointer
 - 📝 validParlindrome2
 - 📝 mergeSortArray
 - 📝 waterContainer
+- 📝 3sum
 - 📝 twoSum2
 - 📝 validParlindrome
 - ✅ reverseStr
@@ -54,6 +57,7 @@
 - ❌ islandTreasure
 - 📝 cloneGraph
 - 📝 SurroundedRegions
+- 📝 CourseSchedule
 - 📝 PacificAtlanticWaterFlow
 - 📝 isoLand
 - 📝 maxLand
@@ -156,7 +160,7 @@
 - ✅ uniquePath
 
 ## Statistics
-Current total questions: 116
+Current total questions: 120
 
 <img src="chart.png" alt="questions bar chart" width="500">
 
