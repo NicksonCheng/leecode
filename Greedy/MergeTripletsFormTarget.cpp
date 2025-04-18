@@ -1,6 +1,8 @@
+// solution
 /*
     我們只挑那些「不超過 target」的 triplet，然後每一維都盡可能貢獻出 target
    的值。
+   我也不知道為啥, 感覺很簡單就是寫不出來
 */
 class Solution {
   public:

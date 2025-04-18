@@ -1,8 +1,8 @@
 # LeetCode Problems
 
-❌  can't resolve without solution: 3
-📝  can't resolve without hint: 109
-✅  resolve by self: 9
+❌  can't resolve without solution: 4
+📝  can't resolve without hint: 110
+✅  resolve by self: 11
 ## Tree
 - 📝 PrefixTree
 - 📝 230.KthSmallestElementBST
@@ -66,6 +66,7 @@
 - 📝 combinationSum2
 - 📝 permutation
 - 📝 combinationSum
+- ✅ countAndStay
 
 ## SlidingWindow
 - 📝 LRCR
@@ -75,6 +76,7 @@
 
 ## Array&Hashing
 - ❌ LongestConsecutiveSeq
+- 📝 designHashset
 - 📝 concateArr
 - 📝 longCommonStr
 - 📝 CountGoodTriple
@@ -97,8 +99,10 @@
 - 📝 smashStone
 - 📝 heapsort
 - 📝 KthLargestElementInArray
+- ✅ reorganizeString
 
 ## Greedy
+- ❌ MergeTripletsFormTarget
 - 📝 jumpGame
 - 📝 gasStation
 - 📝 860.LemonadeChange
@@ -157,7 +161,7 @@
 - ✅ uniquePath
 
 ## Statistics
-Current total questions: 121
+Current total questions: 125
 
 <img src="chart.png" alt="questions bar chart" width="500">
 
