@@ -37,13 +37,9 @@
 - ✅ reverseStr
 - ✅ mergeStr
 
-## LinkList 2
-
 ## Interval
 - 📝 meetingTime
 - 📝 insertInterval
-
-## Stack&Queue 2
 
 ## BinarySearch
 - 📝 findMinRotatArr

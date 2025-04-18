@@ -5,6 +5,8 @@ from datetime import datetime
 import git
 from collections import defaultdict
 
+exclude_folder = ["WeekContest", "BasicC++"]
+
 
 def get_status(file_path):
     """Get the status from the first line comment."""
@@ -26,7 +28,7 @@ def get_folder_contents(root_dir):
     """Get dictionary of folders and their files with status."""
     folder_contents = {}
     for folder in os.listdir(root_dir):
-        if folder == "WeekContest":
+        if folder in exclude_folder:
             continue
         folder_path = os.path.join(root_dir, folder)
         if os.path.isdir(folder_path) and not folder.startswith("."):
@@ -86,10 +88,10 @@ def get_daily_commits(root_dir):
 
         for file_path, stats in files.items():
             # Conditions: new file (additions > 0 and deletions == 0),
-            # valid extension (.c or .cpp), not in WeekContest folder
+            # valid extension (.c or .cpp), not in excluded folders
             if (
                 file_path.endswith((".c", ".cpp"))
-                and not file_path.startswith("WeekContest/")
+                and not any(folder in file_path for folder in exclude_folder)
                 and stats.get("deletions", 0) == 0
                 and stats.get("insertions", 0) > 0
                 and stats.get("lines", 0) == stats.get("insertions", 0)
