@@ -12,6 +12,11 @@
     "optional": "cpp",
     "ratio": "cpp",
     "tuple": "cpp",
-    "vector": "cpp"
+    "vector": "cpp",
+    "__hash_table": "cpp",
+    "__tree": "cpp",
+    "map": "cpp",
+    "string": "cpp",
+    "string_view": "cpp"
   }
 }
