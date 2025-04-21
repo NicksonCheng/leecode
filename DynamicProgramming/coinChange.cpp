@@ -25,3 +25,30 @@ class Solution {
 		return table[amount] == amount + 1 ? -1 : table[amount];
 	}
 };
+
+/* Top Down*/
+class Solution {
+  public:
+	int coinChange(vector<int> &coins, int amount) {
+		vector<int> table(amount + 1, -1);
+		int count = recursive(coins, table, amount);
+		return count == INT_MAX ? -1 : count;
+	}
+	int recursive(vector<int> &coins, vector<int> &table, int amount) {
+		if (amount == 0)
+			return 0;
+		if (amount < 0 || table[amount] == INT_MAX)
+			return INT_MAX; // 此路不通
+
+		if (table[amount] > 0)
+			return table[amount];
+
+		int min_count = INT_MAX;
+		for (int i = 0; i < coins.size(); ++i) {
+			min_count =
+			    min(min_count, recursive(coins, table, amount - coins[i]));
+		}
+		table[amount] = min_count == INT_MAX ? INT_MAX : min_count + 1;
+		return table[amount];
+	}
+};
