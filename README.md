@@ -1,8 +1,8 @@
 # LeetCode Problems
 
 ❌  can't resolve without solution: 4
-📝  can't resolve without hint: 110
-✅  resolve by self: 11
+📝  can't resolve without hint: 114
+✅  resolve by self: 13
 ## Tree
 - 📝 PrefixTree
 - 📝 230.KthSmallestElementBST
@@ -26,6 +26,7 @@
 - 📝 multiStr
 - 📝 plusOne
 - 📝 168.ExcelSheetColumnTitle
+- ✅ 48.rotateImg
 
 ## TwoPointer
 - 📝 validParlindrome2
@@ -47,6 +48,7 @@
 - 📝 SearchInsertPos
 - 📝 Search2D
 - 📝 RotateSortArrSearch
+- 📝 CountNumberOfFairPairs
 - 📝 BinarySearch
 
 ## Graph
@@ -83,6 +85,7 @@
 - 📝 ValidAnagram
 - 📝 removeElement
 - 📝 2sum
+- 📝 2145.CounttheHiddenSequences
 - 📝 TopKFreq
 - 📝 EdString
 - 📝 169.majorityElement
@@ -91,6 +94,7 @@
 - 📝 anagramGroup
 - 📝 ProductsArrayExceptSelf
 - ✅ valideSudoku
+- ✅ countEqualAndDivisiblePairs
 
 ## Heap&PriorQueue
 - 📝 KclosePoint
@@ -105,6 +109,7 @@
 - ❌ MergeTripletsFormTarget
 - 📝 jumpGame
 - 📝 gasStation
+- 📝 781.RabbitForest
 - 📝 860.LemonadeChange
 - 📝 jumpGame2
 - 📝 maxSubarray
@@ -157,11 +162,12 @@
 - 📝 LongestIncreasingPathMatrix
 - 📝 houseRobber2
 - 📝 climbStair
+- 📝 518oinChange2
 - 📝 minCostClimb
 - ✅ uniquePath
 
 ## Statistics
-Current total questions: 125
+Current total questions: 131
 
 <img src="chart.png" alt="questions bar chart" width="500">
 
