@@ -1,6 +1,6 @@
 # LeetCode Problems
 
-❌  can't resolve without solution: 4
+❌  can't resolve without solution: 6
 📝  can't resolve without hint: 117
 ✅  resolve by self: 13
 ## Tree
@@ -120,6 +120,7 @@
 - 📝 customSort
 
 ## Stack&Queue
+- ❌ largestRectangleHistogram
 - 📝 dailyTemperature
 - 📝 223.implementQueuewithStack
 - 📝 ValidParentheses
@@ -157,6 +158,7 @@
 - ✅ 1863.SumofAllSubsetXORTotals
 
 ## DynamicProgramming
+- ❌ 5.LPS
 - 📝 coinChange
 - 📝 LCS
 - 📝 houseRobber
@@ -170,7 +172,7 @@
 - ✅ uniquePath
 
 ## Statistics
-Current total questions: 134
+Current total questions: 136
 
 <img src="chart.png" alt="questions bar chart" width="500">
 
