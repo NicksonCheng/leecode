@@ -1,7 +1,7 @@
 # LeetCode Problems
 
 ❌  can't resolve without solution: 4
-📝  can't resolve without hint: 114
+📝  can't resolve without hint: 117
 ✅  resolve by self: 13
 ## Tree
 - 📝 PrefixTree
@@ -136,8 +136,10 @@
 - 📝 merge
 - 📝 138opyWithRandomPointer
 - 📝 reorder
+- 📝 23.mergeKSortList
 - 📝 LRUcache
 - 📝 reverse
+- 📝 234.PalindromeLinkedList
 - 📝 removeFromEnd
 - 📝 circle
 - 📝 92.reverse2
@@ -163,11 +165,12 @@
 - 📝 houseRobber2
 - 📝 climbStair
 - 📝 518oinChange2
+- 📝 2338.CountTheNumberOfIdealArrays
 - 📝 minCostClimb
 - ✅ uniquePath
 
 ## Statistics
-Current total questions: 131
+Current total questions: 134
 
 <img src="chart.png" alt="questions bar chart" width="500">
 
