@@ -1,7 +1,7 @@
 # LeetCode Problems
 
 ❌  can't resolve without solution: 6
-📝  can't resolve without hint: 118
+📝  can't resolve without hint: 120
 ✅  resolve by self: 14
 ## Tree
 - 📝 PrefixTree
@@ -60,6 +60,7 @@
 - 📝 CourseSchedule
 - 📝 PacificAtlanticWaterFlow
 - 📝 isoLand
+- 📝 210.CourseSchedule2
 - 📝 maxLand
 - 📝 rottingFruit
 
@@ -87,6 +88,7 @@
 - 📝 ValidAnagram
 - 📝 removeElement
 - 📝 2sum
+- 📝 1399.CountLargestGroup
 - 📝 2145.CounttheHiddenSequences
 - 📝 TopKFreq
 - 📝 EdString
@@ -174,7 +176,7 @@
 - ✅ uniquePath
 
 ## Statistics
-Current total questions: 138
+Current total questions: 140
 
 <img src="chart.png" alt="questions bar chart" width="500">
 

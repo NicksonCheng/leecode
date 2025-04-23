@@ -21,6 +21,8 @@
     "__split_buffer": "cpp",
     "array": "cpp",
     "initializer_list": "cpp",
-    "ios": "cpp"
+    "ios": "cpp",
+    "queue": "cpp",
+    "stack": "cpp"
   }
 }
