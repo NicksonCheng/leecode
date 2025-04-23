@@ -1,8 +1,8 @@
 # LeetCode Problems
 
 ❌  can't resolve without solution: 6
-📝  can't resolve without hint: 117
-✅  resolve by self: 13
+📝  can't resolve without hint: 118
+✅  resolve by self: 14
 ## Tree
 - 📝 PrefixTree
 - 📝 230.KthSmallestElementBST
@@ -15,9 +15,11 @@
 - 📝 SameTree
 - 📝 BinaryTree
 - 📝 validBT
+- 📝 450.DeleteNodeInBST
 - 📝 levelOrder
 - 📝 Depth
 - 📝 94.inorderTraversal
+- ✅ insertBinaryTree
 - ✅ 1448.CountGoodNodesInBinaryTree
 - ✅ 199.BinaryTreeRightSideView
 
@@ -172,7 +174,7 @@
 - ✅ uniquePath
 
 ## Statistics
-Current total questions: 136
+Current total questions: 138
 
 <img src="chart.png" alt="questions bar chart" width="500">
 
