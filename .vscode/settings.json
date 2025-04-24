@@ -23,6 +23,7 @@
     "initializer_list": "cpp",
     "ios": "cpp",
     "queue": "cpp",
-    "stack": "cpp"
+    "stack": "cpp",
+    "variant": "cpp"
   }
 }
