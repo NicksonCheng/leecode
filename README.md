@@ -1,7 +1,7 @@
 # LeetCode Problems
 
-❌  can't resolve without solution: 6
-📝  can't resolve without hint: 120
+❌  can't resolve without solution: 7
+📝  can't resolve without hint: 124
 ✅  resolve by self: 14
 ## Tree
 - 📝 PrefixTree
@@ -23,13 +23,6 @@
 - ✅ 1448.CountGoodNodesInBinaryTree
 - ✅ 199.BinaryTreeRightSideView
 
-## Math&Geo
-- 📝 matrixZero
-- 📝 multiStr
-- 📝 plusOne
-- 📝 168.ExcelSheetColumnTitle
-- ✅ 48.rotateImg
-
 ## TwoPointer
 - 📝 validParlindrome2
 - 📝 mergeSortArray
@@ -39,10 +32,6 @@
 - 📝 validParlindrome
 - ✅ reverseStr
 - ✅ mergeStr
-
-## Interval
-- 📝 meetingTime
-- 📝 insertInterval
 
 ## BinarySearch
 - 📝 findMinRotatArr
@@ -60,6 +49,7 @@
 - 📝 CourseSchedule
 - 📝 PacificAtlanticWaterFlow
 - 📝 isoLand
+- 📝 743.NetworkDelayTime
 - 📝 210.CourseSchedule2
 - 📝 maxLand
 - 📝 rottingFruit
@@ -91,6 +81,7 @@
 - 📝 1399.CountLargestGroup
 - 📝 2145.CounttheHiddenSequences
 - 📝 TopKFreq
+- 📝 2799ountCompleteSubArr
 - 📝 EdString
 - 📝 169.majorityElement
 - 📝 hashtable
@@ -99,6 +90,17 @@
 - 📝 ProductsArrayExceptSelf
 - ✅ valideSudoku
 - ✅ countEqualAndDivisiblePairs
+
+## Others
+- ❌ 2845.CountofInterestingSubarrays
+- 📝 matrixZero
+- 📝 multiStr
+- 📝 meetingTime
+- 📝 plusOne
+- 📝 mergeInterval
+- 📝 168.ExcelSheetColumnTitle
+- 📝 insertInterval
+- ✅ 48.rotateImg
 
 ## Heap&PriorQueue
 - 📝 KclosePoint
@@ -171,12 +173,13 @@
 - 📝 houseRobber2
 - 📝 climbStair
 - 📝 518oinChange2
+- 📝 647.PalindromicSubstrings
 - 📝 2338.CountTheNumberOfIdealArrays
 - 📝 minCostClimb
 - ✅ uniquePath
 
 ## Statistics
-Current total questions: 140
+Current total questions: 145
 
 <img src="chart.png" alt="questions bar chart" width="500">
 
