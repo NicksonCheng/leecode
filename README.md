@@ -1,8 +1,8 @@
 # LeetCode Problems
 
-❌  can't resolve without solution: 7
-📝  can't resolve without hint: 126
-✅  resolve by self: 14
+❌  can't resolve without solution: 8
+📝  can't resolve without hint: 125
+✅  resolve by self: 15
 ## Tree
 - 📝 PrefixTree
 - 📝 230.KthSmallestElementBST
@@ -64,10 +64,10 @@
 - ✅ countAndStay
 
 ## SlidingWindow
+- ❌ 2444.CountSubarraysWithFixedBounds
 - 📝 LRCR
 - 📝 LGS
 - 📝 containDuplicate2
-- 📝 2444.CountSubarraysWithFixedBounds
 - 📝 643.MaximumAverageSubarray
 - 📝 BuySellStock
 
@@ -102,6 +102,7 @@
 - 📝 mergeInterval
 - 📝 168.ExcelSheetColumnTitle
 - 📝 insertInterval
+- ✅ 435.Non-overlappingIntervals
 - ✅ 48.rotateImg
 
 ## Heap&PriorQueue
@@ -181,7 +182,7 @@
 - ✅ uniquePath
 
 ## Statistics
-Current total questions: 147
+Current total questions: 148
 
 <img src="chart.png" alt="questions bar chart" width="500">
 

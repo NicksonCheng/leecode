@@ -1,3 +1,8 @@
+// solution
+/*
+        1. 先尋找合法區間, 在這個區間內, 進一步去尋找subarray
+        two pointer + slinding window
+ */
 class Solution {
   public:
 	long long countSubarrays(vector<int> &nums, int minK, int maxK) {

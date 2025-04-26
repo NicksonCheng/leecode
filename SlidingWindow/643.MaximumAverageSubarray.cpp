@@ -1,4 +1,5 @@
 
+// proficient
 /*
     注意left - 1問題
 */
