@@ -79,6 +79,7 @@ def generate_bar_chart(folder_contents, output_path):
 
 
 def get_daily_commits(root_dir):
+
     repo = git.Repo(root_dir)
     daily_counts = defaultdict(int)
 
@@ -87,16 +88,22 @@ def get_daily_commits(root_dir):
         files = commit.stats.files
 
         for file_path, stats in files.items():
-            # Conditions: new file (additions > 0 and deletions == 0),
-            # valid extension (.c or .cpp), not in excluded folders
+            # Check if it's a new file (additions > 0 and deletions == 0)
+            is_new_file = (
+                stats.get("deletions", 0) == 0 and stats.get("insertions", 0) > 0
+            )
+
+            # Conditions: valid extension (.c or .cpp), not in excluded folders
             if (
                 file_path.endswith((".c", ".cpp"))
                 and not any(folder in file_path for folder in exclude_folder)
-                and stats.get("deletions", 0) == 0
-                and stats.get("insertions", 0) > 0
-                and stats.get("lines", 0) == stats.get("insertions", 0)
+                and is_new_file
             ):
-                daily_counts[date] += 1
+                # Ensure it's a newly created file (not modified in previous commits)
+                if not any(
+                    file_path in parent.stats.files for parent in commit.parents
+                ):
+                    daily_counts[date] += 1
 
     return daily_counts
 
