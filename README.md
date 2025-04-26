@@ -1,7 +1,7 @@
 # LeetCode Problems
 
 ❌  can't resolve without solution: 7
-📝  can't resolve without hint: 124
+📝  can't resolve without hint: 126
 ✅  resolve by self: 14
 ## Tree
 - 📝 PrefixTree
@@ -67,6 +67,8 @@
 - 📝 LRCR
 - 📝 LGS
 - 📝 containDuplicate2
+- 📝 2444.CountSubarraysWithFixedBounds
+- 📝 643.MaximumAverageSubarray
 - 📝 BuySellStock
 
 ## Array&Hashing
@@ -179,7 +181,7 @@
 - ✅ uniquePath
 
 ## Statistics
-Current total questions: 145
+Current total questions: 147
 
 <img src="chart.png" alt="questions bar chart" width="500">
 
