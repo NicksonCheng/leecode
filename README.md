@@ -1,7 +1,7 @@
 # LeetCode Problems
 
 ❌  can't resolve without solution: 8
-📝  can't resolve without hint: 125
+📝  can't resolve without hint: 128
 ✅  resolve by self: 15
 ## Tree
 - 📝 PrefixTree
@@ -66,8 +66,10 @@
 ## SlidingWindow
 - ❌ 2444.CountSubarraysWithFixedBounds
 - 📝 LRCR
+- 📝 2302.CountSubarraysWithScoreLessThanK
 - 📝 LGS
 - 📝 containDuplicate2
+- 📝 3392.CountSubarraysofLengthThreeWithaCondition
 - 📝 643.MaximumAverageSubarray
 - 📝 BuySellStock
 
@@ -172,6 +174,7 @@
 - 📝 LCS
 - 📝 houseRobber
 - 📝 PartitionEqualSubsetSum
+- 📝 91.DecodeStr
 - 📝 LongestIncreasingPathMatrix
 - 📝 houseRobber2
 - 📝 climbStair
@@ -182,7 +185,7 @@
 - ✅ uniquePath
 
 ## Statistics
-Current total questions: 148
+Current total questions: 151
 
 <img src="chart.png" alt="questions bar chart" width="500">
 
