@@ -1,7 +1,7 @@
 # LeetCode Problems
 
 ❌  can't resolve without solution: 8
-📝  can't resolve without hint: 128
+📝  can't resolve without hint: 129
 ✅  resolve by self: 15
 ## Tree
 - 📝 PrefixTree
@@ -70,6 +70,7 @@
 - 📝 LGS
 - 📝 containDuplicate2
 - 📝 3392.CountSubarraysofLengthThreeWithaCondition
+- 📝 2962. Count Subarrays Where Max Element Appears at Least K Times
 - 📝 643.MaximumAverageSubarray
 - 📝 BuySellStock
 
@@ -185,7 +186,7 @@
 - ✅ uniquePath
 
 ## Statistics
-Current total questions: 151
+Current total questions: 152
 
 <img src="chart.png" alt="questions bar chart" width="500">
 
