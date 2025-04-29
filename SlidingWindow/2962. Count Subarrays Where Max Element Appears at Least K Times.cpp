@@ -14,6 +14,7 @@ class Solution {
 			if (nums[r] == max_val)
 				++count;
 
+			// 持續更新left直到 < k
 			while (count >= k) {
 				if (nums[l] == max_val)
 					--count;
