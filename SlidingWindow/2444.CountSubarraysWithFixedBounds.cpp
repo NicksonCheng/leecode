@@ -40,3 +40,46 @@ class Solution {
 		return res;
 	}
 };
+
+// 4/30 pratice again
+/*
+    先找合法start, 再找合法end
+*/
+class Solution {
+  public:
+	long long countSubarrays(vector<int> &nums, int minK, int maxK) {
+		int start = 0;
+		long long res = 0;
+		while (start < nums.size()) {
+
+			/* find [start, end] legal range*/
+			if (nums[start] < minK || nums[start] > maxK) {
+				++start;
+				continue;
+			}
+			int end = start;
+			while (end < nums.size() &&
+			       (nums[end] >= minK && nums[end] <= maxK))
+				++end;
+
+			// find minK, maxK position from legal range
+			int min_k_pos = -1;
+			int max_k_pos = -1;
+			for (int i = start; i < end; ++i) {
+				if (nums[i] == minK)
+					min_k_pos = i;
+				if (nums[i] == maxK)
+					max_k_pos = i;
+				if (min_k_pos != -1 && max_k_pos != -1) {
+					int mini_idx = min(min_k_pos, max_k_pos);
+					res += mini_idx - start + 1;
+				}
+			}
+
+			// find another legal range
+
+			start = end;
+		}
+		return res;
+	}
+};

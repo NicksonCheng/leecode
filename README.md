@@ -1,8 +1,8 @@
 # LeetCode Problems
 
-❌  can't resolve without solution: 8
+❌  can't resolve without solution: 9
 📝  can't resolve without hint: 129
-✅  resolve by self: 15
+✅  resolve by self: 18
 ## Tree
 - 📝 PrefixTree
 - 📝 230.KthSmallestElementBST
@@ -53,6 +53,7 @@
 - 📝 210.CourseSchedule2
 - 📝 maxLand
 - 📝 rottingFruit
+- ✅ 463. Island Perimeter
 
 ## Recursive
 - 📝 wordSearch
@@ -106,6 +107,7 @@
 - 📝 168.ExcelSheetColumnTitle
 - 📝 insertInterval
 - ✅ 435.Non-overlappingIntervals
+- ✅ 1295. Find Numbers with Even Number of Digits
 - ✅ 48.rotateImg
 
 ## Heap&PriorQueue
@@ -142,9 +144,11 @@
 - 📝 MinStack
 - ✅ 225.implementStackwithQueue
 - ✅ baseBallGame
+- ✅ 735. Asteroid Collision
 
 ## LinkList
 - ❌ duplicateNumber
+- ❌ 25. Reverse Nodes in k-Group
 - 📝 basic
 - 📝 merge
 - 📝 138opyWithRandomPointer
@@ -186,7 +190,7 @@
 - ✅ uniquePath
 
 ## Statistics
-Current total questions: 152
+Current total questions: 156
 
 <img src="chart.png" alt="questions bar chart" width="500">
 
