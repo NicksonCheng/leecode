@@ -1,7 +1,7 @@
 # LeetCode Problems
 
 ❌  can't resolve without solution: 11
-📝  can't resolve without hint: 130
+📝  can't resolve without hint: 131
 ✅  resolve by self: 18
 ## Tree
 - ❌ 105. Construct Binary Tree from Preorder and Inorder Traversal
@@ -114,6 +114,7 @@
 
 ## Heap&PriorQueue
 - 📝 KclosePoint
+- 📝 2342. Max Sum of a Pair With Equal Sum of Digits
 - 📝 KthLargestElement 
 - 📝 customCmp
 - 📝 smashStone
@@ -193,7 +194,7 @@
 - ✅ uniquePath
 
 ## Statistics
-Current total questions: 159
+Current total questions: 160
 
 <img src="chart.png" alt="questions bar chart" width="500">
 
