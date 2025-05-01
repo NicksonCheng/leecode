@@ -1,9 +1,10 @@
 # LeetCode Problems
 
-❌  can't resolve without solution: 9
-📝  can't resolve without hint: 129
+❌  can't resolve without solution: 11
+📝  can't resolve without hint: 130
 ✅  resolve by self: 18
 ## Tree
+- ❌ 105. Construct Binary Tree from Preorder and Inorder Traversal
 - 📝 PrefixTree
 - 📝 230.KthSmallestElementBST
 - 📝 balance
@@ -34,6 +35,7 @@
 - ✅ mergeStr
 
 ## BinarySearch
+- ❌ 2071. Maximum Number of Tasks You Can Assign
 - 📝 findMinRotatArr
 - 📝 EatBanans
 - 📝 SearchInsertPos
@@ -122,6 +124,7 @@
 ## Greedy
 - ❌ MergeTripletsFormTarget
 - 📝 jumpGame
+- 📝 763. Partition Labels
 - 📝 gasStation
 - 📝 781.RabbitForest
 - 📝 860.LemonadeChange
@@ -190,7 +193,7 @@
 - ✅ uniquePath
 
 ## Statistics
-Current total questions: 156
+Current total questions: 159
 
 <img src="chart.png" alt="questions bar chart" width="500">
 
