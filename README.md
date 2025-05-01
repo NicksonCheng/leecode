@@ -1,8 +1,8 @@
 # LeetCode Problems
 
 ❌  can't resolve without solution: 11
-📝  can't resolve without hint: 131
-✅  resolve by self: 18
+📝  can't resolve without hint: 129
+✅  resolve by self: 20
 ## Tree
 - ❌ 105. Construct Binary Tree from Preorder and Inorder Traversal
 - 📝 PrefixTree
@@ -114,13 +114,13 @@
 
 ## Heap&PriorQueue
 - 📝 KclosePoint
-- 📝 2342. Max Sum of a Pair With Equal Sum of Digits
-- 📝 KthLargestElement 
 - 📝 customCmp
 - 📝 smashStone
 - 📝 heapsort
 - 📝 KthLargestElementInArray
 - ✅ reorganizeString
+- ✅ 2342. Max Sum of a Pair With Equal Sum of Digits
+- ✅ KthLargestElement 
 
 ## Greedy
 - ❌ MergeTripletsFormTarget

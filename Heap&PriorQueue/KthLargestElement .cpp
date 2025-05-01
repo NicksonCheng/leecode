@@ -1,3 +1,4 @@
+// proficient
 #include <iostream>
 #include <queue>
 #include <vector>
@@ -30,6 +31,5 @@ class KthLargest {
 int main() {
 	vector<int> arr = {1, 2, 3, 3, 8, 7, 6};
 	KthLargest *KL = new KthLargest(3, arr);
-	cout << KL->add(8) << endl;
 	return 0;
 }
