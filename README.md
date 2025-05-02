@@ -1,6 +1,6 @@
 # LeetCode Problems
 
-❌  can't resolve without solution: 11
+❌  can't resolve without solution: 12
 📝  can't resolve without hint: 129
 ✅  resolve by self: 20
 ## Tree
@@ -25,6 +25,7 @@
 - ✅ 199.BinaryTreeRightSideView
 
 ## TwoPointer
+- ❌ 838. Push Dominoes
 - 📝 validParlindrome2
 - 📝 mergeSortArray
 - 📝 waterContainer
@@ -194,7 +195,7 @@
 - ✅ uniquePath
 
 ## Statistics
-Current total questions: 160
+Current total questions: 161
 
 <img src="chart.png" alt="questions bar chart" width="500">
 
