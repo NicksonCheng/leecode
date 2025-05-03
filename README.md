@@ -1,7 +1,7 @@
 # LeetCode Problems
 
 ❌  can't resolve without solution: 12
-📝  can't resolve without hint: 129
+📝  can't resolve without hint: 132
 ✅  resolve by self: 20
 ## Tree
 - ❌ 105. Construct Binary Tree from Preorder and Inorder Traversal
@@ -47,6 +47,7 @@
 
 ## Graph
 - ❌ islandTreasure
+- 📝 GraphValidTree
 - 📝 cloneGraph
 - 📝 SurroundedRegions
 - 📝 CourseSchedule
@@ -104,6 +105,7 @@
 - ❌ 2845.CountofInterestingSubarrays
 - 📝 matrixZero
 - 📝 multiStr
+- 📝 Meeting Rooms II
 - 📝 meetingTime
 - 📝 plusOne
 - 📝 mergeInterval
@@ -127,6 +129,7 @@
 - ❌ MergeTripletsFormTarget
 - 📝 jumpGame
 - 📝 763. Partition Labels
+- 📝 1007. Minimum Domino Rotations For Equal Row
 - 📝 gasStation
 - 📝 781.RabbitForest
 - 📝 860.LemonadeChange
@@ -195,7 +198,7 @@
 - ✅ uniquePath
 
 ## Statistics
-Current total questions: 161
+Current total questions: 164
 
 <img src="chart.png" alt="questions bar chart" width="500">
 

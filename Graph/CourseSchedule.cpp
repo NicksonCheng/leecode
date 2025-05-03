@@ -6,44 +6,50 @@
 
     必須增加visit避免重複訪問
 */
+/*
+    create
+    unordered_set去儲存目前topology
+    visit表示node已經走過
+    dfs每個node偵測是否在topology中(是否有cycle)
+    5/3 review
+*/
 class Solution {
   public:
-	unordered_map<int, vector<int>> neis_map;
 	bool canFinish(int numCourses, vector<vector<int>> &prerequisites) {
-
 		// create graph
-		for (int i = 0; i < prerequisites.size(); ++i) {
-			int node_id = prerequisites[i][0];
-			int nei = prerequisites[i][1];
-			neis_map[node_id].push_back(nei);
-		}
-		// dfs all nodes;
-		bool can_schedule = true;
-		vector<bool> visit(numCourses, false);
-		for (auto &nodes : neis_map) {
-			int node = nodes.first;
-			vector<int> neis = nodes.second;
-			unordered_set<int> topology; // check cycle in graph
-			can_schedule = can_schedule && dfs(node, neis, topology, visit);
-		}
-		return can_schedule;
-	}
-	bool dfs(int node, vector<int> &neis, unordered_set<int> &topology,
-	         vector<bool> &visit) {
-		if (visit[node])
-			return true;
-		// graph contain cycle
-		if (topology.find(node) != topology.end()) {
-			return false;
+		vector<vector<int>> graph(numCourses);
+		for (auto &p : prerequisites) {
+			int u = p[1];
+			int v = p[0];
+			graph[u].push_back(v);
 		}
 
-		topology.insert(node);
-		for (int i = 0; i < neis.size(); ++i) {
-			int next_node = neis[i];
-			if (!dfs(next_node, neis_map[next_node], topology, visit))
+		// dfs every node, if visit, return true(already detected)
+		vector<bool> visit(numCourses, false);
+		for (int i = 0; i < numCourses; ++i) {
+			unordered_set<int> topologys; // detect cycle
+			if (!dfs(graph, visit, topologys, i))
 				return false;
 		}
+		return true;
+	}
+	bool dfs(vector<vector<int>> &graph, vector<bool> &visit,
+	         unordered_set<int> &topologys, int node) {
+		if (visit[node])
+			return true;
+		// detect cycle(encounter same node)
+		if (topologys.find(node) != topologys.end())
+			return false;
+		topologys.insert(node);
+		for (int i = 0; i < graph[node].size(); ++i) {
+			int nei_node = graph[node][i];
+			if (!dfs(graph, visit, topologys, nei_node))
+				return false;
+		}
+		// after dfs, set visit true, and remove out from topologys
 		visit[node] = true;
+		topologys.erase(node);
+		// no cycle
 		return true;
 	}
 };
