@@ -1,5 +1,6 @@
+// proficient
 /*
-    1. sort, 然後traverse, 每次都紀錄目前consecutive 次數, O(nlogn)
+    1. sort 然後traverse, 每次都紀錄目前consecutive 次數, O(nlogn)**********
 */
 
 class Solution {

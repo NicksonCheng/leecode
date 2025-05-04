@@ -1,5 +1,7 @@
+// proficient
 /*
-    DFS, 先建立graph, unordered_set紀錄是否走過, 不停dfs直到所有node都visit
+    DFS 先建立graph, unordered_set紀錄是否走過, 不停dfs直到所有node都visit
+   **********
 */
 class Solution {
   public:

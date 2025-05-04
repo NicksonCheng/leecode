@@ -1,8 +1,8 @@
 # LeetCode Problems
 
 ❌  can't resolve without solution: 12
-📝  can't resolve without hint: 135
-✅  resolve by self: 21
+📝  can't resolve without hint: 133
+✅  resolve by self: 23
 ## Tree
 - ❌ 105. Construct Binary Tree from Preorder and Inorder Traversal
 - 📝 PrefixTree
@@ -47,7 +47,6 @@
 
 ## Graph
 - ❌ islandTreasure
-- 📝 547. Number of Provinces
 - 📝 GraphValidTree
 - 📝 cloneGraph
 - 📝 SurroundedRegions
@@ -58,6 +57,7 @@
 - 📝 210.CourseSchedule2
 - 📝 maxLand
 - 📝 rottingFruit
+- ✅ 547. Number of Provinces
 - ✅ 463. Island Perimeter
 
 ## Recursive
@@ -86,7 +86,6 @@
 - 📝 concateArr
 - 📝 longCommonStr
 - 📝 CountGoodTriple
-- 📝 128. Longest Consecutive Sequence
 - 📝 ValidAnagram
 - 📝 removeElement
 - 📝 2sum
@@ -102,6 +101,7 @@
 - 📝 ProductsArrayExceptSelf
 - ✅ valideSudoku
 - ✅ countEqualAndDivisiblePairs
+- ✅ 128. Longest Consecutive Sequence
 - ✅ 1128. Number of Equivalent Domino Pairs
 
 ## Others
