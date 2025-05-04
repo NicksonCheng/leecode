@@ -1,5 +1,22 @@
 # Dynamic Programming
 
+## Review
+
+- [ ] ❌ 5.LPS
+- [5/3 ] coinChange
+- [ ] LCS
+- [ ] houseRobber
+- [ ] PartitionEqualSubsetSum
+- [ ] 91.DecodeStr
+- [ ] LongestIncreasingPathMatrix
+- [ ] houseRobber2
+- [ ] climbStair
+- [ ] 518oinChange2
+- [ ] 647.PalindromicSubstrings
+- [ ] 2338.CountTheNumberOfIdealArrays
+- [ ] minCostClimb
+- [ ] uniquePath
+
 ## Top Down
 
 1. 基本跟 recursive 相關聯

@@ -24,6 +24,8 @@
     "ios": "cpp",
     "queue": "cpp",
     "stack": "cpp",
-    "variant": "cpp"
+    "variant": "cpp",
+    "__locale": "cpp",
+    "unordered_set": "cpp"
   }
 }

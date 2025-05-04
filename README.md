@@ -1,8 +1,8 @@
 # LeetCode Problems
 
 ❌  can't resolve without solution: 12
-📝  can't resolve without hint: 133
-✅  resolve by self: 20
+📝  can't resolve without hint: 135
+✅  resolve by self: 21
 ## Tree
 - ❌ 105. Construct Binary Tree from Preorder and Inorder Traversal
 - 📝 PrefixTree
@@ -47,6 +47,7 @@
 
 ## Graph
 - ❌ islandTreasure
+- 📝 547. Number of Provinces
 - 📝 GraphValidTree
 - 📝 cloneGraph
 - 📝 SurroundedRegions
@@ -85,6 +86,7 @@
 - 📝 concateArr
 - 📝 longCommonStr
 - 📝 CountGoodTriple
+- 📝 128. Longest Consecutive Sequence
 - 📝 ValidAnagram
 - 📝 removeElement
 - 📝 2sum
@@ -96,11 +98,11 @@
 - 📝 169.majorityElement
 - 📝 hashtable
 - 📝 DuplicateArray
-- 📝 1128. Number of Equivalent Domino Pairs
 - 📝 anagramGroup
 - 📝 ProductsArrayExceptSelf
 - ✅ valideSudoku
 - ✅ countEqualAndDivisiblePairs
+- ✅ 1128. Number of Equivalent Domino Pairs
 
 ## Others
 - ❌ 2845.CountofInterestingSubarrays
@@ -191,6 +193,7 @@
 - 📝 91.DecodeStr
 - 📝 LongestIncreasingPathMatrix
 - 📝 houseRobber2
+- 📝 494. Target Sum
 - 📝 climbStair
 - 📝 518oinChange2
 - 📝 647.PalindromicSubstrings
@@ -199,7 +202,7 @@
 - ✅ uniquePath
 
 ## Statistics
-Current total questions: 165
+Current total questions: 168
 
 <img src="chart.png" alt="questions bar chart" width="500">
 

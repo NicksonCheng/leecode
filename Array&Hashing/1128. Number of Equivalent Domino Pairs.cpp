@@ -1,9 +1,10 @@
+// proficient
 /*
     1. 暴力法 O(n^2)
     2. sort dominoes and find same pair O(nlogn)
     2. hashtable, 因為domino只有1~9, 所以我們可以透過 pair去組成key(小的在前面)
         然後每次找到相同的key都去加總目前hashmap裡面相同key
-   pair的數量(可配對數量)
+   pair的數量->可配對數量
 */
 class Solution {
   public:
