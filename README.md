@@ -1,7 +1,7 @@
 # LeetCode Problems
 
 ❌  can't resolve without solution: 12
-📝  can't resolve without hint: 132
+📝  can't resolve without hint: 133
 ✅  resolve by self: 20
 ## Tree
 - ❌ 105. Construct Binary Tree from Preorder and Inorder Traversal
@@ -96,6 +96,7 @@
 - 📝 169.majorityElement
 - 📝 hashtable
 - 📝 DuplicateArray
+- 📝 1128. Number of Equivalent Domino Pairs
 - 📝 anagramGroup
 - 📝 ProductsArrayExceptSelf
 - ✅ valideSudoku
@@ -198,7 +199,7 @@
 - ✅ uniquePath
 
 ## Statistics
-Current total questions: 164
+Current total questions: 165
 
 <img src="chart.png" alt="questions bar chart" width="500">
 
