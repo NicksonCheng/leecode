@@ -26,6 +26,7 @@
     "stack": "cpp",
     "variant": "cpp",
     "__locale": "cpp",
-    "unordered_set": "cpp"
+    "unordered_set": "cpp",
+    "algorithm": "cpp"
   }
 }

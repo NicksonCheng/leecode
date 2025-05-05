@@ -45,34 +45,59 @@ class Solution {
 /*
     Union-Find Solution
 */
+class UnionFind {
+  public:
+	vector<int> parent;
+	vector<int> rank;
+	UnionFind() {}
+	UnionFind(int n) {
+		for (int i = 0; i < n; ++i) {
+			parent.push_back(i);
+		}
+		rank.resize(n, 0);
+	}
+	int Find(int x) {
+		if (parent[x] != x) {
+			parent[x] = Find(parent[x]);
+		}
+		return parent[x];
+	}
+	void Union(int x, int y) {
+		int root_x = Find(x);
+		int root_y = Find(y);
+		// already union
+		if (root_x == root_y)
+			return;
+
+		// small tree hang on large tree
+		if (rank[root_x] > rank[root_y])
+			parent[root_y] = root_x;
+		else if (rank[root_y] > rank[root_x])
+			parent[root_x] = root_y;
+		else {
+			// same rank, hang root_y to root_x, and rank_x++
+			parent[root_y] = root_x;
+			++rank[root_x];
+		}
+	}
+};
 class Solution {
   public:
 	int findCircleNum(vector<vector<int>> &isConnected) {
 		int n = isConnected.size();
-		vector<int> parent(n);
-		iota(parent.begin(), parent.end(), 0);
-
-		function<int(int)> find = [&](int x) {
-			if (parent[x] != x)
-				parent[x] = find(parent[x]);
-			return parent[x];
-		};
-
-		auto unite = [&](int x, int y) {
-			int px = find(x), py = find(y);
-			if (px != py)
-				parent[px] = py;
-		};
-
-		for (int i = 0; i < n; ++i)
-			for (int j = i + 1; j < n; ++j)
-				if (isConnected[i][j])
-					unite(i, j);
-
-		unordered_set<int> unique_provinces;
-		for (int i = 0; i < n; ++i)
-			unique_provinces.insert(find(i));
-
-		return unique_provinces.size();
+		UnionFind *uf = new UnionFind(n);
+		for (int node = 0; node < n; ++node) {
+			for (int i = 0; i < isConnected[node].size(); ++i) {
+				if (node != i && isConnected[node][i] == 1) {
+					uf->Union(node, i);
+				}
+			}
+		}
+		// # parent in union is # of provinces
+		// 注意: 最後必須要conpress確保parent是一致的
+		unordered_set<int> provinces;
+		for (int &p : uf->parent)
+			provinces.insert(uf->Find(p));
+		return provinces.size();
 	}
 };

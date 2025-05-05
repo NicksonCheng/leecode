@@ -1,7 +1,7 @@
 # LeetCode Problems
 
 ❌  can't resolve without solution: 12
-📝  can't resolve without hint: 134
+📝  can't resolve without hint: 136
 ✅  resolve by self: 23
 ## Tree
 - ❌ 105. Construct Binary Tree from Preorder and Inorder Traversal
@@ -27,8 +27,10 @@
 ## TwoPointer
 - ❌ 838. Push Dominoes
 - 📝 validParlindrome2
+- 📝 42. Trapping Rain Water
 - 📝 mergeSortArray
 - 📝 waterContainer
+- 📝 26. Remove Duplicates from Sorted Array
 - 📝 3sum
 - 📝 twoSum2
 - 📝 validParlindrome
@@ -203,7 +205,7 @@
 - ✅ uniquePath
 
 ## Statistics
-Current total questions: 169
+Current total questions: 171
 
 <img src="chart.png" alt="questions bar chart" width="500">
 
