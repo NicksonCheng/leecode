@@ -1,7 +1,7 @@
 # LeetCode Problems
 
 ❌  can't resolve without solution: 12
-📝  can't resolve without hint: 133
+📝  can't resolve without hint: 134
 ✅  resolve by self: 23
 ## Tree
 - ❌ 105. Construct Binary Tree from Preorder and Inorder Traversal
@@ -190,6 +190,7 @@
 - 📝 LCS
 - 📝 houseRobber
 - 📝 PartitionEqualSubsetSum
+- 📝 790. Domino and Tromino Tiling
 - 📝 91.DecodeStr
 - 📝 LongestIncreasingPathMatrix
 - 📝 houseRobber2
@@ -202,7 +203,7 @@
 - ✅ uniquePath
 
 ## Statistics
-Current total questions: 168
+Current total questions: 169
 
 <img src="chart.png" alt="questions bar chart" width="500">
 
