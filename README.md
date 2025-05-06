@@ -1,7 +1,7 @@
 # LeetCode Problems
 
-❌  can't resolve without solution: 12
-📝  can't resolve without hint: 138
+❌  can't resolve without solution: 13
+📝  can't resolve without hint: 140
 ✅  resolve by self: 23
 ## Tree
 - ❌ 105. Construct Binary Tree from Preorder and Inorder Traversal
@@ -109,6 +109,7 @@
 
 ## Others
 - ❌ 2845.CountofInterestingSubarrays
+- ❌ 54. Spiral Matrix
 - 📝 matrixZero
 - 📝 multiStr
 - 📝 Meeting Rooms II
@@ -153,9 +154,11 @@
 - 📝 223.implementQueuewithStack
 - 📝 ValidParentheses
 - 📝 ReversePolishNotation
+- 📝 239. Sliding Window Maximum
 - 📝 carfleet
 - 📝 generateParentheses
 - 📝 MinStack
+- 📝 496. Next Greater Element I
 - ✅ 225.implementStackwithQueue
 - ✅ baseBallGame
 - ✅ 735. Asteroid Collision
@@ -209,7 +212,7 @@
 - 📝 1664. Ways to Make a Fair Array
 
 ## Statistics
-Current total questions: 173
+Current total questions: 176
 
 <img src="chart.png" alt="questions bar chart" width="500">
 

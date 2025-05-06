@@ -3,9 +3,9 @@
 O(n^2)
 2. hashtable儲存每個i 的prefix max, suffix max, time O(n), space O(n)
 
-3. two pointer, 選擇比較矮的那邊算prefix_max/suffix_max
+3. two pointer, 選擇比較矮的那邊算prefix_max/suffix_max, 那會是這個bar最大儲水量
 
-**********
+*********
 */
 class Solution {
   public:
@@ -54,6 +54,34 @@ class Solution {
 					max_suffix = height[r];
 				--r;
 			}
+		}
+		return trapped_water;
+	}
+};
+
+/* monotonic stack 每次遇到 h[i] > stack.top, 就不斷pop然後看min(left_wall,
+   right_wall)去算這個bar儲水量 stack 存的是 index, 因為也要計算weight*/
+class Solution {
+  public:
+	int trap(vector<int> &height) {
+		stack<int> bars;
+		int prefix_max = 0;
+		int trapped_water = 0;
+		for (int i = 0; i < height.size(); ++i) {
+			while (!bars.empty() && height[i] > height[bars.top()]) {
+				int bottom_idx = bars.top();
+				bars.pop();
+
+				// no left wall, do not count boundary
+				if (bars.empty())
+					break;
+				int l_bar_idx = bars.top();
+				// height[i] is right wall
+				int h = min(height[l_bar_idx], height[i]) - height[bottom_idx];
+				int w = i - l_bar_idx - 1; // 左右柱子的寬度
+				trapped_water += h * w;
+			}
+			bars.push(i);
 		}
 		return trapped_water;
 	}

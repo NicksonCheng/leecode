@@ -27,6 +27,7 @@
     "variant": "cpp",
     "__locale": "cpp",
     "unordered_set": "cpp",
-    "algorithm": "cpp"
+    "algorithm": "cpp",
+    "iostream": "cpp"
   }
 }
