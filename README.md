@@ -1,7 +1,7 @@
 # LeetCode Problems
 
 ❌  can't resolve without solution: 12
-📝  can't resolve without hint: 137
+📝  can't resolve without hint: 138
 ✅  resolve by self: 23
 ## Tree
 - ❌ 105. Construct Binary Tree from Preorder and Inorder Traversal
@@ -97,6 +97,7 @@
 - 📝 2799ountCompleteSubArr
 - 📝 EdString
 - 📝 169.majorityElement
+- 📝 1920. Build Array from Permutation
 - 📝 hashtable
 - 📝 DuplicateArray
 - 📝 anagramGroup
@@ -208,7 +209,7 @@
 - 📝 1664. Ways to Make a Fair Array
 
 ## Statistics
-Current total questions: 172
+Current total questions: 173
 
 <img src="chart.png" alt="questions bar chart" width="500">
 
