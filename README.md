@@ -1,7 +1,7 @@
 # LeetCode Problems
 
 ❌  can't resolve without solution: 13
-📝  can't resolve without hint: 142
+📝  can't resolve without hint: 144
 ✅  resolve by self: 23
 ## Tree
 - ❌ 105. Construct Binary Tree from Preorder and Inorder Traversal
@@ -40,11 +40,13 @@
 ## BinarySearch
 - ❌ 2071. Maximum Number of Tasks You Can Assign
 - 📝 findMinRotatArr
+- 📝 34. Find First and Last Position of Element in Sorted Array
 - 📝 EatBanans
 - 📝 SearchInsertPos
 - 📝 Search2D
 - 📝 RotateSortArrSearch
 - 📝 CountNumberOfFairPairs
+- 📝 981. Time Based Key-Value Store
 - 📝 BinarySearch
 
 ## Graph
@@ -214,7 +216,7 @@
 - 📝 1664. Ways to Make a Fair Array
 
 ## Statistics
-Current total questions: 178
+Current total questions: 180
 
 <img src="chart.png" alt="questions bar chart" width="500">
 
