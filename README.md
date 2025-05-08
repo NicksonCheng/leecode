@@ -1,7 +1,7 @@
 # LeetCode Problems
 
 ❌  can't resolve without solution: 13
-📝  can't resolve without hint: 140
+📝  can't resolve without hint: 142
 ✅  resolve by self: 23
 ## Tree
 - ❌ 105. Construct Binary Tree from Preorder and Inorder Traversal
@@ -49,6 +49,7 @@
 
 ## Graph
 - ❌ islandTreasure
+- 📝 3342. Find Minimum Time to Reach Last Room II
 - 📝 GraphValidTree
 - 📝 cloneGraph
 - 📝 SurroundedRegions
@@ -58,6 +59,7 @@
 - 📝 743.NetworkDelayTime
 - 📝 210.CourseSchedule2
 - 📝 maxLand
+- 📝 3341. Find Minimum Time to Reach Last Room I
 - 📝 rottingFruit
 - ✅ 547. Number of Provinces
 - ✅ 463. Island Perimeter
@@ -212,7 +214,7 @@
 - 📝 1664. Ways to Make a Fair Array
 
 ## Statistics
-Current total questions: 176
+Current total questions: 178
 
 <img src="chart.png" alt="questions bar chart" width="500">
 
