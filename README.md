@@ -1,6 +1,6 @@
 # LeetCode Problems
 
-❌  can't resolve without solution: 14
+❌  can't resolve without solution: 15
 📝  can't resolve without hint: 147
 ✅  resolve by self: 24
 ## Tree
@@ -53,6 +53,7 @@
 
 ## Graph
 - ❌ islandTreasure
+- ❌ 1579. Remove Max Number of Edges to Keep Graph Fully Traversable
 - 📝 3342. Find Minimum Time to Reach Last Room II
 - 📝 GraphValidTree
 - 📝 cloneGraph
@@ -221,7 +222,7 @@
 - 📝 1664. Ways to Make a Fair Array
 
 ## Statistics
-Current total questions: 185
+Current total questions: 186
 
 <img src="chart.png" alt="questions bar chart" width="500">
 
