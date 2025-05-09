@@ -10,20 +10,22 @@
  * right(right) {}
  * };
  */
-
 class Solution {
   public:
-	bool isValidBST(TreeNode *root) { return dfs(root, INT_MIN, INT_MAX); }
-	bool dfs(TreeNode *node, int curr_min, int curr_max) {
-		bool left_valid = true;
-		bool right_valid = true;
-		if (node->val <= curr_min || node->val >= curr_max)
+	bool isValidBST(TreeNode *root) { return dfs(root, LONG_MIN, LONG_MAX); }
+	bool dfs(TreeNode *root, long lower, long upper) {
+		if (root == nullptr)
+			return true;
+
+		// overflow
+		if (root->val <= lower || root->val >= upper)
 			return false;
 
-		if (node->left != nullptr)
-			left_valid = dfs(node->left, curr_min, node->val);
-		if (node->right != nullptr)
-			right_valid = dfs(node->right, node->val, curr_max);
-		return left_valid && right_valid;
+		bool l_valid = true, r_valid = true;
+		if (root->left)
+			l_valid = dfs(root->left, lower, root->val);
+		if (root->right)
+			r_valid = dfs(root->right, root->val, upper);
+		return l_valid && r_valid;
 	}
 };

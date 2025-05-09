@@ -1,8 +1,8 @@
 # LeetCode Problems
 
-❌  can't resolve without solution: 13
-📝  can't resolve without hint: 144
-✅  resolve by self: 23
+❌  can't resolve without solution: 14
+📝  can't resolve without hint: 147
+✅  resolve by self: 24
 ## Tree
 - ❌ 105. Construct Binary Tree from Preorder and Inorder Traversal
 - 📝 PrefixTree
@@ -20,6 +20,7 @@
 - 📝 levelOrder
 - 📝 Depth
 - 📝 94.inorderTraversal
+- ✅ 1325. Delete Leaves With a Given Value
 - ✅ insertBinaryTree
 - ✅ 1448.CountGoodNodesInBinaryTree
 - ✅ 199.BinaryTreeRightSideView
@@ -44,6 +45,7 @@
 - 📝 EatBanans
 - 📝 SearchInsertPos
 - 📝 Search2D
+- 📝 278. First Bad Version
 - 📝 RotateSortArrSearch
 - 📝 CountNumberOfFairPairs
 - 📝 981. Time Based Key-Value Store
@@ -127,6 +129,7 @@
 - ✅ 48.rotateImg
 
 ## Heap&PriorQueue
+- ❌ 621. Task Scheduler
 - 📝 KclosePoint
 - 📝 customCmp
 - 📝 smashStone
@@ -141,6 +144,7 @@
 - 📝 jumpGame
 - 📝 763. Partition Labels
 - 📝 1007. Minimum Domino Rotations For Equal Row
+- 📝 678. Valid Parenthesis String
 - 📝 gasStation
 - 📝 781.RabbitForest
 - 📝 860.LemonadeChange
@@ -174,6 +178,7 @@
 - 📝 merge
 - 📝 138opyWithRandomPointer
 - 📝 reorder
+- 📝 622. Design Circular Queue
 - 📝 23.mergeKSortList
 - 📝 LRUcache
 - 📝 reverse
@@ -216,7 +221,7 @@
 - 📝 1664. Ways to Make a Fair Array
 
 ## Statistics
-Current total questions: 180
+Current total questions: 185
 
 <img src="chart.png" alt="questions bar chart" width="500">
 
