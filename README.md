@@ -1,7 +1,7 @@
 # LeetCode Problems
 
 ❌  can't resolve without solution: 15
-📝  can't resolve without hint: 147
+📝  can't resolve without hint: 149
 ✅  resolve by self: 24
 ## Tree
 - ❌ 105. Construct Binary Tree from Preorder and Inorder Traversal
@@ -73,6 +73,7 @@
 - 📝 wordSearch
 - 📝 Subsets
 - 📝 Subset2
+- 📝 131. Palindrome Partitioning
 - 📝 combinationSum2
 - 📝 permutation
 - 📝 combinationSum
@@ -143,6 +144,7 @@
 ## Greedy
 - ❌ MergeTripletsFormTarget
 - 📝 jumpGame
+- 📝   Code  Test Result  Testcase Testcase 2918. Minimum Equal Sum of Two Arrays After Replacing Zeros
 - 📝 763. Partition Labels
 - 📝 1007. Minimum Domino Rotations For Equal Row
 - 📝 678. Valid Parenthesis String
@@ -222,7 +224,7 @@
 - 📝 1664. Ways to Make a Fair Array
 
 ## Statistics
-Current total questions: 186
+Current total questions: 188
 
 <img src="chart.png" alt="questions bar chart" width="500">
 
