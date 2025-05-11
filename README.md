@@ -1,7 +1,7 @@
 # LeetCode Problems
 
 ❌  can't resolve without solution: 16
-📝  can't resolve without hint: 151
+📝  can't resolve without hint: 152
 ✅  resolve by self: 24
 ## Tree
 - ❌ 105. Construct Binary Tree from Preorder and Inorder Traversal
@@ -133,6 +133,7 @@
 
 ## Heap&PriorQueue
 - ❌ 621. Task Scheduler
+- 📝 295. Find Median from Data Stream
 - 📝 KclosePoint
 - 📝 customCmp
 - 📝 smashStone
@@ -227,7 +228,7 @@
 - 📝 2574. Left and Right Sum Differences
 
 ## Statistics
-Current total questions: 191
+Current total questions: 192
 
 <img src="chart.png" alt="questions bar chart" width="500">
 
