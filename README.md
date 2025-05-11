@@ -1,7 +1,7 @@
 # LeetCode Problems
 
-❌  can't resolve without solution: 15
-📝  can't resolve without hint: 149
+❌  can't resolve without solution: 16
+📝  can't resolve without hint: 150
 ✅  resolve by self: 24
 ## Tree
 - ❌ 105. Construct Binary Tree from Preorder and Inorder Traversal
@@ -116,6 +116,7 @@
 - ✅ 1128. Number of Equivalent Domino Pairs
 
 ## Others
+- ❌ 2013. Detect Squares
 - ❌ 2845.CountofInterestingSubarrays
 - ❌ 54. Spiral Matrix
 - 📝 matrixZero
@@ -209,6 +210,7 @@
 - 📝 houseRobber
 - 📝 PartitionEqualSubsetSum
 - 📝 790. Domino and Tromino Tiling
+- 📝 309. Best Time to Buy and Sell Stock with Cooldown
 - 📝 91.DecodeStr
 - 📝 LongestIncreasingPathMatrix
 - 📝 houseRobber2
@@ -224,7 +226,7 @@
 - 📝 1664. Ways to Make a Fair Array
 
 ## Statistics
-Current total questions: 188
+Current total questions: 190
 
 <img src="chart.png" alt="questions bar chart" width="500">
 
