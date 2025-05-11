@@ -1,7 +1,7 @@
 # LeetCode Problems
 
 ❌  can't resolve without solution: 16
-📝  can't resolve without hint: 150
+📝  can't resolve without hint: 151
 ✅  resolve by self: 24
 ## Tree
 - ❌ 105. Construct Binary Tree from Preorder and Inorder Traversal
@@ -224,9 +224,10 @@
 
 ## PrefixSum
 - 📝 1664. Ways to Make a Fair Array
+- 📝 2574. Left and Right Sum Differences
 
 ## Statistics
-Current total questions: 190
+Current total questions: 191
 
 <img src="chart.png" alt="questions bar chart" width="500">
 
