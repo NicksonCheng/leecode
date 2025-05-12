@@ -1,8 +1,8 @@
 # LeetCode Problems
 
-❌  can't resolve without solution: 16
-📝  can't resolve without hint: 152
-✅  resolve by self: 24
+❌  can't resolve without solution: 17
+📝  can't resolve without hint: 153
+✅  resolve by self: 25
 ## Tree
 - ❌ 105. Construct Binary Tree from Preorder and Inorder Traversal
 - 📝 PrefixTree
@@ -81,6 +81,7 @@
 
 ## SlidingWindow
 - ❌ 2444.CountSubarraysWithFixedBounds
+- 📝 567. Permutation in String
 - 📝 LRCR
 - 📝 2302.CountSubarraysWithScoreLessThanK
 - 📝 LGS
@@ -203,9 +204,11 @@
 - 📝 CountingBits
 - 📝 MissingNumber
 - ✅ 1863.SumofAllSubsetXORTotals
+- ✅ 2527. Find Xor-Beauty of Array
 
 ## DynamicProgramming
 - ❌ 5.LPS
+- ❌ 152. Maximum Product Subarray
 - 📝 coinChange
 - 📝 LCS
 - 📝 houseRobber
@@ -228,7 +231,7 @@
 - 📝 2574. Left and Right Sum Differences
 
 ## Statistics
-Current total questions: 192
+Current total questions: 195
 
 <img src="chart.png" alt="questions bar chart" width="500">
 
