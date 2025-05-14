@@ -2,7 +2,7 @@
 
 ❌  can't resolve without solution: 18
 📝  can't resolve without hint: 153
-✅  resolve by self: 25
+✅  resolve by self: 26
 ## Tree
 - ❌ 105. Construct Binary Tree from Preorder and Inorder Traversal
 - 📝 PrefixTree
@@ -50,6 +50,7 @@
 - 📝 CountNumberOfFairPairs
 - 📝 981. Time Based Key-Value Store
 - 📝 BinarySearch
+- ✅ 167. Two Sum II - Input Array Is Sorted
 
 ## Graph
 - ❌ islandTreasure
@@ -232,7 +233,7 @@
 - 📝 2574. Left and Right Sum Differences
 
 ## Statistics
-Current total questions: 196
+Current total questions: 197
 
 <img src="chart.png" alt="questions bar chart" width="500">
 
