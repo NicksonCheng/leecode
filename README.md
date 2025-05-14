@@ -1,6 +1,6 @@
 # LeetCode Problems
 
-❌  can't resolve without solution: 17
+❌  can't resolve without solution: 18
 📝  can't resolve without hint: 153
 ✅  resolve by self: 25
 ## Tree
@@ -207,6 +207,7 @@
 - ✅ 2527. Find Xor-Beauty of Array
 
 ## DynamicProgramming
+- ❌ 300. Longest Increasing Subsequence
 - ❌ 5.LPS
 - ❌ 152. Maximum Product Subarray
 - 📝 coinChange
@@ -231,7 +232,7 @@
 - 📝 2574. Left and Right Sum Differences
 
 ## Statistics
-Current total questions: 195
+Current total questions: 196
 
 <img src="chart.png" alt="questions bar chart" width="500">
 
