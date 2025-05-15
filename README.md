@@ -1,8 +1,8 @@
 # LeetCode Problems
 
-❌  can't resolve without solution: 18
+❌  can't resolve without solution: 19
 📝  can't resolve without hint: 153
-✅  resolve by self: 26
+✅  resolve by self: 28
 ## Tree
 - ❌ 105. Construct Binary Tree from Preorder and Inorder Traversal
 - 📝 PrefixTree
@@ -20,7 +20,9 @@
 - 📝 levelOrder
 - 📝 Depth
 - 📝 94.inorderTraversal
+- ✅ 124. Binary Tree Maximum Path Sum
 - ✅ 1325. Delete Leaves With a Given Value
+- ✅ 297. Serialize and Deserialize Binary Tree
 - ✅ insertBinaryTree
 - ✅ 1448.CountGoodNodesInBinaryTree
 - ✅ 199.BinaryTreeRightSideView
@@ -164,6 +166,7 @@
 - 📝 customSort
 
 ## Stack&Queue
+- ❌ 1425. Constrained Subsequence Sum
 - ❌ largestRectangleHistogram
 - 📝 dailyTemperature
 - 📝 223.implementQueuewithStack
@@ -233,7 +236,7 @@
 - 📝 2574. Left and Right Sum Differences
 
 ## Statistics
-Current total questions: 197
+Current total questions: 200
 
 <img src="chart.png" alt="questions bar chart" width="500">
 
