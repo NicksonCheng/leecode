@@ -1,7 +1,7 @@
 # LeetCode Problems
 
 ❌  can't resolve without solution: 19
-📝  can't resolve without hint: 153
+📝  can't resolve without hint: 155
 ✅  resolve by self: 28
 ## Tree
 - ❌ 105. Construct Binary Tree from Preorder and Inorder Traversal
@@ -42,6 +42,7 @@
 
 ## BinarySearch
 - ❌ 2071. Maximum Number of Tasks You Can Assign
+- 📝 69. Sqrt(x)
 - 📝 findMinRotatArr
 - 📝 34. Find First and Last Position of Element in Sorted Array
 - 📝 EatBanans
@@ -221,6 +222,7 @@
 - 📝 790. Domino and Tromino Tiling
 - 📝 309. Best Time to Buy and Sell Stock with Cooldown
 - 📝 91.DecodeStr
+- 📝 2901. Longest Unequal Adjacent Groups Subsequence II
 - 📝 LongestIncreasingPathMatrix
 - 📝 houseRobber2
 - 📝 494. Target Sum
@@ -236,7 +238,7 @@
 - 📝 2574. Left and Right Sum Differences
 
 ## Statistics
-Current total questions: 200
+Current total questions: 202
 
 <img src="chart.png" alt="questions bar chart" width="500">
 
