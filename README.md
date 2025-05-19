@@ -1,7 +1,7 @@
 # LeetCode Problems
 
 ❌  can't resolve without solution: 19
-📝  can't resolve without hint: 155
+📝  can't resolve without hint: 159
 ✅  resolve by self: 28
 ## Tree
 - ❌ 105. Construct Binary Tree from Preorder and Inorder Traversal
@@ -31,6 +31,7 @@
 - ❌ 838. Push Dominoes
 - 📝 validParlindrome2
 - 📝 42. Trapping Rain Water
+- 📝 189. Rotate Array
 - 📝 mergeSortArray
 - 📝 waterContainer
 - 📝 26. Remove Duplicates from Sorted Array
@@ -59,10 +60,12 @@
 - ❌ islandTreasure
 - ❌ 1579. Remove Max Number of Edges to Keep Graph Fully Traversable
 - 📝 3342. Find Minimum Time to Reach Last Room II
+- 📝 Number of Connected Components in an Undirected Graph
 - 📝 GraphValidTree
 - 📝 cloneGraph
 - 📝 SurroundedRegions
 - 📝 CourseSchedule
+- 📝 684. (UnionFind)Redundant Connection
 - 📝 PacificAtlanticWaterFlow
 - 📝 isoLand
 - 📝 743.NetworkDelayTime
@@ -87,6 +90,7 @@
 - ❌ 2444.CountSubarraysWithFixedBounds
 - 📝 567. Permutation in String
 - 📝 LRCR
+- 📝 76. Minimum Window Substring
 - 📝 2302.CountSubarraysWithScoreLessThanK
 - 📝 LGS
 - 📝 containDuplicate2
@@ -238,7 +242,7 @@
 - 📝 2574. Left and Right Sum Differences
 
 ## Statistics
-Current total questions: 202
+Current total questions: 206
 
 <img src="chart.png" alt="questions bar chart" width="500">
 

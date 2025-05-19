@@ -8,27 +8,27 @@ class Solution {
 		int n = nums.size();
 		if (n == 0)
 			return {-1, -1};
-		int start = lower_bound(nums, 0, n, target);
-		int end = upper_bound(nums, 0, n, target);
+		int start = lower_bound(nums, 0, n - 1, target);
+		int end = upper_bound(nums, 0, n - 1, target);
 		if (start == n || nums[start] != target)
 			return {-1, -1};
 		return {start, end - 1};
 	}
 	int lower_bound(vector<int> &nums, int l, int r, int v) {
-		while (l < r) {
+		while (l <= r) {
 			int m = (l + r) / 2;
 			if (nums[m] >= v)
-				r = m;
+				r = m - 1;
 			else
 				l = m + 1;
 		}
 		return l;
 	}
 	int upper_bound(vector<int> &nums, int l, int r, int v) {
-		while (l < r) {
+		while (l <= r) {
 			int m = (l + r) / 2;
 			if (nums[m] > v)
-				r = m;
+				r = m - 1;
 			else
 				l = m + 1;
 		}

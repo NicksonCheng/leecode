@@ -10,6 +10,11 @@ lower_bound(nums.begin(), nums.end(), x)
 upper_bound(nums.begin(), nums.end(), x)
 👉 找第一個 > x 的元素
 
+### 34. Find First and Last Position of Element in Sorted Array
+
+lower bound, upper bound 問題
+可能 R 已經找到讓他-1 沒有關係, L == R check 之後 L 會再+1 到達剛剛要找的值
+
 ### 153.Find Minimum Rotated Sorted Array
 
 Sol 1: Binary Search
