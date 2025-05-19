@@ -1,7 +1,7 @@
 # LeetCode Problems
 
 ❌  can't resolve without solution: 19
-📝  can't resolve without hint: 159
+📝  can't resolve without hint: 160
 ✅  resolve by self: 28
 ## Tree
 - ❌ 105. Construct Binary Tree from Preorder and Inorder Traversal
@@ -46,6 +46,7 @@
 - 📝 69. Sqrt(x)
 - 📝 findMinRotatArr
 - 📝 34. Find First and Last Position of Element in Sorted Array
+- 📝 1011. Capacity To Ship Packages Within D Days
 - 📝 EatBanans
 - 📝 SearchInsertPos
 - 📝 Search2D
@@ -242,7 +243,7 @@
 - 📝 2574. Left and Right Sum Differences
 
 ## Statistics
-Current total questions: 206
+Current total questions: 207
 
 <img src="chart.png" alt="questions bar chart" width="500">
 
