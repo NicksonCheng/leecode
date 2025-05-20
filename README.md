@@ -1,7 +1,7 @@
 # LeetCode Problems
 
-❌  can't resolve without solution: 19
-📝  can't resolve without hint: 160
+❌  can't resolve without solution: 20
+📝  can't resolve without hint: 161
 ✅  resolve by self: 28
 ## Tree
 - ❌ 105. Construct Binary Tree from Preorder and Inorder Traversal
@@ -109,6 +109,7 @@
 - 📝 ValidAnagram
 - 📝 removeElement
 - 📝 2sum
+- 📝 442. Find All Duplicates in an Array
 - 📝 1399.CountLargestGroup
 - 📝 2145.CounttheHiddenSequences
 - 📝 TopKFreq
@@ -239,11 +240,12 @@
 - ✅ uniquePath
 
 ## PrefixSum
+- ❌ 3355. Zero Array Transformation I
 - 📝 1664. Ways to Make a Fair Array
 - 📝 2574. Left and Right Sum Differences
 
 ## Statistics
-Current total questions: 207
+Current total questions: 209
 
 <img src="chart.png" alt="questions bar chart" width="500">
 
