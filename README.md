@@ -1,7 +1,7 @@
 # LeetCode Problems
 
-❌  can't resolve without solution: 20
-📝  can't resolve without hint: 161
+❌  can't resolve without solution: 21
+📝  can't resolve without hint: 162
 ✅  resolve by self: 28
 ## Tree
 - ❌ 105. Construct Binary Tree from Preorder and Inorder Traversal
@@ -43,6 +43,7 @@
 
 ## BinarySearch
 - ❌ 2071. Maximum Number of Tasks You Can Assign
+- ❌ 81. Search in Rotated Sorted Array II
 - 📝 69. Sqrt(x)
 - 📝 findMinRotatArr
 - 📝 34. Find First and Last Position of Element in Sorted Array
@@ -207,6 +208,7 @@
 
 ## BitWise
 - 📝 reversebit
+- 📝 67. Add Binary
 - 📝 getSum
 - 📝 1922.CountGoodNumbers
 - 📝 reverseInt
@@ -245,7 +247,7 @@
 - 📝 2574. Left and Right Sum Differences
 
 ## Statistics
-Current total questions: 209
+Current total questions: 211
 
 <img src="chart.png" alt="questions bar chart" width="500">
 
