@@ -1,5 +1,6 @@
+// proficient
 /*
-// Definition for a QuadTree node.
+// Definition for a QuadTree node
 class Node {
 public:
     bool val;

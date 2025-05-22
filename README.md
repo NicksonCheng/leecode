@@ -1,8 +1,8 @@
 # LeetCode Problems
 
-❌  can't resolve without solution: 23
-📝  can't resolve without hint: 163
-✅  resolve by self: 28
+❌  can't resolve without solution: 24
+📝  can't resolve without hint: 162
+✅  resolve by self: 29
 ## Tree
 - ❌ 105. Construct Binary Tree from Preorder and Inorder Traversal
 - 📝 PrefixTree
@@ -20,13 +20,13 @@
 - 📝 levelOrder
 - 📝 Depth
 - 📝 94.inorderTraversal
-- 📝 427. Construct Quad Tree
 - ✅ 124. Binary Tree Maximum Path Sum
 - ✅ 1325. Delete Leaves With a Given Value
 - ✅ 297. Serialize and Deserialize Binary Tree
 - ✅ insertBinaryTree
 - ✅ 1448.CountGoodNodesInBinaryTree
 - ✅ 199.BinaryTreeRightSideView
+- ✅ 427. Construct Quad Tree
 
 ## TwoPointer
 - ❌ 838. Push Dominoes
@@ -146,6 +146,7 @@
 
 ## Heap&PriorQueue
 - ❌ 621. Task Scheduler
+- ❌ 3362. Zero Array Transformation III
 - 📝 295. Find Median from Data Stream
 - 📝 KclosePoint
 - 📝 customCmp
@@ -250,7 +251,7 @@
 - 📝 2574. Left and Right Sum Differences
 
 ## Statistics
-Current total questions: 214
+Current total questions: 215
 
 <img src="chart.png" alt="questions bar chart" width="500">
 
