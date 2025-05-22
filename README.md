@@ -1,7 +1,7 @@
 # LeetCode Problems
 
-❌  can't resolve without solution: 21
-📝  can't resolve without hint: 162
+❌  can't resolve without solution: 23
+📝  can't resolve without hint: 163
 ✅  resolve by self: 28
 ## Tree
 - ❌ 105. Construct Binary Tree from Preorder and Inorder Traversal
@@ -20,6 +20,7 @@
 - 📝 levelOrder
 - 📝 Depth
 - 📝 94.inorderTraversal
+- 📝 427. Construct Quad Tree
 - ✅ 124. Binary Tree Maximum Path Sum
 - ✅ 1325. Delete Leaves With a Given Value
 - ✅ 297. Serialize and Deserialize Binary Tree
@@ -207,6 +208,7 @@
 - 📝 addTwoNums
 
 ## BitWise
+- ❌ 29. Divide Two Integers
 - 📝 reversebit
 - 📝 67. Add Binary
 - 📝 getSum
@@ -243,11 +245,12 @@
 
 ## PrefixSum
 - ❌ 3355. Zero Array Transformation I
+- ❌ 3356. Zero Array Transformation II
 - 📝 1664. Ways to Make a Fair Array
 - 📝 2574. Left and Right Sum Differences
 
 ## Statistics
-Current total questions: 211
+Current total questions: 214
 
 <img src="chart.png" alt="questions bar chart" width="500">
 
