@@ -1,8 +1,8 @@
 # LeetCode Problems
 
 ❌  can't resolve without solution: 24
-📝  can't resolve without hint: 162
-✅  resolve by self: 29
+📝  can't resolve without hint: 161
+✅  resolve by self: 30
 ## Tree
 - ❌ 105. Construct Binary Tree from Preorder and Inorder Traversal
 - 📝 PrefixTree
@@ -62,6 +62,7 @@
 ## Graph
 - ❌ islandTreasure
 - ❌ 1579. Remove Max Number of Edges to Keep Graph Fully Traversable
+- 📝 1584. Min Cost to Connect All Points
 - 📝 3342. Find Minimum Time to Reach Last Room II
 - 📝 Number of Connected Components in an Undirected Graph
 - 📝 GraphValidTree
@@ -76,6 +77,7 @@
 - 📝 maxLand
 - 📝 3341. Find Minimum Time to Reach Last Room I
 - 📝 rottingFruit
+- ✅ 3015. Count the Number of Houses at a Certain Distance I
 - ✅ 547. Number of Provinces
 - ✅ 463. Island Perimeter
 
@@ -160,7 +162,6 @@
 ## Greedy
 - ❌ MergeTripletsFormTarget
 - 📝 jumpGame
-- 📝   Code  Test Result  Testcase Testcase 2918. Minimum Equal Sum of Two Arrays After Replacing Zeros
 - 📝 763. Partition Labels
 - 📝 1007. Minimum Domino Rotations For Equal Row
 - 📝 678. Valid Parenthesis String
@@ -168,12 +169,9 @@
 - 📝 781.RabbitForest
 - 📝 860.LemonadeChange
 - 📝 jumpGame2
+- 📝 2918. Minimum Equal Sum of Two Arrays After Replacing Zeros
 - 📝 maxSubarray
 - 📝 846.HandofStraights
-
-## Sorting
-- 📝 basic_sort
-- 📝 customSort
 
 ## Stack&Queue
 - ❌ 1425. Constrained Subsequence Sum

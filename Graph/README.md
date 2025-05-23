@@ -10,6 +10,10 @@ rottingFruit
 
 207. Course Schedule
 
+## Minimum Spanning Tree
+
+1584. Min Cost to Connect All Points
+
 ## Union Find
 
 547. Number of Provinces
