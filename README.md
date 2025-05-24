@@ -1,8 +1,8 @@
 # LeetCode Problems
 
 ❌  can't resolve without solution: 24
-📝  can't resolve without hint: 161
-✅  resolve by self: 30
+📝  can't resolve without hint: 162
+✅  resolve by self: 31
 ## Tree
 - ❌ 105. Construct Binary Tree from Preorder and Inorder Traversal
 - 📝 PrefixTree
@@ -35,6 +35,7 @@
 - 📝 189. Rotate Array
 - 📝 mergeSortArray
 - 📝 waterContainer
+- 📝 481. Magical String
 - 📝 26. Remove Duplicates from Sorted Array
 - 📝 3sum
 - 📝 twoSum2
@@ -241,6 +242,7 @@
 - 📝 2338.CountTheNumberOfIdealArrays
 - 📝 minCostClimb
 - ✅ uniquePath
+- ✅ 139. Word Break
 
 ## PrefixSum
 - ❌ 3355. Zero Array Transformation I
@@ -249,7 +251,7 @@
 - 📝 2574. Left and Right Sum Differences
 
 ## Statistics
-Current total questions: 215
+Current total questions: 217
 
 <img src="chart.png" alt="questions bar chart" width="500">
 
