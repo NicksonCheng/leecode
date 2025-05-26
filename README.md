@@ -1,9 +1,11 @@
 # LeetCode Problems
 
-❌  can't resolve without solution: 24
-📝  can't resolve without hint: 162
-✅  resolve by self: 31
+❌ can't resolve without solution: 26
+📝 can't resolve without hint: 164
+✅ resolve by self: 31
+
 ## Tree
+
 - ❌ 105. Construct Binary Tree from Preorder and Inorder Traversal
 - 📝 PrefixTree
 - 📝 230.KthSmallestElementBST
@@ -16,6 +18,7 @@
 - 📝 SameTree
 - 📝 BinaryTree
 - 📝 validBT
+- 📝 3sum
 - 📝 450.DeleteNodeInBST
 - 📝 levelOrder
 - 📝 Depth
@@ -29,6 +32,7 @@
 - ✅ 427. Construct Quad Tree
 
 ## TwoPointer
+
 - ❌ 838. Push Dominoes
 - 📝 validParlindrome2
 - 📝 42. Trapping Rain Water
@@ -44,6 +48,7 @@
 - ✅ mergeStr
 
 ## BinarySearch
+
 - ❌ 2071. Maximum Number of Tasks You Can Assign
 - ❌ 81. Search in Rotated Sorted Array II
 - 📝 69. Sqrt(x)
@@ -61,6 +66,8 @@
 - ✅ 167. Two Sum II - Input Array Is Sorted
 
 ## Graph
+
+- ❌ 1857. Largest Color Value in a Directed Graph
 - ❌ islandTreasure
 - ❌ 1579. Remove Max Number of Edges to Keep Graph Fully Traversable
 - 📝 1584. Min Cost to Connect All Points
@@ -83,6 +90,7 @@
 - ✅ 463. Island Perimeter
 
 ## Recursive
+
 - 📝 wordSearch
 - 📝 Subsets
 - 📝 Subset2
@@ -93,6 +101,7 @@
 - ✅ countAndStay
 
 ## SlidingWindow
+
 - ❌ 2444.CountSubarraysWithFixedBounds
 - 📝 567. Permutation in String
 - 📝 LRCR
@@ -106,10 +115,12 @@
 - 📝 BuySellStock
 
 ## Array&Hashing
+
 - ❌ LongestConsecutiveSeq
 - 📝 designHashset
 - 📝 concateArr
 - 📝 longCommonStr
+- 📝 2131. Longest Palindrome by Concatenating Two Letter Words
 - 📝 CountGoodTriple
 - 📝 ValidAnagram
 - 📝 removeElement
@@ -132,6 +143,7 @@
 - ✅ 1128. Number of Equivalent Domino Pairs
 
 ## Others
+
 - ❌ 2013. Detect Squares
 - ❌ 2845.CountofInterestingSubarrays
 - ❌ 54. Spiral Matrix
@@ -148,6 +160,7 @@
 - ✅ 48.rotateImg
 
 ## Heap&PriorQueue
+
 - ❌ 621. Task Scheduler
 - ❌ 3362. Zero Array Transformation III
 - 📝 295. Find Median from Data Stream
@@ -158,9 +171,10 @@
 - 📝 KthLargestElementInArray
 - ✅ reorganizeString
 - ✅ 2342. Max Sum of a Pair With Equal Sum of Digits
-- ✅ KthLargestElement 
+- ✅ KthLargestElement
 
 ## Greedy
+
 - ❌ MergeTripletsFormTarget
 - 📝 jumpGame
 - 📝 763. Partition Labels
@@ -175,6 +189,7 @@
 - 📝 846.HandofStraights
 
 ## Stack&Queue
+
 - ❌ 1425. Constrained Subsequence Sum
 - ❌ largestRectangleHistogram
 - 📝 dailyTemperature
@@ -191,6 +206,7 @@
 - ✅ 735. Asteroid Collision
 
 ## LinkList
+
 - ❌ duplicateNumber
 - ❌ 25. Reverse Nodes in k-Group
 - 📝 basic
@@ -208,6 +224,7 @@
 - 📝 addTwoNums
 
 ## BitWise
+
 - ❌ 29. Divide Two Integers
 - 📝 reversebit
 - 📝 67. Add Binary
@@ -222,8 +239,10 @@
 - ✅ 2527. Find Xor-Beauty of Array
 
 ## DynamicProgramming
+
 - ❌ 300. Longest Increasing Subsequence
 - ❌ 5.LPS
+- ❌ 1857. Largest Color Value in a Directed Graph
 - ❌ 152. Maximum Product Subarray
 - 📝 coinChange
 - 📝 LCS
@@ -245,13 +264,15 @@
 - ✅ 139. Word Break
 
 ## PrefixSum
+
 - ❌ 3355. Zero Array Transformation I
 - ❌ 3356. Zero Array Transformation II
 - 📝 1664. Ways to Make a Fair Array
 - 📝 2574. Left and Right Sum Differences
 
 ## Statistics
-Current total questions: 217
+
+Current total questions: 219
 
 <img src="chart.png" alt="questions bar chart" width="500">
 

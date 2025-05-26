@@ -78,7 +78,7 @@ def generate_bar_chart(folder_contents, output_path):
     plt.close()
 
 
-def get_daily_commits(root_dir, exclude_folder):
+def get_daily_commits(root_dir):
     repo = git.Repo(root_dir)
     daily_counts = defaultdict(int)
     daily_seen_filenames = defaultdict(set)  # Tracks filenames seen per day
@@ -181,7 +181,19 @@ def main():
     line_chart_path = "daily_chart.png"
 
     folder_contents = get_folder_contents(root_dir)
-    total_counts = sum(len(files) for files in folder_contents.values())
+    unique_filenames = set()
+
+    for files in folder_contents.values():
+        for file_info in files:
+            if isinstance(file_info, tuple):
+                file_path = file_info[0]  # Extract the actual file path from tuple
+            else:
+                file_path = file_info
+
+            filename = os.path.basename(file_path)
+            unique_filenames.add(filename)
+
+    total_counts = len(unique_filenames)
 
     generate_bar_chart(folder_contents, bar_chart_path)
     daily_counts = get_daily_commits(root_dir)
