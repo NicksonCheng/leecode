@@ -78,16 +78,18 @@ def generate_bar_chart(folder_contents, output_path):
     plt.close()
 
 
-def get_daily_commits(root_dir):
-
+def get_daily_commits(root_dir, exclude_folder):
     repo = git.Repo(root_dir)
     daily_counts = defaultdict(int)
+    daily_seen_filenames = defaultdict(set)  # Tracks filenames seen per day
 
     for commit in repo.iter_commits():
         date = datetime.fromtimestamp(commit.committed_date).strftime("%m-%d")
         files = commit.stats.files
 
         for file_path, stats in files.items():
+            filename = os.path.basename(file_path)
+
             # Check if it's a new file (additions > 0 and deletions == 0)
             is_new_file = (
                 stats.get("deletions", 0) == 0 and stats.get("insertions", 0) > 0
@@ -95,7 +97,7 @@ def get_daily_commits(root_dir):
 
             # Conditions: valid extension (.c or .cpp), not in excluded folders
             if (
-                file_path.endswith((".c", ".cpp"))
+                filename.endswith((".c", ".cpp"))
                 and not any(folder in file_path for folder in exclude_folder)
                 and is_new_file
             ):
@@ -103,7 +105,10 @@ def get_daily_commits(root_dir):
                 if not any(
                     file_path in parent.stats.files for parent in commit.parents
                 ):
-                    daily_counts[date] += 1
+                    # Only count unique filenames per day
+                    if filename not in daily_seen_filenames[date]:
+                        daily_counts[date] += 1
+                        daily_seen_filenames[date].add(filename)
 
     return daily_counts
 
