@@ -1,7 +1,7 @@
 # LeetCode Problems
 
 ❌  can't resolve without solution: 26
-📝  can't resolve without hint: 164
+📝  can't resolve without hint: 166
 ✅  resolve by self: 32
 ## Tree
 - ❌ 105. Construct Binary Tree from Preorder and Inorder Traversal
@@ -16,6 +16,7 @@
 - 📝 SameTree
 - 📝 BinaryTree
 - 📝 validBT
+- 📝 211. Design Add and Search Words Data Structure
 - 📝 450.DeleteNodeInBST
 - 📝 levelOrder
 - 📝 Depth
@@ -183,6 +184,7 @@
 - 📝 dailyTemperature
 - 📝 223.implementQueuewithStack
 - 📝 ValidParentheses
+- 📝 Resulting String After Adjacent Removals
 - 📝 ReversePolishNotation
 - 📝 239. Sliding Window Maximum
 - 📝 carfleet
@@ -256,7 +258,7 @@
 - 📝 2574. Left and Right Sum Differences
 
 ## Statistics
-Current total questions: 221
+Current total questions: 223
 
 <img src="chart.png" alt="questions bar chart" width="500">
 
