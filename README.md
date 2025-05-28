@@ -1,7 +1,7 @@
 # LeetCode Problems
 
 ❌  can't resolve without solution: 26
-📝  can't resolve without hint: 167
+📝  can't resolve without hint: 168
 ✅  resolve by self: 32
 ## Tree
 - ❌ 105. Construct Binary Tree from Preorder and Inorder Traversal
@@ -75,6 +75,7 @@
 - 📝 684. (UnionFind)Redundant Connection
 - 📝 PacificAtlanticWaterFlow
 - 📝 isoLand
+- 📝 3249. Count the Number of Good Nodes
 - 📝 743.NetworkDelayTime
 - 📝 3372. Maximize the Number of Target Nodes After Connecting Trees I
 - 📝 210.CourseSchedule2
@@ -259,7 +260,7 @@
 - 📝 2574. Left and Right Sum Differences
 
 ## Statistics
-Current total questions: 224
+Current total questions: 225
 
 <img src="chart.png" alt="questions bar chart" width="500">
 
