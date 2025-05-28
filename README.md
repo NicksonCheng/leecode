@@ -1,7 +1,7 @@
 # LeetCode Problems
 
 ❌  can't resolve without solution: 26
-📝  can't resolve without hint: 166
+📝  can't resolve without hint: 167
 ✅  resolve by self: 32
 ## Tree
 - ❌ 105. Construct Binary Tree from Preorder and Inorder Traversal
@@ -76,6 +76,7 @@
 - 📝 PacificAtlanticWaterFlow
 - 📝 isoLand
 - 📝 743.NetworkDelayTime
+- 📝 3372. Maximize the Number of Target Nodes After Connecting Trees I
 - 📝 210.CourseSchedule2
 - 📝 maxLand
 - 📝 3341. Find Minimum Time to Reach Last Room I
@@ -258,7 +259,7 @@
 - 📝 2574. Left and Right Sum Differences
 
 ## Statistics
-Current total questions: 223
+Current total questions: 224
 
 <img src="chart.png" alt="questions bar chart" width="500">
 
