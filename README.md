@@ -1,8 +1,8 @@
 # LeetCode Problems
 
 ❌  can't resolve without solution: 26
-📝  can't resolve without hint: 168
-✅  resolve by self: 32
+📝  can't resolve without hint: 169
+✅  resolve by self: 34
 ## Tree
 - ❌ 105. Construct Binary Tree from Preorder and Inorder Traversal
 - 📝 PrefixTree
@@ -23,6 +23,7 @@
 - 📝 94.inorderTraversal
 - ✅ 124. Binary Tree Maximum Path Sum
 - ✅ 1325. Delete Leaves With a Given Value
+- ✅ 988. Smallest String Starting From Leaf
 - ✅ 297. Serialize and Deserialize Binary Tree
 - ✅ insertBinaryTree
 - ✅ 1448.CountGoodNodesInBinaryTree
@@ -79,6 +80,7 @@
 - 📝 743.NetworkDelayTime
 - 📝 3372. Maximize the Number of Target Nodes After Connecting Trees I
 - 📝 210.CourseSchedule2
+- 📝 3373. Maximize the Number of Target Nodes After Connecting Trees II
 - 📝 maxLand
 - 📝 3341. Find Minimum Time to Reach Last Room I
 - 📝 rottingFruit
@@ -109,6 +111,7 @@
 - 📝 643.MaximumAverageSubarray
 - 📝 BuySellStock
 - ✅ 209. Minimum Size Subarray Sum
+- ✅ 2958. Length of Longest Subarray With at Most K Frequency
 
 ## Array&Hashing
 - ❌ LongestConsecutiveSeq
@@ -260,7 +263,7 @@
 - 📝 2574. Left and Right Sum Differences
 
 ## Statistics
-Current total questions: 225
+Current total questions: 228
 
 <img src="chart.png" alt="questions bar chart" width="500">
 
