@@ -1,8 +1,8 @@
 # LeetCode Problems
 
 ❌  can't resolve without solution: 26
-📝  can't resolve without hint: 169
-✅  resolve by self: 34
+📝  can't resolve without hint: 171
+✅  resolve by self: 35
 ## Tree
 - ❌ 105. Construct Binary Tree from Preorder and Inorder Traversal
 - 📝 PrefixTree
@@ -68,6 +68,7 @@
 - ❌ 1579. Remove Max Number of Edges to Keep Graph Fully Traversable
 - 📝 1584. Min Cost to Connect All Points
 - 📝 3342. Find Minimum Time to Reach Last Room II
+- 📝 2359. Find Closest Node to Given Two Nodes
 - 📝 Number of Connected Components in an Undirected Graph
 - 📝 GraphValidTree
 - 📝 cloneGraph
@@ -216,6 +217,7 @@
 - 📝 circle
 - 📝 92.reverse2
 - 📝 addTwoNums
+- ✅ 2074. Reverse Nodes in Even Length Groups
 
 ## BitWise
 - ❌ 29. Divide Two Integers
@@ -240,6 +242,7 @@
 - 📝 coinChange
 - 📝 LCS
 - 📝 houseRobber
+- 📝 97. Interleaving String
 - 📝 PartitionEqualSubsetSum
 - 📝 790. Domino and Tromino Tiling
 - 📝 309. Best Time to Buy and Sell Stock with Cooldown
@@ -263,7 +266,7 @@
 - 📝 2574. Left and Right Sum Differences
 
 ## Statistics
-Current total questions: 228
+Current total questions: 231
 
 <img src="chart.png" alt="questions bar chart" width="500">
 
