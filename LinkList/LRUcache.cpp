@@ -1,59 +1,65 @@
-// hint
 /*
-    1. 暴力法直接vector<pair<int,int>> 去尋找值
+    要一個container去存每個key的timestamp,
+   並且在更新timestamp的時候可以隨時erase/insert, double link list 為最佳
 
-    2.
-    hashtable去存key-list_iter
-    list(double link-list) 去執行insert/erase
+    sol.1
+    hashtable存每個key 的 list iterator(pointer), 可以順便存key, 省下list find
+   O(n) 時間
+
+    new key, list.push_front, update key, list erase original, insert to first
+
+    list size超出capacity, erase list.back
+
+    time complexity()
+
+    get(): O(1)
+    put(): O(1)
+
+    space complexity: O(k)
+
 */
-#include <iostream>
-#include <list>
-#include <unordered_map>
-#include <vector>
-using namespace std;
-
 class LRUCache {
   public:
-	int cache_n = 0;
-	list<int> cache_container;
 	unordered_map<int, pair<int, list<int>::iterator>> cache_table;
-	LRUCache(int capacity) { cache_n = capacity; }
+	list<int> cache_list;
+	int capacity;
+	LRUCache(int capacity) { this->capacity = capacity; }
 
 	int get(int key) {
-		if (cache_table.find(key) == cache_table.end())
+		if (cache_table.count(key) == 0)
 			return -1;
 		else {
-			update_LRU(key, cache_table[key].first);
+			// 要先update timestamp
+			cache_list.erase(cache_table[key].second);
+			cache_list.push_front(key);
+			cache_table[key].second = cache_list.begin();
 			return cache_table[key].first;
 		}
 	}
 
 	void put(int key, int value) {
-		// new key value
-		if (cache_table.find(key) == cache_table.end()) {
-
-			cache_container.push_back(key);
-			cache_table[key] = {value, prev(cache_container.end())};
-
-			if (cache_container.size() > cache_n) {
-				int lru_key = cache_container.front();
-				cache_table.erase(lru_key);
-				cache_container.pop_front();
-			}
-
+		if (cache_table.count(key) == 0) {
+			// new key,value
+			cache_list.push_front(key);
+			cache_table[key] = {value, cache_list.begin()};
+		} else {
+			// update key,value and time stamp
+			cache_list.erase(cache_table[key].second);
+			cache_list.push_front(key);
+			cache_table[key] = {value, cache_list.begin()};
 		}
-		// update key value
-		else {
-			update_LRU(key, value);
+		// check is out of capacity
+		if (cache_list.size() > capacity) {
+			int remove_key = cache_list.back();
+			cache_list.pop_back();
+			cache_table.erase(remove_key);
 		}
-	}
-	void update_LRU(int key, int value) {
-		list<int>::iterator iter = cache_table[key].second;
-		// update LRU
-		cache_container.erase(iter);
-		cache_container.push_back(key);
-
-		// update hashtable iter
-		cache_table[key] = {value, prev(cache_container.end())};
 	}
 };
+
+/**
+ * Your LRUCache object will be instantiated and called as such:
+ * LRUCache* obj = new LRUCache(capacity);
+ * int param_1 = obj->get(key);
+ * obj->put(key,value);
+ */

@@ -1,7 +1,7 @@
 # LeetCode Problems
 
 ❌  can't resolve without solution: 26
-📝  can't resolve without hint: 171
+📝  can't resolve without hint: 173
 ✅  resolve by self: 35
 ## Tree
 - ❌ 105. Construct Binary Tree from Preorder and Inorder Traversal
@@ -72,6 +72,7 @@
 - 📝 Number of Connected Components in an Undirected Graph
 - 📝 GraphValidTree
 - 📝 cloneGraph
+- 📝 909. Snakes and Ladders
 - 📝 SurroundedRegions
 - 📝 CourseSchedule
 - 📝 684. (UnionFind)Redundant Connection
@@ -164,6 +165,7 @@
 - 📝 KclosePoint
 - 📝 customCmp
 - 📝 smashStone
+- 📝 855. Exam Room
 - 📝 heapsort
 - 📝 KthLargestElementInArray
 - ✅ reorganizeString
@@ -266,7 +268,7 @@
 - 📝 2574. Left and Right Sum Differences
 
 ## Statistics
-Current total questions: 231
+Current total questions: 233
 
 <img src="chart.png" alt="questions bar chart" width="500">
 
