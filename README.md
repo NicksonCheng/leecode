@@ -1,8 +1,8 @@
 # LeetCode Problems
 
 ❌  can't resolve without solution: 26
-📝  can't resolve without hint: 173
-✅  resolve by self: 35
+📝  can't resolve without hint: 174
+✅  resolve by self: 36
 ## Tree
 - ❌ 105. Construct Binary Tree from Preorder and Inorder Traversal
 - 📝 PrefixTree
@@ -21,6 +21,7 @@
 - 📝 levelOrder
 - 📝 Depth
 - 📝 94.inorderTraversal
+- ✅ 1382. Balance a Binary Search Tree
 - ✅ 124. Binary Tree Maximum Path Sum
 - ✅ 1325. Delete Leaves With a Given Value
 - ✅ 988. Smallest String Starting From Leaf
@@ -79,6 +80,7 @@
 - 📝 PacificAtlanticWaterFlow
 - 📝 isoLand
 - 📝 3249. Count the Number of Good Nodes
+- 📝 778. Swim in Rising Water
 - 📝 743.NetworkDelayTime
 - 📝 3372. Maximize the Number of Target Nodes After Connecting Trees I
 - 📝 210.CourseSchedule2
@@ -268,7 +270,7 @@
 - 📝 2574. Left and Right Sum Differences
 
 ## Statistics
-Current total questions: 233
+Current total questions: 235
 
 <img src="chart.png" alt="questions bar chart" width="500">
 
