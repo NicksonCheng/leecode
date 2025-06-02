@@ -1,6 +1,6 @@
 # LeetCode Problems
 
-❌  can't resolve without solution: 26
+❌  can't resolve without solution: 27
 📝  can't resolve without hint: 175
 ✅  resolve by self: 38
 ## Tree
@@ -245,6 +245,7 @@
 - ❌ 300. Longest Increasing Subsequence
 - ❌ 5.LPS
 - ❌ 1857. Largest Color Value in a Directed Graph
+- ❌ 72. Edit Distance
 - ❌ 152. Maximum Product Subarray
 - 📝 coinChange
 - 📝 LCS
@@ -273,7 +274,7 @@
 - 📝 2574. Left and Right Sum Differences
 
 ## Statistics
-Current total questions: 238
+Current total questions: 239
 
 <img src="chart.png" alt="questions bar chart" width="500">
 
