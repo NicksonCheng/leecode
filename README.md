@@ -1,8 +1,8 @@
 # LeetCode Problems
 
 ❌  can't resolve without solution: 26
-📝  can't resolve without hint: 174
-✅  resolve by self: 36
+📝  can't resolve without hint: 175
+✅  resolve by self: 38
 ## Tree
 - ❌ 105. Construct Binary Tree from Preorder and Inorder Traversal
 - 📝 PrefixTree
@@ -176,6 +176,7 @@
 
 ## Greedy
 - ❌ MergeTripletsFormTarget
+- 📝 135. Candy
 - 📝 jumpGame
 - 📝 763. Partition Labels
 - 📝 1007. Minimum Domino Rotations For Equal Row
@@ -187,6 +188,7 @@
 - 📝 2918. Minimum Equal Sum of Two Arrays After Replacing Zeros
 - 📝 maxSubarray
 - 📝 846.HandofStraights
+- ✅ 658. Find K Closest Elements
 
 ## Stack&Queue
 - ❌ 1425. Constrained Subsequence Sum
@@ -202,6 +204,7 @@
 - 📝 MinStack
 - 📝 496. Next Greater Element I
 - ✅ 225.implementStackwithQueue
+- ✅ 901. Online Stock Span
 - ✅ baseBallGame
 - ✅ 735. Asteroid Collision
 
@@ -270,7 +273,7 @@
 - 📝 2574. Left and Right Sum Differences
 
 ## Statistics
-Current total questions: 235
+Current total questions: 238
 
 <img src="chart.png" alt="questions bar chart" width="500">
 
