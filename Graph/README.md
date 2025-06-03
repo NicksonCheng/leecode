@@ -6,6 +6,8 @@
 
 rottingFruit
 
+1298. Maximum Candies You Can Get from Boxes
+
 ### kahn's algorithm
 
 207. Course Schedule
@@ -22,4 +24,5 @@ rottingFruit
 
 ## Dijkstra's algorithm
 
-743. NetworkDelayTime.cpp
+778. Swim in Rising Water.cpp
+779. NetworkDelayTime.cpp

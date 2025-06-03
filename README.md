@@ -1,8 +1,8 @@
 # LeetCode Problems
 
 ❌  can't resolve without solution: 27
-📝  can't resolve without hint: 175
-✅  resolve by self: 38
+📝  can't resolve without hint: 176
+✅  resolve by self: 40
 ## Tree
 - ❌ 105. Construct Binary Tree from Preorder and Inorder Traversal
 - 📝 PrefixTree
@@ -56,11 +56,13 @@
 - 📝 EatBanans
 - 📝 SearchInsertPos
 - 📝 Search2D
+- 📝 1300. Sum of Mutated Array Closest to Target
 - 📝 278. First Bad Version
 - 📝 RotateSortArrSearch
 - 📝 CountNumberOfFairPairs
 - 📝 981. Time Based Key-Value Store
 - 📝 BinarySearch
+- ✅ 852. Peak Index in a Mountain Array
 - ✅ 167. Two Sum II - Input Array Is Sorted
 
 ## Graph
@@ -90,6 +92,7 @@
 - 📝 rottingFruit
 - ✅ 3015. Count the Number of Houses at a Certain Distance I
 - ✅ 547. Number of Provinces
+- ✅ 1298. Maximum Candies You Can Get from Boxes
 - ✅ 463. Island Perimeter
 
 ## Recursive
@@ -274,7 +277,7 @@
 - 📝 2574. Left and Right Sum Differences
 
 ## Statistics
-Current total questions: 239
+Current total questions: 242
 
 <img src="chart.png" alt="questions bar chart" width="500">
 
