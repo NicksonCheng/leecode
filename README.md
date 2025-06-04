@@ -1,7 +1,7 @@
 # LeetCode Problems
 
-❌  can't resolve without solution: 27
-📝  can't resolve without hint: 176
+❌  can't resolve without solution: 28
+📝  can't resolve without hint: 177
 ✅  resolve by self: 40
 ## Tree
 - ❌ 105. Construct Binary Tree from Preorder and Inorder Traversal
@@ -201,6 +201,7 @@
 - 📝 ValidParentheses
 - 📝 Resulting String After Adjacent Removals
 - 📝 ReversePolishNotation
+- 📝 2696. Minimum String Length After Removing Substrings
 - 📝 239. Sliding Window Maximum
 - 📝 carfleet
 - 📝 generateParentheses
@@ -213,6 +214,7 @@
 
 ## LinkList
 - ❌ duplicateNumber
+- ❌ 1171. Remove Zero Sum Consecutive Nodes from Linked List
 - ❌ 25. Reverse Nodes in k-Group
 - 📝 basic
 - 📝 merge
@@ -277,7 +279,7 @@
 - 📝 2574. Left and Right Sum Differences
 
 ## Statistics
-Current total questions: 242
+Current total questions: 244
 
 <img src="chart.png" alt="questions bar chart" width="500">
 
