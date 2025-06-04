@@ -1,12 +1,13 @@
 # LeetCode Problems
 
 ❌  can't resolve without solution: 28
-📝  can't resolve without hint: 177
+📝  can't resolve without hint: 178
 ✅  resolve by self: 40
 ## Tree
 - ❌ 105. Construct Binary Tree from Preorder and Inorder Traversal
 - 📝 PrefixTree
 - 📝 230.KthSmallestElementBST
+- 📝 1373. Maximum Sum BST in Binary Tree
 - 📝 balance
 - 📝 maxDiameter
 - 📝 invertBT
@@ -279,7 +280,7 @@
 - 📝 2574. Left and Right Sum Differences
 
 ## Statistics
-Current total questions: 244
+Current total questions: 245
 
 <img src="chart.png" alt="questions bar chart" width="500">
 
