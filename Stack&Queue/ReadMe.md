@@ -16,7 +16,11 @@
 
 ## Monotonic Queue
 
-相較於 monotonic stack 也有保持遞增/遞減, 並且可以從 front 移除過期元素 1425. Constrained Subsequence Sum.cpp
+相較於 monotonic stack 也有保持遞增/遞減, 並且可以從 front 移除過期元素
+
+1425 Constrained Subsequence Sum.cpp
+
+1438 Longest Continuous Subarray With Absolute Diff Less Than or Equal to Limit.cpp
 
 ### 42. Trapping Rain Water
 

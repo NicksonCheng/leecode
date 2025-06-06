@@ -1,7 +1,7 @@
 # LeetCode Problems
 
 ❌  can't resolve without solution: 28
-📝  can't resolve without hint: 181
+📝  can't resolve without hint: 184
 ✅  resolve by self: 41
 ## Tree
 - ❌ 105. Construct Binary Tree from Preorder and Inorder Traversal
@@ -112,6 +112,7 @@
 - ❌ 2444.CountSubarraysWithFixedBounds
 - 📝 567. Permutation in String
 - 📝 LRCR
+- 📝 1438. Longest Continuous Subarray With Absolute Diff Less Than or Equal to Limit
 - 📝 76. Minimum Window Substring
 - 📝 2302.CountSubarraysWithScoreLessThanK
 - 📝 LGS
@@ -203,6 +204,7 @@
 - ❌ largestRectangleHistogram
 - 📝 dailyTemperature
 - 📝 223.implementQueuewithStack
+- 📝 1438. Longest Continuous Subarray With Absolute Diff Less Than or Equal to Limit
 - 📝 ValidParentheses
 - 📝 Resulting String After Adjacent Removals
 - 📝 ReversePolishNotation
@@ -268,6 +270,7 @@
 - 📝 2901. Longest Unequal Adjacent Groups Subsequence II
 - 📝 LongestIncreasingPathMatrix
 - 📝 houseRobber2
+- 📝 10. Regular Expression Matching
 - 📝 494. Target Sum
 - 📝 climbStair
 - 📝 518oinChange2
@@ -284,7 +287,7 @@
 - 📝 2574. Left and Right Sum Differences
 
 ## Statistics
-Current total questions: 249
+Current total questions: 251
 
 <img src="chart.png" alt="questions bar chart" width="500">
 
