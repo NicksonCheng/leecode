@@ -12,15 +12,18 @@ rottingFruit
 
 207. Course Schedule
 
+Alien Dictionary
+
 ## Minimum Spanning Tree
 
 1584. Min Cost to Connect All Points
 
 ## Union Find
 
-547. Number of Provinces
-548. Number of Good Paths
-549. Remove Max Number of Edges to Keep Graph Fully Traversable
+547 Number of Provinces
+2421 Number of Good Paths
+1579 Remove Max Number of Edges to Keep Graph Fully Traversable
+1061 Lexicographically Smallest Equivalent String.cpp
 
 ## Dijkstra's algorithm
 

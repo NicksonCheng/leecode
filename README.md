@@ -1,8 +1,8 @@
 # LeetCode Problems
 
 ❌  can't resolve without solution: 28
-📝  can't resolve without hint: 178
-✅  resolve by self: 40
+📝  can't resolve without hint: 181
+✅  resolve by self: 41
 ## Tree
 - ❌ 105. Construct Binary Tree from Preorder and Inorder Traversal
 - 📝 PrefixTree
@@ -87,6 +87,7 @@
 - 📝 743.NetworkDelayTime
 - 📝 3372. Maximize the Number of Target Nodes After Connecting Trees I
 - 📝 210.CourseSchedule2
+- 📝 1061. Lexicographically Smallest Equivalent String
 - 📝 3373. Maximize the Number of Target Nodes After Connecting Trees II
 - 📝 maxLand
 - 📝 3341. Find Minimum Time to Reach Last Room I
@@ -95,6 +96,7 @@
 - ✅ 547. Number of Provinces
 - ✅ 1298. Maximum Candies You Can Get from Boxes
 - ✅ 463. Island Perimeter
+- ✅ Alien Dictionary
 
 ## Recursive
 - 📝 wordSearch
@@ -169,6 +171,7 @@
 - ❌ 3362. Zero Array Transformation III
 - 📝 295. Find Median from Data Stream
 - 📝 KclosePoint
+- 📝 355. Design Twitter
 - 📝 customCmp
 - 📝 smashStone
 - 📝 855. Exam Room
@@ -180,6 +183,7 @@
 
 ## Greedy
 - ❌ MergeTripletsFormTarget
+- 📝 2434. Using a Robot to Print the Lexicographically Smallest String
 - 📝 135. Candy
 - 📝 jumpGame
 - 📝 763. Partition Labels
@@ -280,7 +284,7 @@
 - 📝 2574. Left and Right Sum Differences
 
 ## Statistics
-Current total questions: 245
+Current total questions: 249
 
 <img src="chart.png" alt="questions bar chart" width="500">
 
