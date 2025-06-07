@@ -2,7 +2,7 @@
 
 ❌  can't resolve without solution: 28
 📝  can't resolve without hint: 184
-✅  resolve by self: 41
+✅  resolve by self: 43
 ## Tree
 - ❌ 105. Construct Binary Tree from Preorder and Inorder Traversal
 - 📝 PrefixTree
@@ -179,6 +179,7 @@
 - 📝 heapsort
 - 📝 KthLargestElementInArray
 - ✅ reorganizeString
+- ✅ 3170. Lexicographically Minimum String After Removing Stars
 - ✅ 2342. Max Sum of a Pair With Equal Sum of Digits
 - ✅ KthLargestElement 
 
@@ -197,6 +198,7 @@
 - 📝 2918. Minimum Equal Sum of Two Arrays After Replacing Zeros
 - 📝 maxSubarray
 - 📝 846.HandofStraights
+- ✅ 3170. Lexicographically Minimum String After Removing Stars
 - ✅ 658. Find K Closest Elements
 
 ## Stack&Queue
@@ -287,7 +289,7 @@
 - 📝 2574. Left and Right Sum Differences
 
 ## Statistics
-Current total questions: 251
+Current total questions: 252
 
 <img src="chart.png" alt="questions bar chart" width="500">
 
