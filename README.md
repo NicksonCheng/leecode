@@ -1,7 +1,7 @@
 # LeetCode Problems
 
-❌  can't resolve without solution: 28
-📝  can't resolve without hint: 184
+❌  can't resolve without solution: 29
+📝  can't resolve without hint: 185
 ✅  resolve by self: 43
 ## Tree
 - ❌ 105. Construct Binary Tree from Preorder and Inorder Traversal
@@ -89,6 +89,7 @@
 - 📝 210.CourseSchedule2
 - 📝 1061. Lexicographically Smallest Equivalent String
 - 📝 3373. Maximize the Number of Target Nodes After Connecting Trees II
+- 📝 386. Lexicographical Numbers
 - 📝 maxLand
 - 📝 3341. Find Minimum Time to Reach Last Room I
 - 📝 rottingFruit
@@ -185,6 +186,7 @@
 
 ## Greedy
 - ❌ MergeTripletsFormTarget
+- ❌ 3577. Count the Number of Computer Unlocking Permutations
 - 📝 2434. Using a Robot to Print the Lexicographically Smallest String
 - 📝 135. Candy
 - 📝 jumpGame
@@ -289,7 +291,7 @@
 - 📝 2574. Left and Right Sum Differences
 
 ## Statistics
-Current total questions: 252
+Current total questions: 254
 
 <img src="chart.png" alt="questions bar chart" width="500">
 
