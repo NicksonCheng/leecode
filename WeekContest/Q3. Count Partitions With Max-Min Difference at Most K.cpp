@@ -8,6 +8,9 @@ using namespace std;
     2. split, start new subarray
 
     不符合就return
+
+
+    dp[i][]
 */
 class Solution {
   public:
@@ -15,8 +18,7 @@ class Solution {
 	vector<int> dp;
 	int countPartitions(vector<int> &nums, int k) {
 		dp.resize(nums.size(), -1);
-		dfs(nums, 0, k, INT_MIN, INT_MAX);
-		return num_comb;
+		return dfs(nums, 0, k, INT_MIN, INT_MAX);
 	}
 	int dfs(vector<int> &nums, int i, int k, int max_val, int min_val) {
 		if (i == nums.size()) {

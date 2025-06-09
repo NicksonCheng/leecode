@@ -1,8 +1,8 @@
 # LeetCode Problems
 
 ❌  can't resolve without solution: 29
-📝  can't resolve without hint: 185
-✅  resolve by self: 43
+📝  can't resolve without hint: 186
+✅  resolve by self: 44
 ## Tree
 - ❌ 105. Construct Binary Tree from Preorder and Inorder Traversal
 - 📝 PrefixTree
@@ -46,6 +46,7 @@
 - 📝 validParlindrome
 - ✅ reverseStr
 - ✅ mergeStr
+- ✅ 881. Boats to Save People
 
 ## BinarySearch
 - ❌ 2071. Maximum Number of Tasks You Can Assign
@@ -118,6 +119,7 @@
 - 📝 2302.CountSubarraysWithScoreLessThanK
 - 📝 LGS
 - 📝 containDuplicate2
+- 📝 2009. Minimum Number of Operations to Make Array Continuous
 - 📝 3392.CountSubarraysofLengthThreeWithaCondition
 - 📝 2962. Count Subarrays Where Max Element Appears at Least K Times
 - 📝 643.MaximumAverageSubarray
@@ -291,7 +293,7 @@
 - 📝 2574. Left and Right Sum Differences
 
 ## Statistics
-Current total questions: 254
+Current total questions: 256
 
 <img src="chart.png" alt="questions bar chart" width="500">
 
