@@ -1,7 +1,7 @@
 # LeetCode Problems
 
 ❌  can't resolve without solution: 29
-📝  can't resolve without hint: 186
+📝  can't resolve without hint: 188
 ✅  resolve by self: 44
 ## Tree
 - ❌ 105. Construct Binary Tree from Preorder and Inorder Traversal
@@ -22,6 +22,7 @@
 - 📝 levelOrder
 - 📝 Depth
 - 📝 94.inorderTraversal
+- 📝 671. Second Minimum Node In a Binary Tree
 - ✅ 1382. Balance a Binary Search Tree
 - ✅ 124. Binary Tree Maximum Path Sum
 - ✅ 1325. Delete Leaves With a Given Value
@@ -162,6 +163,7 @@
 - 📝 multiStr
 - 📝 Meeting Rooms II
 - 📝 meetingTime
+- 📝 1895. Largest Magic Square
 - 📝 plusOne
 - 📝 mergeInterval
 - 📝 168.ExcelSheetColumnTitle
@@ -293,7 +295,7 @@
 - 📝 2574. Left and Right Sum Differences
 
 ## Statistics
-Current total questions: 256
+Current total questions: 258
 
 <img src="chart.png" alt="questions bar chart" width="500">
 
