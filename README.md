@@ -1,8 +1,8 @@
 # LeetCode Problems
 
 ❌  can't resolve without solution: 29
-📝  can't resolve without hint: 188
-✅  resolve by self: 44
+📝  can't resolve without hint: 189
+✅  resolve by self: 45
 ## Tree
 - ❌ 105. Construct Binary Tree from Preorder and Inorder Traversal
 - 📝 PrefixTree
@@ -67,6 +67,7 @@
 - 📝 BinarySearch
 - ✅ 852. Peak Index in a Mountain Array
 - ✅ 167. Two Sum II - Input Array Is Sorted
+- ✅ 1095. Find in Mountain Array
 
 ## Graph
 - ❌ 1857. Largest Color Value in a Directed Graph
@@ -235,6 +236,7 @@
 - 📝 merge
 - 📝 138opyWithRandomPointer
 - 📝 reorder
+- 📝 817. Linked List Components
 - 📝 622. Design Circular Queue
 - 📝 23.mergeKSortList
 - 📝 LRUcache
@@ -295,7 +297,7 @@
 - 📝 2574. Left and Right Sum Differences
 
 ## Statistics
-Current total questions: 258
+Current total questions: 260
 
 <img src="chart.png" alt="questions bar chart" width="500">
 
