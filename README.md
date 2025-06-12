@@ -1,8 +1,8 @@
 # LeetCode Problems
 
 ❌  can't resolve without solution: 29
-📝  can't resolve without hint: 189
-✅  resolve by self: 45
+📝  can't resolve without hint: 191
+✅  resolve by self: 46
 ## Tree
 - ❌ 105. Construct Binary Tree from Preorder and Inorder Traversal
 - 📝 PrefixTree
@@ -17,6 +17,7 @@
 - 📝 SameTree
 - 📝 BinaryTree
 - 📝 validBT
+- 📝 106. Construct Binary Tree from Inorder and Postorder Traversal
 - 📝 211. Design Add and Search Words Data Structure
 - 📝 450.DeleteNodeInBST
 - 📝 levelOrder
@@ -110,6 +111,7 @@
 - 📝 combinationSum2
 - 📝 permutation
 - 📝 combinationSum
+- ✅ 17. Letter Combinations of a Phone Number
 - ✅ countAndStay
 
 ## SlidingWindow
@@ -253,6 +255,7 @@
 - 📝 reversebit
 - 📝 67. Add Binary
 - 📝 getSum
+- 📝   Code  Test Result  Testcase Testcase 201. Bitwise AND of Numbers Range
 - 📝 1922.CountGoodNumbers
 - 📝 reverseInt
 - 📝 SingleNum
@@ -297,7 +300,7 @@
 - 📝 2574. Left and Right Sum Differences
 
 ## Statistics
-Current total questions: 260
+Current total questions: 263
 
 <img src="chart.png" alt="questions bar chart" width="500">
 
