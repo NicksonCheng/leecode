@@ -1,6 +1,6 @@
 # LeetCode Problems
 
-❌  can't resolve without solution: 29
+❌  can't resolve without solution: 30
 📝  can't resolve without hint: 191
 ✅  resolve by self: 46
 ## Tree
@@ -53,6 +53,7 @@
 ## BinarySearch
 - ❌ 2071. Maximum Number of Tasks You Can Assign
 - ❌ 81. Search in Rotated Sorted Array II
+- ❌ 2616. Minimize the Maximum Difference of Pairs
 - 📝 69. Sqrt(x)
 - 📝 findMinRotatArr
 - 📝 34. Find First and Last Position of Element in Sorted Array
@@ -300,7 +301,7 @@
 - 📝 2574. Left and Right Sum Differences
 
 ## Statistics
-Current total questions: 263
+Current total questions: 264
 
 <img src="chart.png" alt="questions bar chart" width="500">
 
