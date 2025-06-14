@@ -1,7 +1,7 @@
 # LeetCode Problems
 
 ❌  can't resolve without solution: 31
-📝  can't resolve without hint: 191
+📝  can't resolve without hint: 193
 ✅  resolve by self: 47
 ## Tree
 - ❌ 105. Construct Binary Tree from Preorder and Inorder Traversal
@@ -87,9 +87,11 @@
 - 📝 684. (UnionFind)Redundant Connection
 - 📝 PacificAtlanticWaterFlow
 - 📝 isoLand
+- 📝 133. Clone Graph
 - 📝 3249. Count the Number of Good Nodes
 - 📝 778. Swim in Rising Water
 - 📝 743.NetworkDelayTime
+- 📝 841. Keys and Rooms
 - 📝 3372. Maximize the Number of Target Nodes After Connecting Trees I
 - 📝 210.CourseSchedule2
 - 📝 1061. Lexicographically Smallest Equivalent String
@@ -258,13 +260,13 @@
 - 📝 reversebit
 - 📝 67. Add Binary
 - 📝 getSum
-- 📝   Code  Test Result  Testcase Testcase 201. Bitwise AND of Numbers Range
 - 📝 1922.CountGoodNumbers
 - 📝 reverseInt
 - 📝 SingleNum
 - 📝 2857. Count Pairs of Points With Distance k
 - 📝 #OneBits
 - 📝 CountingBits
+- 📝 201. Bitwise AND of Numbers Range
 - 📝 MissingNumber
 - ✅ 1863.SumofAllSubsetXORTotals
 - ✅ 2527. Find Xor-Beauty of Array
@@ -303,7 +305,7 @@
 - 📝 2574. Left and Right Sum Differences
 
 ## Statistics
-Current total questions: 266
+Current total questions: 268
 
 <img src="chart.png" alt="questions bar chart" width="500">
 
