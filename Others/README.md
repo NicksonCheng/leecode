@@ -1,9 +1,12 @@
 # 沒被歸類的題目
 
-Interval
 Tries
 Math & Geometry
 Disjoint Set Union
+
+## Interval
+
+通常會搭配 sorting 進行, 先將 interval 排序然後進行 insert/merge/overlapping detecting 動作
 
 ## Trie (Prefix Tree)
 

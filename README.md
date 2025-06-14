@@ -1,8 +1,8 @@
 # LeetCode Problems
 
-❌  can't resolve without solution: 30
+❌  can't resolve without solution: 31
 📝  can't resolve without hint: 191
-✅  resolve by self: 46
+✅  resolve by self: 47
 ## Tree
 - ❌ 105. Construct Binary Tree from Preorder and Inorder Traversal
 - 📝 PrefixTree
@@ -163,6 +163,7 @@
 - ❌ 2013. Detect Squares
 - ❌ 2845.CountofInterestingSubarrays
 - ❌ 54. Spiral Matrix
+- ❌ 1851. Minimum Interval to Include Each Query
 - 📝 matrixZero
 - 📝 multiStr
 - 📝 Meeting Rooms II
@@ -210,6 +211,7 @@
 - 📝 846.HandofStraights
 - ✅ 3170. Lexicographically Minimum String After Removing Stars
 - ✅ 658. Find K Closest Elements
+- ✅ 2566. Maximum Difference by Remapping a Digit
 
 ## Stack&Queue
 - ❌ 1425. Constrained Subsequence Sum
@@ -301,7 +303,7 @@
 - 📝 2574. Left and Right Sum Differences
 
 ## Statistics
-Current total questions: 264
+Current total questions: 266
 
 <img src="chart.png" alt="questions bar chart" width="500">
 
