@@ -1,8 +1,8 @@
 # LeetCode Problems
 
 ❌  can't resolve without solution: 31
-📝  can't resolve without hint: 194
-✅  resolve by self: 47
+📝  can't resolve without hint: 198
+✅  resolve by self: 48
 ## Tree
 - ❌ 105. Construct Binary Tree from Preorder and Inorder Traversal
 - 📝 PrefixTree
@@ -139,6 +139,7 @@
 - 📝 designHashset
 - 📝 concateArr
 - 📝 longCommonStr
+- 📝 3349. Adjacent Increasing Subarrays Detection I
 - 📝 2131. Longest Palindrome by Concatenating Two Letter Words
 - 📝 CountGoodTriple
 - 📝 ValidAnagram
@@ -195,10 +196,13 @@
 - ✅ 2342. Max Sum of a Pair With Equal Sum of Digits
 - ✅ KthLargestElement 
 
+## Interview
+
 ## Greedy
 - ❌ MergeTripletsFormTarget
 - ❌ 3577. Count the Number of Computer Unlocking Permutations
 - 📝 2434. Using a Robot to Print the Lexicographically Smallest String
+- 📝 1791. Find Center of Star Graph
 - 📝 135. Candy
 - 📝 jumpGame
 - 📝 763. Partition Labels
@@ -208,16 +212,19 @@
 - 📝 781.RabbitForest
 - 📝 860.LemonadeChange
 - 📝 jumpGame2
+- 📝 2966. Divide Array Into Arrays With Max Difference
 - 📝 2918. Minimum Equal Sum of Two Arrays After Replacing Zeros
 - 📝 maxSubarray
 - 📝 846.HandofStraights
 - ✅ 3170. Lexicographically Minimum String After Removing Stars
 - ✅ 658. Find K Closest Elements
 - ✅ 2566. Maximum Difference by Remapping a Digit
+- ✅ 2294. Partition Array Such That Maximum Difference Is K
 
 ## Stack&Queue
 - ❌ 1425. Constrained Subsequence Sum
 - ❌ largestRectangleHistogram
+- 📝 581. Shortest Unsorted Continuous Subarray
 - 📝 dailyTemperature
 - 📝 223.implementQueuewithStack
 - 📝 1438. Longest Continuous Subarray With Absolute Diff Less Than or Equal to Limit
@@ -306,7 +313,7 @@
 - 📝 2574. Left and Right Sum Differences
 
 ## Statistics
-Current total questions: 269
+Current total questions: 274
 
 <img src="chart.png" alt="questions bar chart" width="500">
 
