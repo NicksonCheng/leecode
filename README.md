@@ -1,7 +1,7 @@
 # LeetCode Problems
 
-❌  can't resolve without solution: 31
-📝  can't resolve without hint: 198
+❌  can't resolve without solution: 32
+📝  can't resolve without hint: 199
 ✅  resolve by self: 48
 ## Tree
 - ❌ 105. Construct Binary Tree from Preorder and Inorder Traversal
@@ -13,6 +13,7 @@
 - 📝 invertBT
 - 📝 remove
 - 📝 sameAncestor
+- 📝 3593. Minimum Increments to Equalize Leaf Paths
 - 📝 SubTreeOfAnotherTree
 - 📝 SameTree
 - 📝 BinaryTree
@@ -199,6 +200,7 @@
 ## Interview
 
 ## Greedy
+- ❌ 3085. Minimum Deletions to Make String K-Special
 - ❌ MergeTripletsFormTarget
 - ❌ 3577. Count the Number of Computer Unlocking Permutations
 - 📝 2434. Using a Robot to Print the Lexicographically Smallest String
@@ -313,7 +315,7 @@
 - 📝 2574. Left and Right Sum Differences
 
 ## Statistics
-Current total questions: 274
+Current total questions: 276
 
 <img src="chart.png" alt="questions bar chart" width="500">
 
