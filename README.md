@@ -1,13 +1,14 @@
 # LeetCode Problems
 
 ❌  can't resolve without solution: 32
-📝  can't resolve without hint: 199
-✅  resolve by self: 48
+📝  can't resolve without hint: 202
+✅  resolve by self: 49
 ## Tree
 - ❌ 105. Construct Binary Tree from Preorder and Inorder Traversal
 - 📝 PrefixTree
 - 📝 230.KthSmallestElementBST
 - 📝 1373. Maximum Sum BST in Binary Tree
+- 📝 2311. Longest Binary Subsequence Less Than or Equal to K
 - 📝 balance
 - 📝 maxDiameter
 - 📝 invertBT
@@ -138,6 +139,7 @@
 ## Array&Hashing
 - ❌ LongestConsecutiveSeq
 - 📝 designHashset
+- 📝 2200. Find All K-Distant Indices in an Array
 - 📝 concateArr
 - 📝 longCommonStr
 - 📝 3349. Adjacent Increasing Subarrays Detection I
@@ -185,6 +187,7 @@
 - ❌ 621. Task Scheduler
 - ❌ 3362. Zero Array Transformation III
 - 📝 295. Find Median from Data Stream
+- 📝 2099. Find Subsequence of Length K With the Largest Sum
 - 📝 KclosePoint
 - 📝 355. Design Twitter
 - 📝 customCmp
@@ -222,6 +225,7 @@
 - ✅ 658. Find K Closest Elements
 - ✅ 2566. Maximum Difference by Remapping a Digit
 - ✅ 2294. Partition Array Such That Maximum Difference Is K
+- ✅ 3443. Maximum Manhattan Distance After K Changes
 
 ## Stack&Queue
 - ❌ 1425. Constrained Subsequence Sum
@@ -315,7 +319,7 @@
 - 📝 2574. Left and Right Sum Differences
 
 ## Statistics
-Current total questions: 276
+Current total questions: 280
 
 <img src="chart.png" alt="questions bar chart" width="500">
 
