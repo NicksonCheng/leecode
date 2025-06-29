@@ -1,7 +1,7 @@
 # LeetCode Problems
 
 ❌  can't resolve without solution: 32
-📝  can't resolve without hint: 202
+📝  can't resolve without hint: 205
 ✅  resolve by self: 49
 ## Tree
 - ❌ 105. Construct Binary Tree from Preorder and Inorder Traversal
@@ -47,6 +47,7 @@
 - 📝 26. Remove Duplicates from Sorted Array
 - 📝 3sum
 - 📝 twoSum2
+- 📝 1498. Number of Subsequences That Satisfy the Given Sum Condition
 - 📝 validParlindrome
 - ✅ reverseStr
 - ✅ mergeStr
@@ -97,6 +98,7 @@
 - 📝 3372. Maximize the Number of Target Nodes After Connecting Trees I
 - 📝 210.CourseSchedule2
 - 📝 1061. Lexicographically Smallest Equivalent String
+- 📝 785. Is Graph Bipartite?
 - 📝 3373. Maximize the Number of Target Nodes After Connecting Trees II
 - 📝 386. Lexicographical Numbers
 - 📝 maxLand
@@ -300,6 +302,7 @@
 - 📝 91.DecodeStr
 - 📝 2901. Longest Unequal Adjacent Groups Subsequence II
 - 📝 LongestIncreasingPathMatrix
+- 📝 337. House Robber III
 - 📝 houseRobber2
 - 📝 10. Regular Expression Matching
 - 📝 494. Target Sum
@@ -319,7 +322,7 @@
 - 📝 2574. Left and Right Sum Differences
 
 ## Statistics
-Current total questions: 280
+Current total questions: 283
 
 <img src="chart.png" alt="questions bar chart" width="500">
 
