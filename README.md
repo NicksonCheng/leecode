@@ -1,7 +1,7 @@
 # LeetCode Problems
 
 ❌  can't resolve without solution: 32
-📝  can't resolve without hint: 205
+📝  can't resolve without hint: 209
 ✅  resolve by self: 49
 ## Tree
 - ❌ 105. Construct Binary Tree from Preorder and Inorder Traversal
@@ -49,6 +49,7 @@
 - 📝 twoSum2
 - 📝 1498. Number of Subsequences That Satisfy the Given Sum Condition
 - 📝 validParlindrome
+- 📝 594. Longest Harmonious Subsequence
 - ✅ reverseStr
 - ✅ mergeStr
 - ✅ 881. Boats to Save People
@@ -78,6 +79,7 @@
 - ❌ 1857. Largest Color Value in a Directed Graph
 - ❌ islandTreasure
 - ❌ 1579. Remove Max Number of Edges to Keep Graph Fully Traversable
+- 📝 787. Cheapest Flights Within K Stops
 - 📝 1584. Min Cost to Connect All Points
 - 📝 3342. Find Minimum Time to Reach Last Room II
 - 📝 2359. Find Closest Node to Given Two Nodes
@@ -209,6 +211,7 @@
 - ❌ MergeTripletsFormTarget
 - ❌ 3577. Count the Number of Computer Unlocking Permutations
 - 📝 2434. Using a Robot to Print the Lexicographically Smallest String
+- 📝 122. Best Time to Buy and Sell Stock II
 - 📝 1791. Find Center of Star Graph
 - 📝 135. Candy
 - 📝 jumpGame
@@ -317,12 +320,13 @@
 ## PrefixSum
 - ❌ 3355. Zero Array Transformation I
 - ❌ 3356. Zero Array Transformation II
+- 📝 3333. Find the Original Typed String II
 - 📝 1838. Frequency of the Most Frequent Element
 - 📝 1664. Ways to Make a Fair Array
 - 📝 2574. Left and Right Sum Differences
 
 ## Statistics
-Current total questions: 283
+Current total questions: 287
 
 <img src="chart.png" alt="questions bar chart" width="500">
 

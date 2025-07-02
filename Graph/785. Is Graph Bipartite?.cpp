@@ -7,6 +7,7 @@
     DFS. 兩種set 標示從node 0 開始走, 鄰居node 標示為另一個set,
    如果可以全部走完且不會有neighbor set 同時為 0/1 代表可以形成bipartity graph
 */
+/* Union Find*/
 class UnionFind {
 	vector<int> parent;
 	vector<int> rank;
@@ -40,6 +41,75 @@ class UnionFind {
 		return true;
 	}
 };
+#include <iostream>
+using namespace std;
+/*
+    Union Find, 每個node neighbor都和自己屬於不同union group, 每個node check
+   find(u) == find(u) return false, 然後neighbor都union 成同一個group
+
+    DFS. 兩種set 標示從node 0 開始走, 鄰居node 標示為另一個set,
+   如果可以全部走完且不會有neighbor set 同時為 0/1 代表可以形成bipartity graph
+*/
+class UnionFind {
+  public:
+	vector<int> parent;
+	vector<int> rank;
+	UnionFind(int n) {
+		for (int i = 0; i < n; ++i) {
+			parent.push_back(i);
+		}
+		rank.resize(n, 0);
+	}
+	int Find(int x) {
+		// connect to other node, must a node parent is itself
+		if (parent[x] != x) {
+			parent[x] = Find(parent[x]);
+		}
+		return parent[x];
+	}
+	bool Union(int x, int y) {
+		int root_x = Find(x);
+		int root_y = Find(y);
+
+		if (root_x == root_y)
+			return false; // already union
+		if (rank[root_x] > rank[root_y]) {
+			parent[root_y] = parent[root_x];
+		} else if (rank[root_x] < rank[root_y])
+			parent[root_x] = parent[root_y];
+		else {
+			parent[root_y] = parent[root_x];
+			++rank[root_x];
+		}
+		return true;
+	}
+};
+class Solution {
+  public:
+	bool isBipartite(vector<vector<int>> &graph) {
+		// initialized union for every node
+		int n = graph.size();
+		UnionFind uf(n);
+		for (int node = 0; node < graph.size(); ++node) {
+			// find(u) == find(v) return false(need different group from node to
+			// neighbor)
+			for (int &nei : graph[node]) {
+				if (uf.Find(node) == uf.Find(nei))
+					return false;
+			}
+			// Union all neighbors
+			if (graph[node].empty())
+				continue;
+			int nei_0 = graph[node][0];
+			for (int j = 1; j < graph[node].size(); ++j) {
+				int nei = graph[node][j];
+				uf.Union(nei_0, nei);
+			}
+		}
+		return true;
+	}
+};
+/* DFS */
 class Solution {
   public:
 	bool isBipartite(vector<vector<int>> &graph) {
