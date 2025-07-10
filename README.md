@@ -1,7 +1,7 @@
 # LeetCode Problems
 
 ❌  can't resolve without solution: 33
-📝  can't resolve without hint: 214
+📝  can't resolve without hint: 215
 ✅  resolve by self: 48
 ## Tree
 - ❌ 105. Construct Binary Tree from Preorder and Inorder Traversal
@@ -179,6 +179,7 @@
 - ❌ 1851. Minimum Interval to Include Each Query
 - 📝 matrixZero
 - 📝 multiStr
+- 📝 3440. Reschedule Meetings for Maximum Free Time II
 - 📝 Meeting Rooms II
 - 📝 meetingTime
 - 📝 1895. Largest Magic Square
@@ -331,7 +332,7 @@
 - 📝 2574. Left and Right Sum Differences
 
 ## Statistics
-Current total questions: 292
+Current total questions: 293
 
 <img src="chart.png" alt="questions bar chart" width="500">
 
