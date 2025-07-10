@@ -26,6 +26,7 @@ Alien Dictionary
 2421 Number of Good Paths
 1579 Remove Max Number of Edges to Keep Graph Fully Traversable
 1061 Lexicographically Smallest Equivalent String.cpp
+3608 Minimum Time for K Connected Components
 
 ## Dijkstra's algorithm
 

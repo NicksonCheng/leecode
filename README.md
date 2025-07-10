@@ -1,8 +1,8 @@
 # LeetCode Problems
 
-❌  can't resolve without solution: 32
-📝  can't resolve without hint: 209
-✅  resolve by self: 49
+❌  can't resolve without solution: 33
+📝  can't resolve without hint: 214
+✅  resolve by self: 48
 ## Tree
 - ❌ 105. Construct Binary Tree from Preorder and Inorder Traversal
 - 📝 PrefixTree
@@ -12,6 +12,7 @@
 - 📝 balance
 - 📝 maxDiameter
 - 📝 invertBT
+- 📝 2641. Cousins in Binary Tree II
 - 📝 remove
 - 📝 sameAncestor
 - 📝 3593. Minimum Increments to Equalize Leaf Paths
@@ -85,6 +86,7 @@
 - 📝 2359. Find Closest Node to Given Two Nodes
 - 📝 Number of Connected Components in an Undirected Graph
 - 📝 GraphValidTree
+- 📝 3608. Minimum Time for K Connected Components
 - 📝 cloneGraph
 - 📝 909. Snakes and Ladders
 - 📝 SurroundedRegions
@@ -106,7 +108,6 @@
 - 📝 maxLand
 - 📝 3341. Find Minimum Time to Reach Last Room I
 - 📝 rottingFruit
-- ✅ 3015. Count the Number of Houses at a Certain Distance I
 - ✅ 547. Number of Provinces
 - ✅ 1298. Maximum Candies You Can Get from Boxes
 - ✅ 463. Island Perimeter
@@ -124,6 +125,7 @@
 - ✅ countAndStay
 
 ## SlidingWindow
+- ❌ 3439. Reschedule Meetings for Maximum Free Time I
 - ❌ 2444.CountSubarraysWithFixedBounds
 - 📝 567. Permutation in String
 - 📝 LRCR
@@ -159,6 +161,7 @@
 - 📝 2799ountCompleteSubArr
 - 📝 EdString
 - 📝 169.majorityElement
+- 📝 2610. Convert an Array Into a 2D Array With Conditions
 - 📝 1920. Build Array from Permutation
 - 📝 hashtable
 - 📝 DuplicateArray
@@ -221,6 +224,7 @@
 - 📝 gasStation
 - 📝 781.RabbitForest
 - 📝 860.LemonadeChange
+- 📝 1353. Maximum Number of Events That Can Be Attended
 - 📝 jumpGame2
 - 📝 2966. Divide Array Into Arrays With Max Difference
 - 📝 2918. Minimum Equal Sum of Two Arrays After Replacing Zeros
@@ -321,12 +325,13 @@
 - ❌ 3355. Zero Array Transformation I
 - ❌ 3356. Zero Array Transformation II
 - 📝 3333. Find the Original Typed String II
+- 📝 848. Shifting Letters
 - 📝 1838. Frequency of the Most Frequent Element
 - 📝 1664. Ways to Make a Fair Array
 - 📝 2574. Left and Right Sum Differences
 
 ## Statistics
-Current total questions: 287
+Current total questions: 292
 
 <img src="chart.png" alt="questions bar chart" width="500">
 

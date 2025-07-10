@@ -11,7 +11,7 @@ class Solution {
 
 		for (int i = 0; i < nums.size(); ++i) {
 
-			// i-1 == i 必須跳過, 因為i-1 並定search過
+			// i-1 == i 必須跳過, 因為i-1 必定search過
 			if (i > 0 && nums[i] == nums[i - 1])
 				continue;
 			int l = i + 1;
