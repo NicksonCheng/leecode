@@ -5,7 +5,7 @@ from datetime import datetime
 import git
 from collections import defaultdict
 
-exclude_folder = ["WeekContest", "BasicC_C++"]
+exclude_folder = ["WeekContest", "BasicC_C++", "Interview"]
 
 
 def get_status(file_path):

@@ -1,8 +1,8 @@
 # LeetCode Problems
 
-❌  can't resolve without solution: 33
-📝  can't resolve without hint: 215
-✅  resolve by self: 48
+❌  can't resolve without solution: 32
+📝  can't resolve without hint: 211
+✅  resolve by self: 47
 ## Tree
 - ❌ 105. Construct Binary Tree from Preorder and Inorder Traversal
 - 📝 PrefixTree
@@ -145,6 +145,7 @@
 ## Array&Hashing
 - ❌ LongestConsecutiveSeq
 - 📝 designHashset
+- 📝 706. Design HashMap
 - 📝 2200. Find All K-Distant Indices in an Array
 - 📝 concateArr
 - 📝 longCommonStr
@@ -176,18 +177,11 @@
 - ❌ 2013. Detect Squares
 - ❌ 2845.CountofInterestingSubarrays
 - ❌ 54. Spiral Matrix
-- ❌ 1851. Minimum Interval to Include Each Query
 - 📝 matrixZero
 - 📝 multiStr
-- 📝 3440. Reschedule Meetings for Maximum Free Time II
-- 📝 Meeting Rooms II
-- 📝 meetingTime
 - 📝 1895. Largest Magic Square
 - 📝 plusOne
-- 📝 mergeInterval
 - 📝 168.ExcelSheetColumnTitle
-- 📝 insertInterval
-- ✅ 435.Non-overlappingIntervals
 - ✅ 1295. Find Numbers with Even Number of Digits
 - ✅ 48.rotateImg
 
@@ -207,8 +201,6 @@
 - ✅ 3170. Lexicographically Minimum String After Removing Stars
 - ✅ 2342. Max Sum of a Pair With Equal Sum of Digits
 - ✅ KthLargestElement 
-
-## Interview
 
 ## Greedy
 - ❌ 3085. Minimum Deletions to Make String K-Special
@@ -332,7 +324,7 @@
 - 📝 2574. Left and Right Sum Differences
 
 ## Statistics
-Current total questions: 293
+Current total questions: 287
 
 <img src="chart.png" alt="questions bar chart" width="500">
 
