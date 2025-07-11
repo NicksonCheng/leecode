@@ -1,8 +1,8 @@
 # LeetCode Problems
 
-❌  can't resolve without solution: 33
+❌  can't resolve without solution: 32
 📝  can't resolve without hint: 215
-✅  resolve by self: 48
+✅  resolve by self: 47
 ## Tree
 - ❌ 105. Construct Binary Tree from Preorder and Inorder Traversal
 - 📝 PrefixTree
@@ -61,6 +61,7 @@
 - ❌ 2616. Minimize the Maximum Difference of Pairs
 - 📝 69. Sqrt(x)
 - 📝 findMinRotatArr
+- 📝 3613. Minimize Maximum Component Cost
 - 📝 34. Find First and Last Position of Element in Sorted Array
 - 📝 1011. Capacity To Ship Packages Within D Days
 - 📝 EatBanans
@@ -83,6 +84,7 @@
 - 📝 787. Cheapest Flights Within K Stops
 - 📝 1584. Min Cost to Connect All Points
 - 📝 3342. Find Minimum Time to Reach Last Room II
+- 📝 3613. Minimize Maximum Component Cost
 - 📝 2359. Find Closest Node to Given Two Nodes
 - 📝 Number of Connected Components in an Undirected Graph
 - 📝 GraphValidTree
@@ -145,6 +147,7 @@
 ## Array&Hashing
 - ❌ LongestConsecutiveSeq
 - 📝 designHashset
+- 📝 706. Design HashMap
 - 📝 2200. Find All K-Distant Indices in an Array
 - 📝 concateArr
 - 📝 longCommonStr
@@ -176,18 +179,11 @@
 - ❌ 2013. Detect Squares
 - ❌ 2845.CountofInterestingSubarrays
 - ❌ 54. Spiral Matrix
-- ❌ 1851. Minimum Interval to Include Each Query
 - 📝 matrixZero
 - 📝 multiStr
-- 📝 3440. Reschedule Meetings for Maximum Free Time II
-- 📝 Meeting Rooms II
-- 📝 meetingTime
 - 📝 1895. Largest Magic Square
 - 📝 plusOne
-- 📝 mergeInterval
 - 📝 168.ExcelSheetColumnTitle
-- 📝 insertInterval
-- ✅ 435.Non-overlappingIntervals
 - ✅ 1295. Find Numbers with Even Number of Digits
 - ✅ 48.rotateImg
 
@@ -208,8 +204,6 @@
 - ✅ 2342. Max Sum of a Pair With Equal Sum of Digits
 - ✅ KthLargestElement 
 
-## Interview
-
 ## Greedy
 - ❌ 3085. Minimum Deletions to Make String K-Special
 - ❌ MergeTripletsFormTarget
@@ -221,6 +215,7 @@
 - 📝 jumpGame
 - 📝 763. Partition Labels
 - 📝 1007. Minimum Domino Rotations For Equal Row
+- 📝 2410. Maximum Matching of Players With Trainers
 - 📝 678. Valid Parenthesis String
 - 📝 gasStation
 - 📝 781.RabbitForest
@@ -329,10 +324,11 @@
 - 📝 848. Shifting Letters
 - 📝 1838. Frequency of the Most Frequent Element
 - 📝 1664. Ways to Make a Fair Array
+- 📝 525. Contiguous Array
 - 📝 2574. Left and Right Sum Differences
 
 ## Statistics
-Current total questions: 293
+Current total questions: 290
 
 <img src="chart.png" alt="questions bar chart" width="500">
 
