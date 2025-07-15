@@ -1,7 +1,7 @@
 # LeetCode Problems
 
 ❌  can't resolve without solution: 32
-📝  can't resolve without hint: 215
+📝  can't resolve without hint: 217
 ✅  resolve by self: 47
 ## Tree
 - ❌ 105. Construct Binary Tree from Preorder and Inorder Traversal
@@ -12,9 +12,11 @@
 - 📝 balance
 - 📝 maxDiameter
 - 📝 invertBT
+- 📝 2196. Create Binary Tree From Descriptions
 - 📝 2641. Cousins in Binary Tree II
 - 📝 remove
 - 📝 sameAncestor
+- 📝 144. Binary Tree Preorder Traversal
 - 📝 3593. Minimum Increments to Equalize Leaf Paths
 - 📝 SubTreeOfAnotherTree
 - 📝 SameTree
@@ -328,7 +330,7 @@
 - 📝 2574. Left and Right Sum Differences
 
 ## Statistics
-Current total questions: 290
+Current total questions: 292
 
 <img src="chart.png" alt="questions bar chart" width="500">
 
