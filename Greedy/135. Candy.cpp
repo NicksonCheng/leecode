@@ -3,9 +3,6 @@
     map red black tree O(logn)
     greedy, time: O(nlogn), space O(n)
 
-    sol 2. 更快方法, 雙向掃描, 大家初始candies都是 1 右邊掃一次 rating[i + 1] >
-   rating[i], cadies + 1, 左邊也掃一次, 這樣就是最少的cadies數量 time O(n),
-   space O(1)
 */
 class Solution {
   public:
@@ -41,9 +38,6 @@ class Solution {
 };
 
 /*
-    children 初始都0, 每次從ratings 低的開始, 跟neighbor rating比較決定數值
-    map red black tree O(logn)
-    greedy, time: O(nlogn), space O(n)
 
     sol 2. 更快方法, 雙向掃描, 大家初始candies都是 1 右邊掃一次 rating[i + 1] >
    rating[i], cadies + 1, 左邊也掃一次, 這樣就是最少的cadies數量 time O(n),

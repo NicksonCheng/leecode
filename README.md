@@ -1,7 +1,7 @@
 # LeetCode Problems
 
-❌  can't resolve without solution: 32
-📝  can't resolve without hint: 217
+❌  can't resolve without solution: 33
+📝  can't resolve without hint: 218
 ✅  resolve by self: 47
 ## Tree
 - ❌ 105. Construct Binary Tree from Preorder and Inorder Traversal
@@ -169,6 +169,7 @@
 - 📝 2610. Convert an Array Into a 2D Array With Conditions
 - 📝 1920. Build Array from Permutation
 - 📝 hashtable
+- 📝 3201. Find the Maximum Length of Valid Subsequence I
 - 📝 DuplicateArray
 - 📝 anagramGroup
 - 📝 ProductsArrayExceptSelf
@@ -296,6 +297,7 @@
 - ❌ 5.LPS
 - ❌ 1857. Largest Color Value in a Directed Graph
 - ❌ 72. Edit Distance
+- ❌ 1547. Minimum Cost to Cut a Stick
 - ❌ 152. Maximum Product Subarray
 - 📝 coinChange
 - 📝 LCS
@@ -330,7 +332,7 @@
 - 📝 2574. Left and Right Sum Differences
 
 ## Statistics
-Current total questions: 292
+Current total questions: 294
 
 <img src="chart.png" alt="questions bar chart" width="500">
 
